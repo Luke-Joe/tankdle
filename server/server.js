@@ -1,9 +1,10 @@
 /*
 
 Preprocessing
-1. Grab data from WG API
-2. Cache it in local storage (JSON) ?
-3. Select a random vehicle to use as solution 
+X. Grab data from WG API 
+X. Cache it in local storage (JSON) ?
+X. Select a random vehicle to use as solution 
+4. Scheduler that automatically updates the solution vehicle at a given time
 
  - Solution:
  - Past guesses: 
@@ -28,9 +29,10 @@ Hints
 
 */
 
+
 import express from 'express';
 import { getSolutionTankHandler } from './controllers/tankController.js';
-import { updateSolutionTank, fetchTankData } from './services/tankService.js';
+import { updateSolutionTank, fetchTankData } from './models/tankModel.js';
 
 const app = express();
 const PORT = process.env.port || 3000;
