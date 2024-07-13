@@ -28,37 +28,21 @@ Hints
 
 */
 
-import axios from 'axios';
 import express from 'express';
+import { getSolutionTankHandler } from './controllers/tankController.js';
+import { updateSolutionTank, fetchTankData } from './services/tankService.js';
 
 const app = express();
-const PORT = 3000;
-const API_URL = "https://api.wotblitz.com/wotb/encyclopedia/vehicles/";
-const APP_ID = "c1eff31a5be5648b3b8ed22d23f2d94d";
+const PORT = process.env.port || 3000;
 
 const server = app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
 });
 
-let tankData = [];
-
-app.get('/api/get-tanks', async (req, res) => {
-    if (tankData.length === 0) {
-        tankData = await fetchTankData();
-    }
-
-    res.json(tankData);
-});
-
-app.get('/api/get-random-tank', async(req, res) => {
-    if (tankData.length === 0) {
-        tankData = await fetchTankData();
-    }
-
-    const randomTank = tankData[Math.floor(Math.random() * tankData.length)];
-    res.json(randomTank);
-})
+app.get('/api/get-solution-tank', getSolutionTankHandler);
 
 app.get('/api/test', async (req, res) => {
-    console.log(tankData.length);
+    let temp = await updateSolutionTank();
+    console.log(temp);
+    res.json(temp);
 })

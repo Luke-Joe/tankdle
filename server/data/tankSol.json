@@ -1,0 +1,15 @@
+{
+  "solutionTank": {
+    "name": "M3 Stuart",
+    "nation": "usa",
+    "is_premium": false,
+    "default_profile": {
+      "gun": {
+        "caliber": 37
+      }
+    },
+    "tier": 2,
+    "type": "lightTank",
+    "tank_id": 289
+  }
+}
