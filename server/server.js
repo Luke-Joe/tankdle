@@ -4,7 +4,7 @@ Preprocessing
 X. Grab data from WG API 
 X. Cache it in local storage (JSON) ?
 X. Select a random vehicle to use as solution 
-4. Scheduler that automatically updates the solution vehicle at a given time
+X. Scheduler that automatically updates the solution vehicle at a given time
 
  - Solution:
  - Past guesses: 
@@ -31,20 +31,25 @@ Hints
 
 
 import express from 'express';
+import cors from 'cors';
 import { getSolutionTankHandler } from './controllers/tankController.js';
-import { updateSolutionTank, fetchTankData } from './models/tankModel.js';
+import { scheduleDailySolution } from './services/scheduleService.js';
+// import { updateSolutionTank, fetchTankData } from './models/tankModel.js';
 
 const app = express();
 const PORT = process.env.port || 3000;
 
-const server = app.listen(PORT, () => {
-    console.log("Server running on port " + PORT);
-});
+app.use(cors());
 
 app.get('/api/get-solution-tank', getSolutionTankHandler);
 
-app.get('/api/test', async (req, res) => {
-    let temp = await updateSolutionTank();
-    console.log(temp);
-    res.json(temp);
-})
+app.listen(PORT, () => {
+    console.log("Server running on port " + PORT);
+    scheduleDailySolution();
+});
+
+// app.get('/api/test', async (req, res) => {
+//     let temp = await updateSolutionTank();
+//     console.log(temp);
+//     res.json(temp);
+// })
