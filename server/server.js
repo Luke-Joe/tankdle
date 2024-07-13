@@ -40,22 +40,6 @@ const server = app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
 });
 
-async function fetchTankData() {
-    try { 
-        const response = await axios.get(API_URL, {
-            params: {
-                application_id: APP_ID,
-                fields: "name,tier,nation,type,is_premium,default_profile.gun.caliber",
-            },
-        });
-
-        return Object.values(response.data.data);
-    } catch (error) {
-        console.error('Error fetching tank data:', error);
-        return [];
-    }
-}
-
 let tankData = [];
 
 app.get('/api/get-tanks', async (req, res) => {
