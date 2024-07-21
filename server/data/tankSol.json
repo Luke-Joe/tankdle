@@ -1,15 +1,15 @@
 {
   "solutionTank": {
-    "name": "WZ-131G FT",
-    "nation": "china",
+    "name": "VK 30.02 (D)",
+    "nation": "germany",
     "is_premium": false,
     "default_profile": {
       "gun": {
-        "caliber": 85
+        "caliber": 75
       }
     },
-    "tier": 6,
-    "type": "AT-SPG",
-    "tank_id": 7729
+    "tier": 7,
+    "type": "mediumTank",
+    "tank_id": 4113
   }
 }

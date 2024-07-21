@@ -25,16 +25,17 @@ Game
 
 Hints
 1. After n guesses, they get a hint on the starting letter of the solution vehicle
-2. After m guesses, they get a partial image of the solution vehicle
+2. After n guesses, they get a hint of the tier of the solution vehicle
+3. After n guesses, they get a partial image of the solution vehicle
 
 */
 
 
 import express from 'express';
 import cors from 'cors';
-import { getSolutionTankHandler } from './controllers/tankController.js';
+import { getSolutionTankHandler, getTankListHandler } from './controllers/tankController.js';
 import { scheduleDailySolution } from './services/scheduleService.js';
-// import { updateSolutionTank, fetchTankData } from './models/tankModel.js';
+import { updateSolutionTank } from './models/tankModel.js';
 
 const app = express();
 const PORT = process.env.port || 3000;
@@ -43,13 +44,15 @@ app.use(cors());
 
 app.get('/api/get-solution-tank', getSolutionTankHandler);
 
+app.get('/api/get-tank-list', getTankListHandler);
+
 app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
     scheduleDailySolution();
 });
 
-// app.get('/api/test', async (req, res) => {
-//     let temp = await updateSolutionTank();
-//     console.log(temp);
-//     res.json(temp);
-// })
+app.get('/api/test', async (req, res) => {
+    let temp = await updateSolutionTank();
+    console.log(temp);
+    res.json(temp);
+})

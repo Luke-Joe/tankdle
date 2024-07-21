@@ -27,7 +27,6 @@ function loadTankData() {
     }
 }
 
-// TODO: FIX DUPLICATE CHECK
 function getRandomTank(excludeTank) {
     let randomTank;
     do {
@@ -58,5 +57,13 @@ export async function getSolutionTank() {
         await updateSolutionTank();
     }
 
-    return readData(TANK_SOL_FILE)?.solutionTank;
+    return readData(TANK_SOL_FILE).solutionTank;
+}
+
+export async function getTankList() {
+    if (!readData(TANK_DATA_FILE)) {
+        await fetchTankData();
+    }
+
+    return readData(TANK_DATA_FILE);
 }
