@@ -22,4 +22,7 @@ root.render(
   X. Link to API
   X. Create components for wordle style game
 
+  1. allow user to submit guesses
+  2. 
+  3. 
 */
