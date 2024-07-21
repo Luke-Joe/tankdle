@@ -6,3 +6,8 @@ export const getSolutionTank = async () => {
     const response = await axios.get(`${API_URL}/get-solution-tank`);
     return response.data;
 }
+
+export const getTankList = async () => {
+    const response = await axios.get(`${API_URL}/get-tank-list`);
+    return response.data;
+}
