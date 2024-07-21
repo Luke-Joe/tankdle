@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import SearchListItem from './searchListItem.js';
 
-function Search({ tanks }){
+function Search({ tanks, onTankSelect }){
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredTanks, setFilteredTanks] = useState(tanks);
     const [selectedIndex, setSelectedIndex] = useState(null);
@@ -21,7 +21,8 @@ function Search({ tanks }){
     }
 
     function handleTankSelect(tank) {
-        console.log("Selected tank:", tank);
+        onTankSelect(tank);
+        setSearchTerm('');
     }
 
     function handleTankClick(tank) {

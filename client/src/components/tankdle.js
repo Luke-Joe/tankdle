@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { getSolutionTank, getTankList } from '../services/api.js';
 import Search from './search.js';
+import GuessDisplay from './guessDisplay.js';
 
 function Game() {
     const [tanks, setTanks] = useState([]);
     const [solutionTank, setSolutionTank] = useState(null);
+    const [currentGuess, setCurrentGuess] = useState(null);
     const [guesses, setGuesses] = useState([]);
 
     useEffect(() => {
@@ -36,8 +38,9 @@ function Game() {
 
     return (
         <div>
-            <Search tanks={tanks}/>
+            <Search tanks={tanks} onTankSelect={setCurrentGuess}/>
             <h1>{solutionTank.name}</h1>
+            <GuessDisplay selectedTank={currentGuess}/>
         </div>
     );
 }

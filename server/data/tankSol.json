@@ -1,15 +1,15 @@
 {
   "solutionTank": {
-    "name": "VK 30.02 (D)",
-    "nation": "germany",
+    "name": "Object 263",
+    "nation": "ussr",
     "is_premium": false,
     "default_profile": {
       "gun": {
-        "caliber": 75
+        "caliber": 130
       }
     },
-    "tier": 7,
-    "type": "mediumTank",
-    "tank_id": 4113
+    "tier": 10,
+    "type": "AT-SPG",
+    "tank_id": 14337
   }
 }

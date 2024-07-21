@@ -22,7 +22,10 @@ root.render(
   X. Link to API
   X. Create components for wordle style game
 
-  1. allow user to submit guesses
-  2. 
-  3. 
+  - SEARCH ARROW KEY NAVIGATION A LITTLE BUGGED EDGE CASES
+  - SEARCH REMOVE SPACES FROM ORIGINAL (E100)
+
+  X. allow user to submit guesses
+  2. handle guesses
+  3. handle comparisons
 */
