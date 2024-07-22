@@ -33,4 +33,7 @@ root.render(
    - Guesses should be saved even if user refreshes page
    - Guesses should reset along with the solution tank
   3. handle comparisons
+   X Compare guess with solution tank
+   X Display comparison results
+   - Change state if daily is completed
 */
