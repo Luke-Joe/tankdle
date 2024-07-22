@@ -2,11 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { getSolutionTank, getTankList } from '../services/api.js';
 import Search from './search.js';
 import GuessDisplay from './guessDisplay.js';
+import { 
+    compareClass, 
+    compareTier,
+    compareNation,
+    compareGunCaliber,
+    compareType
+} from '../utils/comparisons.js';
 
 function Game() {
     const [tanks, setTanks] = useState([]);
     const [solutionTank, setSolutionTank] = useState(null);
-    const [currentGuess, setCurrentGuess] = useState(null);
     const [guesses, setGuesses] = useState([]);
 
     useEffect(() => {
@@ -32,15 +38,38 @@ function Game() {
         fetchTankData();
     }, []); 
 
+    function onTankSelect(tank) {
+        const compResult = compareTanks(tank, solutionTank);
+        setGuesses([...guesses, tank]);
+
+        console.log(compResult);
+        
+    };
+
+    function compareTanks(guess, solution) {
+        const result = {
+            name: guess.name,
+            tier: compareTier(guess, solution),
+            nation: compareNation(guess, solution),
+            class: compareClass(guess, solution),
+            gunCaliber: compareGunCaliber(guess, solution),
+            type: compareType(guess, solution),
+        };
+
+        return result;
+    }
+
     if (!solutionTank) {
         return <div>Loading...</div>;
     }
 
     return (
         <div>
-            <Search tanks={tanks} onTankSelect={setCurrentGuess}/>
+            <Search tanks={tanks} guesses={guesses} onTankSelect={onTankSelect}/>
             <h1>{solutionTank.name}</h1>
-            <GuessDisplay selectedTank={currentGuess}/>
+            {guesses.map(guess => (
+                <GuessDisplay selectedTank={guess}/>
+            ))}
         </div>
     );
 }

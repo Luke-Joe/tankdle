@@ -9,6 +9,7 @@ function GuessDisplay({ selectedTank }) {
         <div>
             <h2>Name: {selectedTank.name}</h2>
             <p>Tier: {selectedTank.tier}</p>
+            <p>ID: {selectedTank.tank_id}</p>
         </div>
     )
 }

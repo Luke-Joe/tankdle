@@ -1,19 +1,22 @@
 import React, { useState, useEffect, useRef } from 'react';
 import SearchListItem from './searchListItem.js';
 
-function Search({ tanks, onTankSelect }){
+function Search({ tanks, guesses, onTankSelect }){
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredTanks, setFilteredTanks] = useState(tanks);
-    const [selectedIndex, setSelectedIndex] = useState(null);
+    const [selectedIndex, setSelectedIndex] = useState(0);
     const tankRefs = useRef([]);
 
     useEffect(() => {
         setFilteredTanks(
             tanks.filter(tank => {
-                return (searchTerm != '' && tank.name.toLowerCase().includes(searchTerm.toLowerCase()));
+                return (searchTerm != '' 
+                && tank.name.toLowerCase().includes(searchTerm.toLowerCase())
+                && !guesses.includes(tank)
+                );
             })
         )
-        setSelectedIndex(null);
+        setSelectedIndex(0);
     }, [searchTerm, tanks])
 
     function handleInputChange(e) {
@@ -44,9 +47,7 @@ function Search({ tanks, onTankSelect }){
                 });
             },
             Enter: function() {
-                if (selectedIndex != null) {
-                    handleTankSelect(filteredTanks[selectedIndex]);
-                }
+                handleTankSelect(filteredTanks[selectedIndex]);
             }
         };
 

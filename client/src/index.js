@@ -24,8 +24,13 @@ root.render(
 
   - SEARCH ARROW KEY NAVIGATION A LITTLE BUGGED EDGE CASES
   - SEARCH REMOVE SPACES FROM ORIGINAL (E100)
-
+  - SEARCH SHOULD PRIORITIZE TANKS THAT START WITH THE SEARCH TERM
+  - WHY ARE SOME TANKS JUST MISSING? (IS-7)
   X. allow user to submit guesses
-  2. handle guesses
+  2. handle guesses 
+   X Add guess to guesses array
+   X Remove tanks in guess array from filtered tanks
+   - Guesses should be saved even if user refreshes page
+   - Guesses should reset along with the solution tank
   3. handle comparisons
 */
