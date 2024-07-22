@@ -5,10 +5,6 @@ function SearchListItem({ tank, isSelected, onClick }, ref) {
         <li
             ref={ref}
             tabIndex='0'
-            style={{
-                color: isSelected ? 'blue' : 'black',
-                cursor: 'pointer'
-            }}
             onClick={onClick}
 
         >

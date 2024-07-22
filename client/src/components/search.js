@@ -10,14 +10,14 @@ function Search({ tanks, guesses, onTankSelect }){
     useEffect(() => {
         setFilteredTanks(
             tanks.filter(tank => {
-                return (searchTerm != '' 
+                return (searchTerm !== '' 
                 && tank.name.toLowerCase().includes(searchTerm.toLowerCase())
                 && !guesses.includes(tank)
                 );
             })
         )
         setSelectedIndex(0);
-    }, [searchTerm, tanks])
+    }, [searchTerm, tanks, guesses])
 
     function handleInputChange(e) {
         setSearchTerm(e.target.value);

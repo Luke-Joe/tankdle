@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getSolutionTank, getTankList } from '../services/api.js';
 import Search from './search.js';
-import GuessDisplay from './guessDisplay.js';
 import { compareTanks } from '../utils/comparisons.js';
 import { Grid } from './grid.js';
 
@@ -55,7 +54,7 @@ function Game() {
     return (
         <div>
             <Search tanks={tanks} guesses={guesses} onTankSelect={onTankSelect}/>
-            <h1>{solutionTank.name}</h1>
+            <h1 className='text-blue-600'>{solutionTank.name}</h1>
             <Grid guessResults={guessResults}/>
         </div>
     );
