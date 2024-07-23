@@ -32,13 +32,20 @@ function setPremiumType(is_premium) {
 
 }
 
+/*
+Comparison results are colour coded:
+ - green: correct
+ - blue: guess is lower than solution
+ - yellow: guess is higher than solution
+ - red: incorrect
+*/
 function compareTier(guess, solution) {
     if (guess.tier === solution.tier) {
-        return 'correct';
+        return 'green';
     } else if (guess.tier < solution.tier) {
-        return 'higher';
+        return 'blue';
     } else {
-        return 'lower';
+        return 'yellow';
     }
 }
 
@@ -50,22 +57,22 @@ function compareGunCaliber(guess, solution) {
     console.log(solCal);
     
     if (guessCal === solCal) {
-        return 'correct';
+        return 'green';
     } else if (guessCal < solCal) {
-        return 'higher';
+        return 'blue';
     } else {
-        return 'lower';
+        return 'yellow';
     }
 }
 
 function compareClass(guess, solution) {
-    return (guess.type === solution.type) ? 'correct' : 'incorrect';
+    return (guess.type === solution.type) ? 'green' : 'red';
 }
 
 function compareNation(guess, solution) {
-    return (guess.nation === solution.nation) ? 'correct' : 'incorrect';
+    return (guess.nation === solution.nation) ? 'green' : 'red';
 }
 
 function compareType(guess, solution) {
-    return (guess.is_premium === solution.is_premium) ? 'correct' : 'incorrect';
+    return (guess.is_premium === solution.is_premium) ? 'green' : 'red';
 }

@@ -19,10 +19,12 @@ root.render(
 /*
 
   TODO:
-  1. Use local storage to save guesses
-  2. Figure out a way to end the game
-  3. Change colour depending on status of guess
-
+  X. Use local storage to save guesses
+  2. End the game when the solution is found
+  X. Change colour depending on status of guess
+  4. On startup, check if any saved guesses contains the solution
+  5. Reset solution at 0000 PST
+  6. Success box -> Timer, # attempts, 
   
 
   X. Link to API

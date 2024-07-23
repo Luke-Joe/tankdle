@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import SearchListItem from './searchListItem.js';
 
-function Search({ tanks, guesses, onTankSelect }){
+function Search({ isSolved, tanks, guesses, onTankSelect }){
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredTanks, setFilteredTanks] = useState(tanks);
     const [selectedIndex, setSelectedIndex] = useState(0);
@@ -56,30 +56,32 @@ function Search({ tanks, guesses, onTankSelect }){
         }
     }
 
-    return (
-        <div
-        tabIndex="0"
-        onKeyDown={handleKeyDown}
-        >
-            <input
-                type="text"
-                placeholder="Type tank name..."
-                value={searchTerm}
-                onChange={handleInputChange}
-            />
-            <ul>
-                {filteredTanks.map((tank, index) => (
-                    <SearchListItem 
-                    key={tank.id}
-                    tank={tank}
-                    ref={el => tankRefs.current[index] = el}
-                    isSelected={selectedIndex === index}
-                    onClick={() => handleTankClick(tank)}
-                    />
-                ))}
-            </ul>
-        </div>
-    )
+    if (!isSolved) { 
+        return (
+            <div
+            tabIndex="0"
+            onKeyDown={handleKeyDown}
+            >
+                <input
+                    type="text"
+                    placeholder="Type tank name..."
+                    value={searchTerm}
+                    onChange={handleInputChange}
+                />
+                <ul>
+                    {filteredTanks.map((tank, index) => (
+                        <SearchListItem 
+                        key={tank.id}
+                        tank={tank}
+                        ref={el => tankRefs.current[index] = el}
+                        isSelected={selectedIndex === index}
+                        onClick={() => handleTankClick(tank)}
+                        />
+                    ))}
+                </ul>
+            </div>
+        )
+    }
 }
 
 export default Search;

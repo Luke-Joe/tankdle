@@ -39,17 +39,22 @@ function Game() {
         }
     }, []); 
 
+    useEffect(() => {
+        if (isSolved) {
+            localStorage.removeItem('guessResults');
+        }
+    }, [isSolved]);
+
     function onTankSelect(tank) {
         if (tank.tank_id === solutionTank.tank_id) {
             setIsSolved(true);
+            console.log("Solved!");
         }
 
         const compResult = compareTanks(tank, solutionTank);
         const newGuessResults = [...guessResults, compResult];
         setGuessResults(newGuessResults);
         localStorage.setItem('guessResults', JSON.stringify(newGuessResults));
-
-        console.log(compResult);
     };
 
 
@@ -59,7 +64,7 @@ function Game() {
 
     return (
         <div>
-            <Search tanks={tanks} guesses={ guessResults } onTankSelect={onTankSelect}/>
+            <Search isSolved={isSolved} tanks={tanks} guesses={ guessResults } onTankSelect={onTankSelect}/>
             <h1 className='text-blue-600'>{solutionTank.name}</h1>
             <Grid guessResults={guessResults}/>
         </div>

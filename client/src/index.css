@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .blue {
+    @apply text-blue-500;
+  }
+
+  .red {
+    @apply text-red-500;
+  }
+
+  .yellow {
+    @apply text-yellow-500;
+  }
+
+  .green {
+    @apply text-green-500;
+  }
+}
