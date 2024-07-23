@@ -7,7 +7,6 @@ import { Grid } from './grid.js';
 function Game() {
     const [tanks, setTanks] = useState([]);
     const [solutionTank, setSolutionTank] = useState(null);
-    const [guesses, setGuesses] = useState([]);
     const [guessResults, setGuessResults] = useState([]);
     const [isSolved, setIsSolved] = useState(false);
 
@@ -32,6 +31,12 @@ function Game() {
 
         fetchSolutiontank();
         fetchTankData();
+
+        const storedGuesses = JSON.parse(localStorage.getItem('guessResults'));  
+        if (storedGuesses && guessResults.length === 0) {     
+            console.log("guesses:", storedGuesses);
+            setGuessResults(storedGuesses);
+        }
     }, []); 
 
     function onTankSelect(tank) {
@@ -40,8 +45,9 @@ function Game() {
         }
 
         const compResult = compareTanks(tank, solutionTank);
-        setGuesses([...guesses, tank]);
-        setGuessResults([...guessResults, compResult]);
+        const newGuessResults = [...guessResults, compResult];
+        setGuessResults(newGuessResults);
+        localStorage.setItem('guessResults', JSON.stringify(newGuessResults));
 
         console.log(compResult);
     };
@@ -53,7 +59,7 @@ function Game() {
 
     return (
         <div>
-            <Search tanks={tanks} guesses={guesses} onTankSelect={onTankSelect}/>
+            <Search tanks={tanks} guesses={ guessResults } onTankSelect={onTankSelect}/>
             <h1 className='text-blue-600'>{solutionTank.name}</h1>
             <Grid guessResults={guessResults}/>
         </div>

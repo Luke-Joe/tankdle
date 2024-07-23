@@ -19,6 +19,12 @@ root.render(
 /*
 
   TODO:
+  1. Use local storage to save guesses
+  2. Figure out a way to end the game
+  3. Change colour depending on status of guess
+
+  
+
   X. Link to API
   X. Create components for wordle style game
 
@@ -27,13 +33,15 @@ root.render(
   - SEARCH SHOULD PRIORITIZE TANKS THAT START WITH THE SEARCH TERM
   - WHY ARE SOME TANKS JUST MISSING? (IS-7)
 
+  - UPDATE SEARCH TO REMOVE GIVEN GUESSRESULTS
+
   X. allow user to submit guesses
   2. handle guesses 
    X Add guess to guesses array
    X Remove tanks in guess array from filtered tanks
-   - Guesses should be saved even if user refreshes page
+   X Guesses should be saved even if user refreshes page
    - Guesses should reset along with the solution tank
-   - Display guesses in grid
+   - Display guesses in grid with the most recent guess at the top
   3. handle comparisons
    X Compare guess with solution tank
    X Display comparison results
