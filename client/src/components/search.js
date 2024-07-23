@@ -8,14 +8,33 @@ function Search({ isSolved, tanks, guesses, onTankSelect }){
     const tankRefs = useRef([]);
 
     useEffect(() => {
-        setFilteredTanks(
-            tanks.filter(tank => {
-                return (searchTerm !== '' 
-                && tank.name.toLowerCase().includes(searchTerm.toLowerCase())
-                && !guesses.includes(tank)
-                );
-            })
-        )
+        if (searchTerm === '') {
+            setFilteredTanks([]);
+            return;
+        }
+
+        const normalize = str => str.toLowerCase().replace(/[\s-]/g, '');
+        const isMatch = (tank, term) => normalize(tank.name).includes(normalize(term));
+        const guessedTankIds = guesses.map(guess => guess.tank_id);
+
+        const filteredTanks = tanks
+            .filter(tank => !guessedTankIds.includes(tank.id))
+            .filter(tank => isMatch(tank, searchTerm))
+            .sort((a, b) => {
+                const nameA = a.name.toLowerCase();
+                const nameB = b.name.toLowerCase();
+                const term = searchTerm.toLowerCase();
+
+                if (nameA.startsWith(term) && !nameB.startsWith(term)) {
+                    return -1;
+                } else if (!nameA.startsWith(term) && nameB.startsWith(term)) {
+                    return 1;
+                } else {
+                    return nameA.localeCompare(nameB);
+                }
+            });
+
+        setFilteredTanks(filteredTanks);
         setSelectedIndex(0);
     }, [searchTerm, tanks, guesses])
 

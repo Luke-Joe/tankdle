@@ -41,7 +41,7 @@ function Game() {
 
     useEffect(() => {
         if (isSolved) {
-            localStorage.removeItem('guessResults');
+            // localStorage.removeItem('guessResults');
         }
     }, [isSolved]);
 

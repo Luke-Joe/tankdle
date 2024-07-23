@@ -6,7 +6,6 @@ function SearchListItem({ tank, isSelected, onClick }, ref) {
             ref={ref}
             tabIndex='0'
             onClick={onClick}
-
         >
             {tank.name}
         </li>
