@@ -52,7 +52,7 @@ app.listen(PORT, () => {
 });
 
 app.get('/api/test', async (req, res) => {
-    let temp = await fetchTankData();
+    let temp = await updateSolutionTank();
     console.log(temp);
     res.json(temp);
 })

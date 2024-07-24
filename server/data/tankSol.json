@@ -1,15 +1,16 @@
 {
   "solutionTank": {
-    "name": "Object 263",
-    "nation": "ussr",
+    "name": "WZ-131G FT",
+    "nation": "china",
     "is_premium": false,
     "default_profile": {
       "gun": {
-        "caliber": 130
+        "caliber": 85
       }
     },
-    "tier": 10,
+    "tier": 6,
     "type": "AT-SPG",
-    "tank_id": 14337
-  }
+    "tank_id": 7729
+  },
+  "dayId": 0
 }

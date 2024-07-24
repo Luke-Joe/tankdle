@@ -45,11 +45,13 @@ export async function updateSolutionTank() {
         tankData = await fetchTankData();
     }
 
-    const prevSolTank = readData(TANK_SOL_FILE)?.solutionTank;
+    const prevData = readData(TANK_SOL_FILE);
+    const prevSolTank = prevData?.solutionTank
     const newSolTank = getRandomTank(prevSolTank);
+    const newDayId = (prevData.dayId || 0) + 1;
 
-    storeData(TANK_SOL_FILE, {solutionTank : newSolTank});
-    return newSolTank;
+    storeData(TANK_SOL_FILE, {solutionTank : newSolTank, dayId : newDayId});
+    return { solutionTank : newSolTank, dayId : newDayId };
 }
 
 export async function getSolutionTank() {
@@ -57,7 +59,8 @@ export async function getSolutionTank() {
         await updateSolutionTank();
     }
 
-    return readData(TANK_SOL_FILE).solutionTank;
+    const data = readData(TANK_SOL_FILE);
+    return { solutionTank: data.solutionTank, dayId: data.dayId};
 }
 
 export async function getTankList() {
