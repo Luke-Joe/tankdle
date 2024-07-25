@@ -1438,5 +1438,997 @@
       "tank_id": 18449
     },
     "dayId": 592
+  },
+  {
+    "solutionTank": {
+      "name": "O-I",
+      "nation": "japan",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 6,
+      "type": "heavyTank",
+      "tank_id": 5473
+    },
+    "dayId": 593
+  },
+  {
+    "solutionTank": {
+      "name": "AltProto AMX 30",
+      "nation": "france",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 100
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 32065
+    },
+    "dayId": 594
+  },
+  {
+    "solutionTank": {
+      "name": "IS-4",
+      "nation": "ussr",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 122
+        }
+      },
+      "tier": 10,
+      "type": "heavyTank",
+      "tank_id": 6145
+    },
+    "dayId": 595
+  },
+  {
+    "solutionTank": {
+      "name": "Škoda T 50",
+      "nation": "czech",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 100
+        }
+      },
+      "tier": 9,
+      "type": "mediumTank",
+      "tank_id": 2161
+    },
+    "dayId": 596
+  },
+  {
+    "solutionTank": {
+      "name": "WZ-132",
+      "nation": "china",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 85
+        }
+      },
+      "tier": 8,
+      "type": "lightTank",
+      "tank_id": 3889
+    },
+    "dayId": 597
+  },
+  {
+    "solutionTank": {
+      "name": "Grille",
+      "nation": "germany",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 150
+        }
+      },
+      "tier": 5,
+      "type": "SPG",
+      "tank_id": 5649
+    },
+    "dayId": 598
+  },
+  {
+    "solutionTank": {
+      "name": "Leo",
+      "nation": "sweden",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 75
+        }
+      },
+      "tier": 7,
+      "type": "mediumTank",
+      "tank_id": 1665
+    },
+    "dayId": 599
+  },
+  {
+    "solutionTank": {
+      "name": "A-20",
+      "nation": "ussr",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 45
+        }
+      },
+      "tier": 5,
+      "type": "lightTank",
+      "tank_id": 2049
+    },
+    "dayId": 600
+  },
+  {
+    "solutionTank": {
+      "name": "M12",
+      "nation": "usa",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 155
+        }
+      },
+      "tier": 7,
+      "type": "SPG",
+      "tank_id": 7969
+    },
+    "dayId": 601
+  },
+  {
+    "solutionTank": {
+      "name": "Hotchkiss EBR",
+      "nation": "france",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 75
+        }
+      },
+      "tier": 7,
+      "type": "lightTank",
+      "tank_id": 18241
+    },
+    "dayId": 602
+  },
+  {
+    "solutionTank": {
+      "name": "SU-85I",
+      "nation": "ussr",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 85
+        }
+      },
+      "tier": 5,
+      "type": "AT-SPG",
+      "tank_id": 53761
+    },
+    "dayId": 603
+  },
+  {
+    "solutionTank": {
+      "name": "M4A3(76)W Sherman",
+      "nation": "usa",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 6,
+      "type": "mediumTank",
+      "tank_id": 49697
+    },
+    "dayId": 604
+  },
+  {
+    "solutionTank": {
+      "name": "Škoda T 45",
+      "nation": "czech",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 88
+        }
+      },
+      "tier": 7,
+      "type": "heavyTank",
+      "tank_id": 51313
+    },
+    "dayId": 605
+  },
+  {
+    "solutionTank": {
+      "name": "BZ-75",
+      "nation": "china",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 152
+        }
+      },
+      "tier": 10,
+      "type": "heavyTank",
+      "tank_id": 9009
+    },
+    "dayId": 606
+  },
+  {
+    "solutionTank": {
+      "name": "Type 2597 Chi-Ha",
+      "nation": "china",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 57
+        }
+      },
+      "tier": 3,
+      "type": "lightTank",
+      "tank_id": 4401
+    },
+    "dayId": 607
+  },
+  {
+    "solutionTank": {
+      "name": "M4A3E8 Fury",
+      "nation": "usa",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 6,
+      "type": "mediumTank",
+      "tank_id": 56097
+    },
+    "dayId": 608
+  },
+  {
+    "solutionTank": {
+      "name": "SU-26",
+      "nation": "ussr",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 3,
+      "type": "SPG",
+      "tank_id": 7681
+    },
+    "dayId": 609
+  },
+  {
+    "solutionTank": {
+      "name": "AMX 13 90",
+      "nation": "france",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 75
+        }
+      },
+      "tier": 9,
+      "type": "lightTank",
+      "tank_id": 4929
+    },
+    "dayId": 610
+  },
+  {
+    "solutionTank": {
+      "name": "G.Pz. Mk. VI (e)",
+      "nation": "germany",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 2,
+      "type": "SPG",
+      "tank_id": 15121
+    },
+    "dayId": 611
+  },
+  {
+    "solutionTank": {
+      "name": "Mars",
+      "nation": "italy",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 90
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 52129
+    },
+    "dayId": 612
+  },
+  {
+    "solutionTank": {
+      "name": "T30",
+      "nation": "usa",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 9,
+      "type": "AT-SPG",
+      "tank_id": 2593
+    },
+    "dayId": 613
+  },
+  {
+    "solutionTank": {
+      "name": "Valentine",
+      "nation": "uk",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 40
+        }
+      },
+      "tier": 3,
+      "type": "lightTank",
+      "tank_id": 4945
+    },
+    "dayId": 614
+  },
+  {
+    "solutionTank": {
+      "name": "AT 15A",
+      "nation": "uk",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 7,
+      "type": "AT-SPG",
+      "tank_id": 54097
+    },
+    "dayId": 615
+  },
+  {
+    "solutionTank": {
+      "name": "BZ-68",
+      "nation": "china",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 130
+        }
+      },
+      "tier": 9,
+      "type": "heavyTank",
+      "tank_id": 9265
+    },
+    "dayId": 616
+  },
+  {
+    "solutionTank": {
+      "name": "Kanonenjagdpanzer 105",
+      "nation": "germany",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 8,
+      "type": "AT-SPG",
+      "tank_id": 48401
+    },
+    "dayId": 617
+  },
+  {
+    "solutionTank": {
+      "name": "53TP Markowskiego",
+      "nation": "poland",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 2961
+    },
+    "dayId": 618
+  },
+  {
+    "solutionTank": {
+      "name": "VK 45.02 (P) Ausf. A",
+      "nation": "germany",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 88
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 10513
+    },
+    "dayId": 619
+  },
+  {
+    "solutionTank": {
+      "name": "Kranvagn",
+      "nation": "sweden",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 120
+        }
+      },
+      "tier": 10,
+      "type": "heavyTank",
+      "tank_id": 2433
+    },
+    "dayId": 620
+  },
+  {
+    "solutionTank": {
+      "name": "AAT60",
+      "nation": "usa",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 53281
+    },
+    "dayId": 621
+  },
+  {
+    "solutionTank": {
+      "name": "AMBT",
+      "nation": "usa",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 34081
+    },
+    "dayId": 622
+  },
+  {
+    "solutionTank": {
+      "name": "Centurion Mk. I",
+      "nation": "uk",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 5969
+    },
+    "dayId": 623
+  },
+  {
+    "solutionTank": {
+      "name": "45TP Habicha",
+      "nation": "poland",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 90
+        }
+      },
+      "tier": 7,
+      "type": "heavyTank",
+      "tank_id": 2705
+    },
+    "dayId": 624
+  },
+  {
+    "solutionTank": {
+      "name": "SDP 60 Gonkiewicza",
+      "nation": "poland",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 100
+        }
+      },
+      "tier": 9,
+      "type": "AT-SPG",
+      "tank_id": 6033
+    },
+    "dayId": 625
+  },
+  {
+    "solutionTank": {
+      "name": "T-34",
+      "nation": "ussr",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 5,
+      "type": "mediumTank",
+      "tank_id": 1
+    },
+    "dayId": 626
+  },
+  {
+    "solutionTank": {
+      "name": "Lion",
+      "nation": "italy",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 10,
+      "type": "mediumTank",
+      "tank_id": 50593
+    },
+    "dayId": 627
+  },
+  {
+    "solutionTank": {
+      "name": "ISU-122-2",
+      "nation": "ussr",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 122
+        }
+      },
+      "tier": 8,
+      "type": "AT-SPG",
+      "tank_id": 36097
+    },
+    "dayId": 628
+  },
+  {
+    "solutionTank": {
+      "name": "Kampfpanzer 50 t",
+      "nation": "germany",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 9,
+      "type": "mediumTank",
+      "tank_id": 47121
+    },
+    "dayId": 629
+  },
+  {
+    "solutionTank": {
+      "name": "Type T-34",
+      "nation": "china",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 5,
+      "type": "mediumTank",
+      "tank_id": 4657
+    },
+    "dayId": 630
+  },
+  {
+    "solutionTank": {
+      "name": "Pz.Kpfw. IV Schmalturm",
+      "nation": "germany",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 75
+        }
+      },
+      "tier": 6,
+      "type": "mediumTank",
+      "tank_id": 57361
+    },
+    "dayId": 631
+  },
+  {
+    "solutionTank": {
+      "name": "WZ-113-II",
+      "nation": "china",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 100
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 60721
+    },
+    "dayId": 632
+  },
+  {
+    "solutionTank": {
+      "name": "M47 Patton Improved",
+      "nation": "usa",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 32801
+    },
+    "dayId": 633
+  },
+  {
+    "solutionTank": {
+      "name": "Strv 81",
+      "nation": "sweden",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 83
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 52353
+    },
+    "dayId": 634
+  },
+  {
+    "solutionTank": {
+      "name": "Churchill I",
+      "nation": "uk",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 40
+        }
+      },
+      "tier": 5,
+      "type": "heavyTank",
+      "tank_id": 2897
+    },
+    "dayId": 635
+  },
+  {
+    "solutionTank": {
+      "name": "WZ-132-1",
+      "nation": "china",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 10,
+      "type": "lightTank",
+      "tank_id": 5937
+    },
+    "dayId": 636
+  },
+  {
+    "solutionTank": {
+      "name": "ELC EVEN 90",
+      "nation": "france",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 90
+        }
+      },
+      "tier": 8,
+      "type": "lightTank",
+      "tank_id": 61505
+    },
+    "dayId": 637
+  },
+  {
+    "solutionTank": {
+      "name": "112",
+      "nation": "china",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 122
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 64561
+    },
+    "dayId": 638
+  },
+  {
+    "solutionTank": {
+      "name": "S35 CA",
+      "nation": "france",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 5,
+      "type": "AT-SPG",
+      "tank_id": 10049
+    },
+    "dayId": 639
+  },
+  {
+    "solutionTank": {
+      "name": "Tiger (P)",
+      "nation": "germany",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 75
+        }
+      },
+      "tier": 7,
+      "type": "heavyTank",
+      "tank_id": 10769
+    },
+    "dayId": 640
+  },
+  {
+    "solutionTank": {
+      "name": "Object 259A",
+      "nation": "ussr",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 122
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 33537
+    },
+    "dayId": 641
+  },
+  {
+    "solutionTank": {
+      "name": "Type 3 Ho-Ni III",
+      "nation": "japan",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 75
+        }
+      },
+      "tier": 5,
+      "type": "AT-SPG",
+      "tank_id": 7009
+    },
+    "dayId": 642
+  },
+  {
+    "solutionTank": {
+      "name": "T-127",
+      "nation": "ussr",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 45
+        }
+      },
+      "tier": 3,
+      "type": "lightTank",
+      "tank_id": 53505
+    },
+    "dayId": 643
+  },
+  {
+    "solutionTank": {
+      "name": "Gonsalo",
+      "nation": "uk",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 120
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 60753
+    },
+    "dayId": 644
+  },
+  {
+    "solutionTank": {
+      "name": "Vickers Medium Mk. II",
+      "nation": "uk",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 57
+        }
+      },
+      "tier": 2,
+      "type": "mediumTank",
+      "tank_id": 337
+    },
+    "dayId": 645
+  },
+  {
+    "solutionTank": {
+      "name": "WZ-111 model 6",
+      "nation": "china",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 58929
+    },
+    "dayId": 646
+  },
+  {
+    "solutionTank": {
+      "name": "D1",
+      "nation": "france",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 13
+        }
+      },
+      "tier": 2,
+      "type": "lightTank",
+      "tank_id": 1601
+    },
+    "dayId": 647
+  },
+  {
+    "solutionTank": {
+      "name": "Black Prince",
+      "nation": "uk",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 7,
+      "type": "heavyTank",
+      "tank_id": 3153
+    },
+    "dayId": 648
+  },
+  {
+    "solutionTank": {
+      "name": "KV-1SA",
+      "nation": "ussr",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 76
+        }
+      },
+      "tier": 5,
+      "type": "heavyTank",
+      "tank_id": 37889
+    },
+    "dayId": 649
+  },
+  {
+    "solutionTank": {
+      "name": "Type 68",
+      "nation": "japan",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 105
+        }
+      },
+      "tier": 9,
+      "type": "heavyTank",
+      "tank_id": 8801
+    },
+    "dayId": 650
+  },
+  {
+    "solutionTank": {
+      "name": "VK 16.02 Leopard",
+      "nation": "germany",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 30
+        }
+      },
+      "tier": 5,
+      "type": "lightTank",
+      "tank_id": 5393
+    },
+    "dayId": 651
+  },
+  {
+    "solutionTank": {
+      "name": "CS-44",
+      "nation": "poland",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 90
+        }
+      },
+      "tier": 7,
+      "type": "mediumTank",
+      "tank_id": 4241
+    },
+    "dayId": 652
+  },
+  {
+    "solutionTank": {
+      "name": "Ikv 65 Alt II",
+      "nation": "sweden",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 90
+        }
+      },
+      "tier": 6,
+      "type": "AT-SPG",
+      "tank_id": 3713
+    },
+    "dayId": 653
+  },
+  {
+    "solutionTank": {
+      "name": "Object 701",
+      "nation": "ussr",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 122
+        }
+      },
+      "tier": 8,
+      "type": "heavyTank",
+      "tank_id": 65537
+    },
+    "dayId": 654
   }
 ]

@@ -15,13 +15,10 @@ function Timer() {
         const now = new Date();
         const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1);
         const timeToMidnight = nextMidnight - now;
-        
-        const nextMinute = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes() + 1, 1);
-        const timeToMinute = nextMinute - now;
 
-        const hours = Math.floor((timeToMinute % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeToMinute % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeToMinute % (1000 * 60)) / 1000);
+        const hours = Math.floor((timeToMidnight % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeToMidnight % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeToMidnight % (1000 * 60)) / 1000);
 
         return { hours, minutes, seconds};
     }
