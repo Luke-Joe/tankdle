@@ -34,7 +34,6 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                 }
             });
         
-        console.log("filtered",filteredTanks);
         setFilteredTanks(filteredTanks);
         setSelectedIndex(0);
     }, [searchTerm, tanks, guessResults])

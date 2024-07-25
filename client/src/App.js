@@ -6,17 +6,16 @@ function App() {
   useEffect(() => {
     function scheduleMidnightRefresh() {
       const now = new Date();
-      const nextMidnight = new Date(now.getFullYear, now.getMonth, now.getDate + 1, 0, 0, 1);
+      const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1);
       const timeToMidnight = nextMidnight - now;
 
-      const nextMinute = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes() + 1, 1);
-      const timeToMinute = nextMinute - now;
-      
+      // const nextMinute = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes() + 1, 1);
+      // const timeToMinute = nextMinute - now;
 
       setTimeout(() => {
         localStorage.removeItem('guessResults');
         window.location.reload();
-      }, timeToMinute);
+      }, timeToMidnight);
     }
 
     scheduleMidnightRefresh();

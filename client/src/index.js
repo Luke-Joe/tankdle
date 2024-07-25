@@ -22,11 +22,11 @@ root.render(
   X. Use local storage to save guesses
   X. End the game when the solution is found
    X Disable search bar
-   - Display end screen
+   X Display end screen
   X. Change colour depending on status of guess
   X. On startup, check if any saved guesses contains the solution
   X. Reset solution at 0000 PST
-  6. Success box -> Timer, # attempts, 
+  X. Success box -> Timer, # attempts, 
   
 
   X. Link to API
@@ -35,7 +35,7 @@ root.render(
   - SEARCH ARROW KEY NAVIGATION A LITTLE BUGGED EDGE CASES
   X SEARCH REMOVE SPACES FROM ORIGINAL (E100)
   X SEARCH SHOULD PRIORITIZE TANKS THAT START WITH THE SEARCH TERM
-  - WHY ARE SOME TANKS JUST MISSING? (IS-7)
+  X WHY ARE SOME TANKS JUST MISSING? (IS-7) -> deal with it
 
   X UPDATE SEARCH TO REMOVE GIVEN GUESSRESULTS
 
@@ -53,14 +53,28 @@ root.render(
 
 
   STAT STORAGE:
-   - Number of solves (total)
-   - Average number of attempts
-   - Streak
-   - Max streak
-   - One shots
+   X Number of solves (total)
+   X Average number of attempts
+   X Streak
+   X Max streak
+   X One shots
 
 
    X. Create a timer component
-   2. Create a stats component
-   3. Save past solutions
+   X. Save past solutions
+   X. API to retrieve most recent solution
+
+   BACKLOG
+    X. Save stats to local storage
+    1. Create additional modes (WOT 1-5, WOT 6-10, GUESS ICON, WOTB 1-5, WOTB 6-10)
+    2. WOT dataset filter out FL/Event tanks
+    2a. Figure out how to use the highest caliber gun for each tank
+    3. yassify
+    4. Create a hint system
+    X. Create a stats page
+    6. Use cryptography to hide solution tank in api response
+
+
+    BUGS
+    1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
    */

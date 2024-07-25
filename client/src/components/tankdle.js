@@ -8,9 +8,10 @@ import { EndDisplay } from './endDisplay.js';
 function Game() {
     const [tanks, setTanks] = useState([]);
     const [solutionTank, setSolutionTank] = useState(null);
-    const [dayId, setDayId] = useState(null);
     const [guessResults, setGuessResults] = useState([]);
+    const [dayId, setDayId] = useState(null);
     const [isSolved, setIsSolved] = useState(false);
+    const resultStorage = "resultStorage";
 
     useEffect(() => {
         async function fetchData() {
@@ -43,20 +44,30 @@ function Game() {
         if (guessResults.length > 0 
         && guessResults[guessResults.length - 1].tank_id === solutionTank.tank_id) {
             setIsSolved(true);
-            // TODO: Add dayID to list of completions + # attempts
         }
-    }
+    };
 
     function onTankSelect(tank) {
-        if (tank.tank_id === solutionTank.tank_id) {
-            setIsSolved(true);
-            console.log("Solved!");
-        }
-
         const compResult = compareTanks(tank, solutionTank);
         const newGuessResults = [...guessResults, compResult];
         setGuessResults(newGuessResults);
         localStorage.setItem('guessResults', JSON.stringify(newGuessResults));
+
+        if (tank.tank_id === solutionTank.tank_id) {
+            setIsSolved(true);
+            saveResults(resultStorage);
+            console.log("Solved!");
+        }
+    };
+
+    function saveResults(category) {
+        const savedResults = JSON.parse(localStorage.getItem(category)) || [];
+        const attempts = guessResults.length;
+        const result = {dayId, attempts};
+
+        savedResults.push(result);
+
+        localStorage.setItem(category, JSON.stringify(savedResults));
     };
 
 
@@ -67,9 +78,14 @@ function Game() {
     return (
         <div>
             <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect}/>
-            <h1 className='text-blue-600'>{solutionTank.name}</h1>
             <Grid guessResults={guessResults}/>
-            <EndDisplay dayId={dayId} isSolved={isSolved} guessResults={guessResults} solutionTank={solutionTank}/>
+            <EndDisplay 
+                dayId={dayId} 
+                isSolved={isSolved} 
+                guessResults={guessResults} 
+                solutionTank={solutionTank} 
+                resultStorage={resultStorage}
+            />
         </div>
     );
 }
