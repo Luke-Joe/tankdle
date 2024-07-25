@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import SearchListItem from './searchListItem.js';
 
-function Search({ isSolved, tanks, guesses, onTankSelect }){
+function Search({ isSolved, tanks, guessResults, onTankSelect }){
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredTanks, setFilteredTanks] = useState(tanks);
     const [selectedIndex, setSelectedIndex] = useState(0);
@@ -13,12 +13,12 @@ function Search({ isSolved, tanks, guesses, onTankSelect }){
             return;
         }
 
-        const normalize = str => str.toLowerCase().replace(/[\s-]/g, '');
+        const normalize = str => str.toLowerCase().replace(/[\s-.()/]/g, '');
         const isMatch = (tank, term) => normalize(tank.name).includes(normalize(term));
-        const guessedTankIds = guesses.map(guess => guess.tank_id);
+        const guessedTankIds = guessResults.map(guess => guess.tank_id);
 
         const filteredTanks = tanks
-            .filter(tank => !guessedTankIds.includes(tank.id))
+            .filter(tank => !guessedTankIds.includes(tank.tank_id))
             .filter(tank => isMatch(tank, searchTerm))
             .sort((a, b) => {
                 const nameA = a.name.toLowerCase();
@@ -33,10 +33,11 @@ function Search({ isSolved, tanks, guesses, onTankSelect }){
                     return nameA.localeCompare(nameB);
                 }
             });
-
+        
+        console.log("filtered",filteredTanks);
         setFilteredTanks(filteredTanks);
         setSelectedIndex(0);
-    }, [searchTerm, tanks, guesses])
+    }, [searchTerm, tanks, guessResults])
 
     function handleInputChange(e) {
         setSearchTerm(e.target.value);
