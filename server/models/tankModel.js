@@ -41,7 +41,7 @@ async function savePrevSol() {
     if (prevData) {
         appendData(PREV_SOL_FILE, prevData);
     }
-    
+
     console.log("Saved previous solution tank:", prevData.solutionTank.name);
 }
 
@@ -79,4 +79,14 @@ export async function getTankList() {
     }
 
     return readData(TANK_DATA_FILE);
+}
+
+export async function popPrevSolution() {
+    const prevData = readData(PREV_SOL_FILE);
+
+    if (prevData && prevData.length > 0) {
+        return prevData.pop();
+    }
+
+    return null;
 }

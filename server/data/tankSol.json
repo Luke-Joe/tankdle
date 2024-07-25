@@ -1,16 +1,16 @@
 {
   "solutionTank": {
-    "name": "121B",
-    "nation": "china",
-    "is_premium": true,
+    "name": "O-I",
+    "nation": "japan",
+    "is_premium": false,
     "default_profile": {
       "gun": {
         "caliber": 105
       }
     },
-    "tier": 10,
-    "type": "mediumTank",
-    "tank_id": 5681
+    "tier": 6,
+    "type": "heavyTank",
+    "tank_id": 5473
   },
-  "dayId": 507
+  "dayId": 593
 }
