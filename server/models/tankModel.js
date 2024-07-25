@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { readData, storeData } from '../utils/fileUtils.js';
-import {API_URL, APP_ID, TANK_DATA_FILE, TANK_SOL_FILE} from '../config/constants.js';
+import { readData, storeData, appendData } from '../utils/fileUtils.js';
+import {API_URL, APP_ID, TANK_DATA_FILE, TANK_SOL_FILE, PREV_SOL_FILE} from '../config/constants.js';
 
 let tankData = [];
 export async function fetchTankData() {
@@ -36,6 +36,15 @@ function getRandomTank(excludeTank) {
     return randomTank;
 }
 
+async function savePrevSol() {
+    const prevData = readData(TANK_SOL_FILE);
+    if (prevData) {
+        appendData(PREV_SOL_FILE, prevData);
+    }
+    
+    console.log("Saved previous solution tank:", prevData.solutionTank.name);
+}
+
 export async function updateSolutionTank() {
     if (tankData.length === 0) {
         loadTankData();
@@ -47,6 +56,7 @@ export async function updateSolutionTank() {
 
     const prevData = readData(TANK_SOL_FILE);
     const prevSolTank = prevData?.solutionTank
+    savePrevSol();
     const newSolTank = getRandomTank(prevSolTank);
     const newDayId = (prevData.dayId || 0) + 1;
 

@@ -1,16 +1,16 @@
 {
   "solutionTank": {
-    "name": "WZ-131G FT",
-    "nation": "china",
-    "is_premium": false,
+    "name": "Pz.Kpfw. III/IV",
+    "nation": "germany",
+    "is_premium": true,
     "default_profile": {
       "gun": {
-        "caliber": 85
+        "caliber": 75
       }
     },
-    "tier": 6,
-    "type": "AT-SPG",
-    "tank_id": 7729
+    "tier": 5,
+    "type": "mediumTank",
+    "tank_id": 6417
   },
-  "dayId": 0
+  "dayId": 505
 }

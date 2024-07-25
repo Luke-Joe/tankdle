@@ -1,0 +1,34 @@
+[
+  {
+    "solutionTank": {
+      "name": "Waffenträger auf Pz. IV",
+      "nation": "germany",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 128
+        }
+      },
+      "tier": 9,
+      "type": "AT-SPG",
+      "tank_id": 16401
+    },
+    "dayId": 503
+  },
+  {
+    "solutionTank": {
+      "name": "P.44 Pantera",
+      "nation": "european",
+      "is_premium": false,
+      "default_profile": {
+        "gun": {
+          "caliber": 90
+        }
+      },
+      "tier": 8,
+      "type": "mediumTank",
+      "tank_id": 897
+    },
+    "dayId": 504
+  }
+]

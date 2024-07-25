@@ -22,7 +22,7 @@ export function appendData(filepath, data) {
     try {
         let existingData = [];
         if (fs.existsSync(filepath)) {
-            existingData = readData(filepath);
+            existingData = readData(filepath) || [];
         }
 
         existingData.push(data);
