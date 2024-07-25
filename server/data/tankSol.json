@@ -1,16 +1,16 @@
 {
   "solutionTank": {
-    "name": "Pz.Kpfw. III/IV",
-    "nation": "germany",
-    "is_premium": true,
+    "name": "Type 3 Chi-Nu",
+    "nation": "japan",
+    "is_premium": false,
     "default_profile": {
       "gun": {
-        "caliber": 75
+        "caliber": 57
       }
     },
     "tier": 5,
     "type": "mediumTank",
-    "tank_id": 6417
+    "tank_id": 1377
   },
-  "dayId": 505
+  "dayId": 506
 }

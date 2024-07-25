@@ -3,47 +3,49 @@ import { getSolutionTank, getTankList } from '../services/api.js';
 import Search from './search.js';
 import { compareTanks } from '../utils/comparisons.js';
 import { Grid } from './grid.js';
+import { EndDisplay } from './endDisplay.js';
 
 function Game() {
     const [tanks, setTanks] = useState([]);
     const [solutionTank, setSolutionTank] = useState(null);
+    const [dayId, setDayId] = useState(null);
     const [guessResults, setGuessResults] = useState([]);
     const [isSolved, setIsSolved] = useState(false);
 
     useEffect(() => {
-        async function fetchTankData() {
+        async function fetchData() {
             try {
                 const tankData = await getTankList();
                 setTanks(tankData);
-            } catch (error) {
-                console.error('Error fetching tank list:', error);
-            }
-        };
-        
-        async function fetchSolutiontank() {
-            try {
+
                 const solTank = await getSolutionTank();
-                setSolutionTank(solTank);
+                setSolutionTank(solTank.solutionTank);
+                setDayId(solTank.dayId);
+
+                const storedGuesses = JSON.parse(localStorage.getItem('guessResults'));
+                if (storedGuesses && guessResults.length === 0) {     
+                    console.log("guesses:", storedGuesses);
+                    setGuessResults(storedGuesses);
+                }
             } catch (error) {
-                console.error('Error fetching solution tank:', error);
+                console.error('Error fetching data:', error);
             }
         };
 
-        fetchSolutiontank();
-        fetchTankData();
-
-        const storedGuesses = JSON.parse(localStorage.getItem('guessResults'));  
-        if (storedGuesses && guessResults.length === 0) {     
-            console.log("guesses:", storedGuesses);
-            setGuessResults(storedGuesses);
-        }
+        fetchData();
     }, []); 
 
     useEffect(() => {
-        if (isSolved) {
-            // localStorage.removeItem('guessResults');
+        checkIfSolutionFound();
+    }, [guessResults]);
+
+    function checkIfSolutionFound() {
+        if (guessResults.length > 0 
+        && guessResults[guessResults.length - 1].tank_id === solutionTank.tank_id) {
+            setIsSolved(true);
+            // TODO: Add dayID to list of completions + # attempts
         }
-    }, [isSolved]);
+    }
 
     function onTankSelect(tank) {
         if (tank.tank_id === solutionTank.tank_id) {
@@ -61,12 +63,13 @@ function Game() {
     if (!solutionTank) {
         return <div>Loading...</div>;
     }
-
+    // <h1 className='text-blue-600'>{solutionTank.name}</h1>
     return (
         <div>
-            <Search isSolved={isSolved} tanks={tanks} guesses={ guessResults } onTankSelect={onTankSelect}/>
+            <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect}/>
             <h1 className='text-blue-600'>{solutionTank.name}</h1>
             <Grid guessResults={guessResults}/>
+            <EndDisplay dayId={dayId} isSolved={isSolved} guessResults={guessResults} solutionTank={solutionTank}/>
         </div>
     );
 }

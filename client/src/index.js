@@ -20,10 +20,12 @@ root.render(
 
   TODO:
   X. Use local storage to save guesses
-  2. End the game when the solution is found
+  X. End the game when the solution is found
+   X Disable search bar
+   - Display end screen
   X. Change colour depending on status of guess
-  4. On startup, check if any saved guesses contains the solution
-  5. Reset solution at 0000 PST
+  X. On startup, check if any saved guesses contains the solution
+  X. Reset solution at 0000 PST
   6. Success box -> Timer, # attempts, 
   
 
@@ -31,21 +33,34 @@ root.render(
   X. Create components for wordle style game
 
   - SEARCH ARROW KEY NAVIGATION A LITTLE BUGGED EDGE CASES
-  - SEARCH REMOVE SPACES FROM ORIGINAL (E100)
-  - SEARCH SHOULD PRIORITIZE TANKS THAT START WITH THE SEARCH TERM
+  X SEARCH REMOVE SPACES FROM ORIGINAL (E100)
+  X SEARCH SHOULD PRIORITIZE TANKS THAT START WITH THE SEARCH TERM
   - WHY ARE SOME TANKS JUST MISSING? (IS-7)
 
-  - UPDATE SEARCH TO REMOVE GIVEN GUESSRESULTS
+  X UPDATE SEARCH TO REMOVE GIVEN GUESSRESULTS
 
   X. allow user to submit guesses
-  2. handle guesses 
+  X. handle guesses 
    X Add guess to guesses array
    X Remove tanks in guess array from filtered tanks
    X Guesses should be saved even if user refreshes page
-   - Guesses should reset along with the solution tank
-   - Display guesses in grid with the most recent guess at the top
-  3. handle comparisons
+   X Guesses should reset along with the solution tank
+   X Display guesses in grid with the most recent guess at the top
+  X. handle comparisons
    X Compare guess with solution tank
    X Display comparison results
-   - Change state if daily is completed
-*/
+   X Change state if daily is completed
+
+
+  STAT STORAGE:
+   - Number of solves (total)
+   - Average number of attempts
+   - Streak
+   - Max streak
+   - One shots
+
+
+   X. Create a timer component
+   2. Create a stats component
+   3. Save past solutions
+   */

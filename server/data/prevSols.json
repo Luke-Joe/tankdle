@@ -30,5 +30,21 @@
       "tank_id": 897
     },
     "dayId": 504
+  },
+  {
+    "solutionTank": {
+      "name": "Pz.Kpfw. III/IV",
+      "nation": "germany",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 75
+        }
+      },
+      "tier": 5,
+      "type": "mediumTank",
+      "tank_id": 6417
+    },
+    "dayId": 505
   }
 ]
