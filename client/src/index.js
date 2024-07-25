@@ -66,15 +66,28 @@ root.render(
 
    BACKLOG
     X. Save stats to local storage
-    1. Create additional modes (WOT 1-5, WOT 6-10, GUESS ICON, WOTB 1-5, WOTB 6-10)
-    2. WOT dataset filter out FL/Event tanks
-    2a. Figure out how to use the highest caliber gun for each tank
+
+    X. WOT dataset filter out FL/Event tanks
+     X Event tanks are not stored by default :)
+     X price gold == null && price credit == null <- doesnt work, too many eliminated
+     X ** name ends in FL, CL = removed **
+
+    1a. Figure out how to use the highest caliber gun for each tank
+     - Grab the configuration with the highest cost
+     - Grab the vehicle characteristics with that profile_id
+     - Retrieve the gun caliber and alpha damage, storing it in the tank object
+
+    2. Create additional modes (WOT 1-5, WOT 6-10, GUESS LARGE ICON)
     3. yassify
     4. Create a hint system
+     - hint 1: alpha damage
+     - hint 2: small tank icon
+     - hint 3: large tank icon
     X. Create a stats page
     6. Use cryptography to hide solution tank in api response
 
 
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
+    2. round average attempts to 2 decimal places
    */

@@ -34,11 +34,11 @@ function Game() {
         };
 
         fetchData();
-    }, []); 
+    }, [guessResults]); 
 
     useEffect(() => {
         checkIfSolutionFound();
-    }, [guessResults]);
+    });
 
     function checkIfSolutionFound() {
         if (guessResults.length > 0 

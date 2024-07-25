@@ -28,7 +28,7 @@ export function compareTanks(guess, solution) {
 }
 
 function setPremiumType(is_premium) {
-    return is_premium ? 'Premium/Collectors' : 'Standard';
+    return is_premium ? 'Premium/Reward' : 'Standard';
 
 }
 

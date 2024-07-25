@@ -20,6 +20,8 @@ export function calculateStreaks(results) {
         if (results[i].dayId === prevDay + 1) {
             currStreak++;
             maxStreak = Math.max(maxStreak, currStreak);
+        } else if (results[i].dayId === prevDay) {
+            continue;
         } else {
             currStreak = 1;
         }
