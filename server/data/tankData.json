@@ -6916,19 +6916,6 @@
     "tank_id": 33793
   },
   {
-    "name": "Object 140 CL",
-    "nation": "ussr",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 100
-      }
-    },
-    "tier": 10,
-    "type": "mediumTank",
-    "tank_id": 34049
-  },
-  {
     "name": "AMBT",
     "nation": "usa",
     "is_premium": true,
@@ -7031,19 +7018,6 @@
     "tier": 8,
     "type": "mediumTank",
     "tank_id": 35105
-  },
-  {
-    "name": "T110E5 CL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 120
-      }
-    },
-    "tier": 10,
-    "type": "heavyTank",
-    "tank_id": 35361
   },
   {
     "name": "ARMT",
@@ -7202,19 +7176,6 @@
     "tank_id": 43329
   },
   {
-    "name": "IS-6 FL",
-    "nation": "ussr",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 122
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 43521
-  },
-  {
     "name": "Pz.Kpfw. M 15",
     "nation": "germany",
     "is_premium": true,
@@ -7254,19 +7215,6 @@
     "tank_id": 43585
   },
   {
-    "name": "T-54 first prototype FL",
-    "nation": "ussr",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 100
-      }
-    },
-    "tier": 8,
-    "type": "mediumTank",
-    "tank_id": 43777
-  },
-  {
     "name": "AMR 35",
     "nation": "france",
     "is_premium": true,
@@ -7278,19 +7226,6 @@
     "tier": 2,
     "type": "lightTank",
     "tank_id": 43841
-  },
-  {
-    "name": "T-44 FL",
-    "nation": "ussr",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 100
-      }
-    },
-    "tier": 8,
-    "type": "mediumTank",
-    "tank_id": 44033
   },
   {
     "name": "Object 703 Version II",
@@ -8632,19 +8567,6 @@
     "tank_id": 53281
   },
   {
-    "name": "Conqueror FL",
-    "nation": "uk",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 120
-      }
-    },
-    "tier": 9,
-    "type": "heavyTank",
-    "tank_id": 53329
-  },
-  {
     "name": "Type 5 Ka-Ri",
     "nation": "japan",
     "is_premium": true,
@@ -8721,19 +8643,6 @@
     "tier": 8,
     "type": "heavyTank",
     "tank_id": 53601
-  },
-  {
-    "name": "Strv S1 FL",
-    "nation": "sweden",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 8,
-    "type": "AT-SPG",
-    "tank_id": 53633
   },
   {
     "name": "SU-85I",
@@ -8864,19 +8773,6 @@
     "tier": 5,
     "type": "heavyTank",
     "tank_id": 54353
-  },
-  {
-    "name": "Strv 103-0 FL",
-    "nation": "sweden",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 9,
-    "type": "AT-SPG",
-    "tank_id": 54401
   },
   {
     "name": "Tetrarch",
@@ -9087,19 +8983,6 @@
     "tank_id": 55809
   },
   {
-    "name": "Ferdinand FL",
-    "nation": "germany",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 128
-      }
-    },
-    "tier": 8,
-    "type": "AT-SPG",
-    "tank_id": 55825
-  },
-  {
     "name": "T95E6",
     "nation": "usa",
     "is_premium": true,
@@ -9191,19 +9074,6 @@
     "tank_id": 56321
   },
   {
-    "name": "Jagdtiger FL",
-    "nation": "germany",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 128
-      }
-    },
-    "tier": 9,
-    "type": "AT-SPG",
-    "tank_id": 56337
-  },
-  {
     "name": "M56 Scorpion",
     "nation": "usa",
     "is_premium": true,
@@ -9217,19 +9087,6 @@
     "tank_id": 56353
   },
   {
-    "name": "WZ-111 model 1-4 FL",
-    "nation": "china",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 130
-      }
-    },
-    "tier": 9,
-    "type": "heavyTank",
-    "tank_id": 56369
-  },
-  {
     "name": "LTP",
     "nation": "ussr",
     "is_premium": true,
@@ -9241,19 +9098,6 @@
     "tier": 3,
     "type": "lightTank",
     "tank_id": 56577
-  },
-  {
-    "name": "E 50 FL",
-    "nation": "germany",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 9,
-    "type": "mediumTank",
-    "tank_id": 56593
   },
   {
     "name": "T28 Concept",
@@ -9280,19 +9124,6 @@
     "tier": 8,
     "type": "heavyTank",
     "tank_id": 56657
-  },
-  {
-    "name": "Panzer 58 FL",
-    "nation": "germany",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 90
-      }
-    },
-    "tier": 8,
-    "type": "mediumTank",
-    "tank_id": 56849
   },
   {
     "name": "Char de transition",
@@ -9412,19 +9243,6 @@
     "tank_id": 57425
   },
   {
-    "name": "T-54 FL",
-    "nation": "ussr",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 100
-      }
-    },
-    "tier": 9,
-    "type": "mediumTank",
-    "tank_id": 57601
-  },
-  {
     "name": "Panther/M10",
     "nation": "germany",
     "is_premium": true,
@@ -9516,32 +9334,6 @@
     "tank_id": 58113
   },
   {
-    "name": "T30 FL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 155
-      }
-    },
-    "tier": 9,
-    "type": "AT-SPG",
-    "tank_id": 58145
-  },
-  {
-    "name": "FV4202 FL",
-    "nation": "uk",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 83
-      }
-    },
-    "tier": 8,
-    "type": "mediumTank",
-    "tank_id": 58193
-  },
-  {
     "name": "Object 260",
     "nation": "ussr",
     "is_premium": true,
@@ -9553,19 +9345,6 @@
     "tier": 10,
     "type": "heavyTank",
     "tank_id": 58369
-  },
-  {
-    "name": "M46 Patton FL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 9,
-    "type": "mediumTank",
-    "tank_id": 58401
   },
   {
     "name": "BZ-72-1",
@@ -9670,19 +9449,6 @@
     "tier": 8,
     "type": "heavyTank",
     "tank_id": 58881
-  },
-  {
-    "name": "Tiger II FL",
-    "nation": "germany",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 58897
   },
   {
     "name": "T26E5",
@@ -9893,32 +9659,6 @@
     "tank_id": 59681
   },
   {
-    "name": "WZ-132 FL",
-    "nation": "china",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 100
-      }
-    },
-    "tier": 8,
-    "type": "lightTank",
-    "tank_id": 59697
-  },
-  {
-    "name": "AMX AC mle. 48 FL",
-    "nation": "france",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 120
-      }
-    },
-    "tier": 8,
-    "type": "AT-SPG",
-    "tank_id": 59713
-  },
-  {
     "name": "GSR 3301 Setter",
     "nation": "uk",
     "is_premium": false,
@@ -9956,19 +9696,6 @@
     "tier": 7,
     "type": "mediumTank",
     "tank_id": 59937
-  },
-  {
-    "name": "ELC EVEN 90 FL",
-    "nation": "france",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 90
-      }
-    },
-    "tier": 8,
-    "type": "lightTank",
-    "tank_id": 59969
   },
   {
     "name": "Turtle Mk. I",
@@ -10166,19 +9893,6 @@
     "tank_id": 60689
   },
   {
-    "name": "T34 FL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 120
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 60705
-  },
-  {
     "name": "WZ-113-II",
     "nation": "china",
     "is_premium": true,
@@ -10255,19 +9969,6 @@
     "tier": 9,
     "type": "mediumTank",
     "tank_id": 60945
-  },
-  {
-    "name": "T26E4 SuperPershing FL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 90
-      }
-    },
-    "tier": 8,
-    "type": "mediumTank",
-    "tank_id": 60961
   },
   {
     "name": "114 SP2",
@@ -10387,19 +10088,6 @@
     "tank_id": 61473
   },
   {
-    "name": "WZ-120-1G FT FL",
-    "nation": "china",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 122
-      }
-    },
-    "tier": 8,
-    "type": "AT-SPG",
-    "tank_id": 61489
-  },
-  {
     "name": "ELC EVEN 90",
     "nation": "france",
     "is_premium": true,
@@ -10463,19 +10151,6 @@
     "tier": 9,
     "type": "heavyTank",
     "tank_id": 61729
-  },
-  {
-    "name": "112 FL",
-    "nation": "china",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 122
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 61745
   },
   {
     "name": "AMX Canon d'assaut 105",
@@ -10751,19 +10426,6 @@
     "tank_id": 62993
   },
   {
-    "name": "T26E5 FL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 90
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 63009
-  },
-  {
     "name": "WZ-120G FT",
     "nation": "china",
     "is_premium": true,
@@ -10814,19 +10476,6 @@
     "tier": 5,
     "type": "mediumTank",
     "tank_id": 63249
-  },
-  {
-    "name": "T32 FL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 63265
   },
   {
     "name": "WZ-120-1G FT",
@@ -10959,19 +10608,6 @@
     "tank_id": 64017
   },
   {
-    "name": "M41 Walker Bulldog FL",
-    "nation": "usa",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 76
-      }
-    },
-    "tier": 8,
-    "type": "lightTank",
-    "tank_id": 64033
-  },
-  {
     "name": "T-34-3",
     "nation": "china",
     "is_premium": true,
@@ -11011,19 +10647,6 @@
     "tank_id": 64273
   },
   {
-    "name": "AMX M4 mle. 51 FL",
-    "nation": "france",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 120
-      }
-    },
-    "tier": 9,
-    "type": "heavyTank",
-    "tank_id": 64321
-  },
-  {
     "name": "112",
     "nation": "china",
     "is_premium": true,
@@ -11035,19 +10658,6 @@
     "tier": 8,
     "type": "heavyTank",
     "tank_id": 64561
-  },
-  {
-    "name": "M4A1 Revalorisé FL",
-    "nation": "france",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 8,
-    "type": "mediumTank",
-    "tank_id": 64577
   },
   {
     "name": "KV-2 (R)",
@@ -11089,19 +10699,6 @@
     "tank_id": 65073
   },
   {
-    "name": "Löwe FL",
-    "nation": "germany",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 105
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 65297
-  },
-  {
     "name": "122 TM",
     "nation": "china",
     "is_premium": true,
@@ -11113,19 +10710,6 @@
     "tier": 8,
     "type": "mediumTank",
     "tank_id": 65329
-  },
-  {
-    "name": "AMX M4 mle. 49 FL",
-    "nation": "france",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 100
-      }
-    },
-    "tier": 8,
-    "type": "heavyTank",
-    "tank_id": 65345
   },
   {
     "name": "Object 701",

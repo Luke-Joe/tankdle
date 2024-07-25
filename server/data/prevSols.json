@@ -2430,5 +2430,21 @@
       "tank_id": 65537
     },
     "dayId": 654
+  },
+  {
+    "solutionTank": {
+      "name": "Pz.Sfl. IC",
+      "nation": "germany",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 50
+        }
+      },
+      "tier": 4,
+      "type": "AT-SPG",
+      "tank_id": 46097
+    },
+    "dayId": 655
   }
 ]
