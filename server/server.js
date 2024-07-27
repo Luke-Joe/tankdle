@@ -33,7 +33,7 @@ Hints
 
 import express from 'express';
 import cors from 'cors';
-import { getSolutionTankHandler, getTankListHandler, popPrevSolutionHandler } from './controllers/tankController.js';
+import { getSolutionTankHandler, getTankListHandler, getSolutionByDayIdHandler } from './controllers/tankController.js';
 import { scheduleDailySolution } from './services/scheduleService.js';
 import { updateSolutionTank} from './models/tankModel.js';
 
@@ -46,7 +46,7 @@ app.get('/api/get-solution-tank', getSolutionTankHandler);
 
 app.get('/api/get-tank-list', getTankListHandler);
 
-app.get('/api/pop-prev-solution', popPrevSolutionHandler);
+app.get('/api/get-prev-solution', getSolutionByDayIdHandler);
 
 app.listen(PORT, () => {
     console.log("Server running on port " + PORT);

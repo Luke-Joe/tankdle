@@ -120,11 +120,12 @@ async function savePrevSol() {
     console.log("Saved previous solution tank");
 }
 
-export async function popPrevSolution() {
+export async function getSolutionByDayId(dayId) {
     const prevData = readData(PREV_SOL_FILE);
 
     if (prevData && prevData.length > 0) {
-        return prevData.pop();
+        const solution = prevData.find(sol => sol.dayId === dayId);
+        return solution || null;
     }
 
     return null;

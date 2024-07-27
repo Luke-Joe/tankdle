@@ -1,4 +1,4 @@
-import {getSolutionTank, getTankList, popPrevSolution} from '../models/tankModel.js';
+import {getSolutionTank, getTankList, getSolutionByDayId} from '../models/tankModel.js';
 
 export async function getSolutionTankHandler(req, res) {
     const tank = await getSolutionTank();
@@ -10,7 +10,8 @@ export async function getTankListHandler(req, res) {
     res.json(tankList);
 }
 
-export async function popPrevSolutionHandler(req, res) {
-    const prevSol = await popPrevSolution();
+export async function getSolutionByDayIdHandler(req, res) {
+    const dayId = req.body.dayId;
+    const prevSol = await getSolutionByDayId(dayId);
     res.json(prevSol);
 }
