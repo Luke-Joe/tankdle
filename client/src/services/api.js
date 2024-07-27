@@ -7,12 +7,16 @@ export async function getSolutionTank() {
     return response.data;
 }
 
-export async function getTankList() {
-    const response = await axios.get(`${API_URL}/get-tank-list`);
+export async function getTankList(mode) {
+    const response = await axios.post(`${API_URL}/get-tank-list`, {
+        mode: mode
+    });
     return response.data;
 }
 
-export async function popPrevSolution() {
-    const response = await axios.get(`${API_URL}/pop-prev-solution`);
+export async function getPrevSolution(dayId) {
+    const response = await axios.post(`${API_URL}/get-prev-solution`, {
+        dayId: dayId
+    });
     return response.data;
 }

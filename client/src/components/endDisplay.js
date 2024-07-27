@@ -2,8 +2,8 @@ import React from 'react';
 import Timer from './timer.js';
 import { calculateStreaks, calculateTotal, countOneShots, calculateAverageAttempts } from '../utils/stats.js';
 
-export function EndDisplay({ isSolved, solutionTank, guessResults, resultStorage }) {
-    const results = JSON.parse(localStorage.getItem(resultStorage)) || [];
+export function EndDisplay({ isSolved, solutionTank, guessResults, lsStats }) {
+    const results = JSON.parse(localStorage.getItem(lsStats)) || [];
     const streaks = calculateStreaks(results);
     const total = calculateTotal(results);
     const oneShots = countOneShots(results);

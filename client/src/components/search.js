@@ -16,7 +16,6 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
         const normalize = str => str.toLowerCase().replace(/[\s-.()/]/g, '');
         const isMatch = (tank, term) => normalize(tank.name).includes(normalize(term));
         const guessedTankIds = guessResults.map(guess => guess.tank_id);
-        console.log(tanks.length);
         const filteredTanks = tanks
             .filter(tank => !guessedTankIds.includes(tank.tank_id))
             .filter(tank => isMatch(tank, searchTerm))

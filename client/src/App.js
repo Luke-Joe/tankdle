@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Game from './components/tankdle.js'
+import GameSelect from './components/gameSelect.js';
 
 function App() {
   useEffect(() => {
@@ -13,7 +13,8 @@ function App() {
       // const timeToMinute = nextMinute - now;
 
       setTimeout(() => {
-        localStorage.removeItem('guessResults');
+        localStorage.removeItem('resultsHigh');
+        localStorage.removeItem('resultsLow');
         window.location.reload();
       }, timeToMidnight);
     }
@@ -23,7 +24,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-4 App">
       <h1 className='text-5xl'>TANKDLE</h1>
-      <Game />
+      <GameSelect />
     </div>
   );
 }

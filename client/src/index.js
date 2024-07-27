@@ -77,8 +77,12 @@ root.render(
      X Grab the vehicle characteristics with that profile_id
      X Retrieve the gun caliber and alpha damage, storing it in the tank object
 
-    2. Create additional modes (WOT 1-5, WOT 6-10, GUESS LARGE ICON)
-    3. yassify
+    2. Create additional modes (WOT 1-5, WOT 6-10, GUESS LARGE ICON)\
+     x Create datasets for each mode (1-5, 6-10)
+     x Create solution tank for each mode
+     X Update client side to use datasets as parameter in call to game component
+     - buttons / nav bar to switch between modes
+     3. yassify
     4. Create a hint system
      - hint 1: alpha damage
      - hint 2: small tank icon
@@ -86,8 +90,12 @@ root.render(
     X. Create a stats page
     6. Use cryptography to hide solution tank in api response
 
-
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
     2. round average attempts to 2 decimal places
+
+    SCHEDULER COMPONENTS
+     - App.js -> schedules page + guess storage refresh
+     - timer.js -> provides visual timer until next refresh
+     - scheduleService.js -> schedules solution tank update
    */
