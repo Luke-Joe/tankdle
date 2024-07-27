@@ -16,7 +16,7 @@ export function compareTanks(guess, solution) {
             comparison: compareClass(guess, solution)
         },
         caliber: {
-            value: guess.default_profile.gun.caliber,
+            value: guess.caliber,
             comparison: compareGunCaliber(guess, solution)
         },
         type: {
@@ -29,7 +29,6 @@ export function compareTanks(guess, solution) {
 
 function setPremiumType(is_premium) {
     return is_premium ? 'Premium/Reward' : 'Standard';
-
 }
 
 /*
@@ -50,8 +49,8 @@ function compareTier(guess, solution) {
 }
 
 function compareGunCaliber(guess, solution) {
-    const guessCal = guess.default_profile.gun.caliber;
-    const solCal = solution.default_profile.gun.caliber;
+    const guessCal = guess.caliber;
+    const solCal = solution.caliber;
 
     console.log(guessCal);
     console.log(solCal);

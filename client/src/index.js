@@ -72,10 +72,10 @@ root.render(
      X price gold == null && price credit == null <- doesnt work, too many eliminated
      X ** name ends in FL, CL = removed **
 
-    1a. Figure out how to use the highest caliber gun for each tank
-     - Grab the configuration with the highest cost
-     - Grab the vehicle characteristics with that profile_id
-     - Retrieve the gun caliber and alpha damage, storing it in the tank object
+    Xa. Figure out how to use the highest caliber gun for each tank
+     X Grab the configuration with the highest cost
+     X Grab the vehicle characteristics with that profile_id
+     X Retrieve the gun caliber and alpha damage, storing it in the tank object
 
     2. Create additional modes (WOT 1-5, WOT 6-10, GUESS LARGE ICON)
     3. yassify
