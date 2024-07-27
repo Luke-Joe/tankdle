@@ -93,7 +93,7 @@ root.render(
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
     2. round average attempts to 2 decimal places
-
+    3. Dropdown search should hide if user clicks out of input
     SCHEDULER COMPONENTS
      - App.js -> schedules page + guess storage refresh
      - timer.js -> provides visual timer until next refresh
