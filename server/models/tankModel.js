@@ -1,17 +1,19 @@
 import axios from 'axios';
 import { readData, storeData, appendData } from '../utils/fileUtils.js';
-import {API_URL, APP_ID, TANK_DATA_FILE, TANK_SOL_FILE, PREV_SOL_FILE} from '../config/constants.js';
+import { updateData } from '../utils/dataProcessing.js';
+import {VEHICLE_API_URL, APP_ID, TANK_DATA_FILE, TANK_SOL_FILE, PREV_SOL_FILE} from '../config/constants.js';
 
 export async function fetchTankData() {
     try { 
-        const response = await axios.get(API_URL, {
+        const response = await axios.get(VEHICLE_API_URL, {
             params: {
                 application_id: APP_ID,
-                fields: "name,tank_id,tier,nation,type,is_premium,default_profile.gun.caliber",
+                fields: "name,tank_id,tier,nation,type,is_premium,images"
             },
         });
         let tankData = Object.values(response.data.data);
-        tankData = updateData(tankData);
+        tankData = await updateData(tankData);
+        console.log(tankData);
         storeData(TANK_DATA_FILE, tankData);
         return tankData;
     } catch (error) {
@@ -28,21 +30,6 @@ export async function getTankList() {
     return readData(TANK_DATA_FILE);
 }
 
-function updateData(tankData) {
-    tankData = filterData(tankData);
-
-    return tankData;
-}
-
-function updateGunInformation(tankData) {
-    
-}
-
-function filterData(tankData) {
-    return tankData.filter(tank => {
-        return !tank.name.endsWith(" FL") && !tank.name.endsWith(" CL");
-    })
-}
 
 function getRandomTank(tankData, excludeTank) {
     let randomTank;
