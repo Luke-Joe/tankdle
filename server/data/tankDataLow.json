@@ -1,0 +1,3917 @@
+[
+  {
+    "name": "T-34",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R04_T-34.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R04_T-34.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R04_T-34.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1,
+    "caliber": 57,
+    "alpha": 85
+  },
+  {
+    "name": "T14",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A21_T14.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A21_T14.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A21_T14.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 33,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Vickers Medium Mk. I",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB01_Medium_Mark_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB01_Medium_Mark_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB01_Medium_Mark_I.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 81,
+    "caliber": 57,
+    "alpha": 70
+  },
+  {
+    "name": "Kolohousenka",
+    "nation": "czech",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/czech-Cz06_Kolohousenka.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/czech-Cz06_Kolohousenka.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/czech-Cz06_Kolohousenka.png"
+    },
+    "type": "lightTank",
+    "tank_id": 113,
+    "caliber": 47,
+    "alpha": 50
+  },
+  {
+    "name": "Strv fm/21",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S05_Strv_M21_29.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S05_Strv_M21_29.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S05_Strv_M21_29.png"
+    },
+    "type": "lightTank",
+    "tank_id": 129,
+    "caliber": 20,
+    "alpha": 12
+  },
+  {
+    "name": "Fiat 3000",
+    "nation": "italy",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It04_Fiat_3000.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It04_Fiat_3000.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It04_Fiat_3000.png"
+    },
+    "type": "lightTank",
+    "tank_id": 161,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "SU-85",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R02_SU-85.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R02_SU-85.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R02_SU-85.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 257,
+    "caliber": 85,
+    "alpha": 180
+  },
+  {
+    "name": "M3 Stuart",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A03_M3_Stuart.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A03_M3_Stuart.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A03_M3_Stuart.png"
+    },
+    "type": "lightTank",
+    "tank_id": 289,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "D2",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F03_D2.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F03_D2.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F03_D2.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 321,
+    "caliber": 47,
+    "alpha": 55
+  },
+  {
+    "name": "Vickers Medium Mk. II",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB05_Vickers_Medium_Mk_II.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB05_Vickers_Medium_Mk_II.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB05_Vickers_Medium_Mk_II.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 337,
+    "caliber": 57,
+    "alpha": 70
+  },
+  {
+    "name": "Chi-Ni",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J15_Chi_Ni.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J15_Chi_Ni.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J15_Chi_Ni.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 353,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "LT vz. 35",
+    "nation": "czech",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/czech-Cz03_LT_vz35.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/czech-Cz03_LT_vz35.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/czech-Cz03_LT_vz35.png"
+    },
+    "type": "lightTank",
+    "tank_id": 369,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Strv m/38",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S03_Strv_M38.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S03_Strv_M38.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S03_Strv_M38.png"
+    },
+    "type": "lightTank",
+    "tank_id": 385,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "TKS z n.k.m. 20 mm",
+    "nation": "poland",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl01_TKS_20mm.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl01_TKS_20mm.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl01_TKS_20mm.png"
+    },
+    "type": "lightTank",
+    "tank_id": 401,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "L6/40",
+    "nation": "italy",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It05_Carro_L6_40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It05_Carro_L6_40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It05_Carro_L6_40.png"
+    },
+    "type": "lightTank",
+    "tank_id": 417,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "T1 Cunningham",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A01_T1_Cunningham.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A01_T1_Cunningham.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A01_T1_Cunningham.png"
+    },
+    "type": "lightTank",
+    "tank_id": 545,
+    "caliber": 37,
+    "alpha": 30
+  },
+  {
+    "name": "Renault FT",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F01_RenaultFT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F01_RenaultFT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F01_RenaultFT.png"
+    },
+    "type": "lightTank",
+    "tank_id": 577,
+    "caliber": 13,
+    "alpha": 8
+  },
+  {
+    "name": "M2",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB14_M2.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB14_M2.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB14_M2.png"
+    },
+    "type": "lightTank",
+    "tank_id": 593,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Renault Otsu",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J01_NC27.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J01_NC27.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J01_NC27.png"
+    },
+    "type": "lightTank",
+    "tank_id": 609,
+    "caliber": 37,
+    "alpha": 45
+  },
+  {
+    "name": "LT vz. 38",
+    "nation": "czech",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/czech-Cz10_LT_vz38.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/czech-Cz10_LT_vz38.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/czech-Cz10_LT_vz38.png"
+    },
+    "type": "lightTank",
+    "tank_id": 625,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Strv m/40L",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S12_Strv_M40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S12_Strv_M40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S12_Strv_M40.png"
+    },
+    "type": "lightTank",
+    "tank_id": 641,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "M14/41",
+    "nation": "italy",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It06_M14_41.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It06_M14_41.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It06_M14_41.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 673,
+    "caliber": 47,
+    "alpha": 50
+  },
+  {
+    "name": "BT-7",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R03_BT-7.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R03_BT-7.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R03_BT-7.png"
+    },
+    "type": "lightTank",
+    "tank_id": 769,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Pz.Kpfw. 35 (t)",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G07_Pz35t.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G07_Pz35t.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G07_Pz35t.png"
+    },
+    "type": "lightTank",
+    "tank_id": 785,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "Renault FT 75 BS",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F20_RenaultBS.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F20_RenaultBS.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F20_RenaultBS.png"
+    },
+    "type": "SPG",
+    "tank_id": 833,
+    "caliber": 75,
+    "alpha": 165
+  },
+  {
+    "name": "Matilda",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB07_Matilda.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB07_Matilda.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB07_Matilda.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 849,
+    "caliber": 76,
+    "alpha": 175
+  },
+  {
+    "name": "Type 95 Ha-Go",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J03_Ha_Go.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J03_Ha_Go.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J03_Ha_Go.png"
+    },
+    "type": "lightTank",
+    "tank_id": 865,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "ST vz. 39",
+    "nation": "czech",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/czech-Cz11_V_8_H.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/czech-Cz11_V_8_H.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/czech-Cz11_V_8_H.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 881,
+    "caliber": 47,
+    "alpha": 60
+  },
+  {
+    "name": "Lago",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S04_Lago_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S04_Lago_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S04_Lago_I.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 897,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "M15/42",
+    "nation": "italy",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It03_M15_42.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It03_M15_42.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It03_M15_42.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 929,
+    "caliber": 47,
+    "alpha": 50
+  },
+  {
+    "name": "BT-2",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R08_BT-2.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R08_BT-2.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R08_BT-2.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1025,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "StuG III Ausf. G",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G05_StuG_40_AusfG.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G05_StuG_40_AusfG.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G05_StuG_40_AusfG.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 1041,
+    "caliber": 75,
+    "alpha": 135
+  },
+  {
+    "name": "M4A1 Sherman",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A05_M4_Sherman.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A05_M4_Sherman.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A05_M4_Sherman.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1057,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "B1",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F04_B1.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F04_B1.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F04_B1.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 1089,
+    "caliber": 47,
+    "alpha": 55
+  },
+  {
+    "name": "Škoda T 24",
+    "nation": "czech",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/czech-Cz09_T_24.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/czech-Cz09_T_24.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/czech-Cz09_T_24.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1137,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Strv m/42",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S02_Strv_M42.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S02_Strv_M42.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S02_Strv_M42.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1153,
+    "caliber": 75,
+    "alpha": 150
+  },
+  {
+    "name": "4TP",
+    "nation": "poland",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl14_4TP.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl14_4TP.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl14_4TP.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1169,
+    "caliber": 47,
+    "alpha": 55
+  },
+  {
+    "name": "P26/40",
+    "nation": "italy",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It07_P26_40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It07_P26_40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It07_P26_40.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1185,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Renault NC-31",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch06_Renault_NC31.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch06_Renault_NC31.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch06_Renault_NC31.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1329,
+    "caliber": 37,
+    "alpha": 36
+  },
+  {
+    "name": "Hotchkiss H35",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F12_Hotchkiss_H35.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F12_Hotchkiss_H35.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F12_Hotchkiss_H35.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1345,
+    "caliber": 25,
+    "alpha": 27
+  },
+  {
+    "name": "Stuart I-IV",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB15_Stuart_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB15_Stuart_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB15_Stuart_I.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1361,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Type 3 Chi-Nu",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J08_Chi_Nu.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J08_Chi_Nu.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J08_Chi_Nu.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1377,
+    "caliber": 75,
+    "alpha": 125
+  },
+  {
+    "name": "7TP",
+    "nation": "poland",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl09_7TP.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl09_7TP.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl09_7TP.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1425,
+    "caliber": 40,
+    "alpha": 55
+  },
+  {
+    "name": "P.43",
+    "nation": "italy",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It11_P43.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It11_P43.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It11_P43.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1441,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "T-28",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R06_T-28.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R06_T-28.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R06_T-28.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1537,
+    "caliber": 57,
+    "alpha": 85
+  },
+  {
+    "name": "D1",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F02_D1.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F02_D1.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F02_D1.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1601,
+    "caliber": 47,
+    "alpha": 50
+  },
+  {
+    "name": "Grant",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB17_Grant_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB17_Grant_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB17_Grant_I.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1617,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Type 1 Chi-He",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J09_Chi_He.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J09_Chi_He.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J09_Chi_He.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 1633,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "10TP",
+    "nation": "poland",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl06_10TP.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl06_10TP.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl06_10TP.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1681,
+    "caliber": 47,
+    "alpha": 75
+  },
+  {
+    "name": "Jagdpanzer 38(t) Hetzer",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G09_Hetzer.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G09_Hetzer.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G09_Hetzer.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 1809,
+    "caliber": 105,
+    "alpha": 350
+  },
+  {
+    "name": "M2 Light Tank",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A02_M2_lt.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A02_M2_lt.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A02_M2_lt.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1825,
+    "caliber": 20,
+    "alpha": 12
+  },
+  {
+    "name": "14TP",
+    "nation": "poland",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl07_14TP.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl07_14TP.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl07_14TP.png"
+    },
+    "type": "lightTank",
+    "tank_id": 1937,
+    "caliber": 47,
+    "alpha": 75
+  },
+  {
+    "name": "A-20",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R12_A-20.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R12_A-20.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R12_A-20.png"
+    },
+    "type": "lightTank",
+    "tank_id": 2049,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Pz.Kpfw. II",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G06_PzII.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G06_PzII.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G06_PzII.png"
+    },
+    "type": "lightTank",
+    "tank_id": 2065,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "T1 HMC",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A107_T1_HMC.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A107_T1_HMC.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A107_T1_HMC.png"
+    },
+    "type": "SPG",
+    "tank_id": 2081,
+    "caliber": 75,
+    "alpha": 175
+  },
+  {
+    "name": "105 leFH18B2",
+    "nation": "france",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F28_105_leFH18B2.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F28_105_leFH18B2.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F28_105_leFH18B2.png"
+    },
+    "type": "SPG",
+    "tank_id": 2113,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "Type 97 Chi-Ha",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J07_Chi_Ha.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J07_Chi_Ha.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J07_Chi_Ha.png"
+    },
+    "type": "lightTank",
+    "tank_id": 2145,
+    "caliber": 47,
+    "alpha": 70
+  },
+  {
+    "name": "25TP KSUST II",
+    "nation": "poland",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl12_25TP_KSUST_II.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl12_25TP_KSUST_II.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl12_25TP_KSUST_II.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 2193,
+    "caliber": 75,
+    "alpha": 135
+  },
+  {
+    "name": "Vickers Mk. E Type B",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch07_Vickers_MkE_Type_BT26.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch07_Vickers_MkE_Type_BT26.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch07_Vickers_MkE_Type_BT26.png"
+    },
+    "type": "lightTank",
+    "tank_id": 2353,
+    "caliber": 40,
+    "alpha": 45
+  },
+  {
+    "name": "FCM 36 Pak 40",
+    "nation": "france",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F27_FCM_36Pak40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F27_FCM_36Pak40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F27_FCM_36Pak40.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 2369,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Vickers Medium Mk. III",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB06_Vickers_Medium_Mk_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB06_Vickers_Medium_Mk_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB06_Vickers_Medium_Mk_III.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 2385,
+    "caliber": 57,
+    "alpha": 70
+  },
+  {
+    "name": "Type 98 Ke-Ni",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J04_Ke_Ni.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J04_Ke_Ni.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J04_Ke_Ni.png"
+    },
+    "type": "lightTank",
+    "tank_id": 2401,
+    "caliber": 37,
+    "alpha": 50
+  },
+  {
+    "name": "VK 30.01 (H)",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G13_VK3001H.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G13_VK3001H.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G13_VK3001H.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 2577,
+    "caliber": 75,
+    "alpha": 135
+  },
+  {
+    "name": "Pvlvv fm/42",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S09_L_120_TD.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S09_L_120_TD.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S09_L_120_TD.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 2689,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Sturmpanzer I Bison",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G11_Bison_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G11_Bison_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G11_Bison_I.png"
+    },
+    "type": "SPG",
+    "tank_id": 2833,
+    "caliber": 150,
+    "alpha": 350
+  },
+  {
+    "name": "AMX 40",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F14_AMX40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F14_AMX40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F14_AMX40.png"
+    },
+    "type": "lightTank",
+    "tank_id": 2881,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Churchill I",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB08_Churchill_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB08_Churchill_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB08_Churchill_I.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 2897,
+    "caliber": 75,
+    "alpha": 135
+  },
+  {
+    "name": "Type 5 Ke-Ho",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J06_Ke_Ho.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J06_Ke_Ho.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J06_Ke_Ho.png"
+    },
+    "type": "lightTank",
+    "tank_id": 2913,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "Ikv 72",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S20_Ikv_72.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S20_Ikv_72.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S20_Ikv_72.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 2945,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "T-46",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R22_T-46.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R22_T-46.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R22_T-46.png"
+    },
+    "type": "lightTank",
+    "tank_id": 3073,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Leichttraktor",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G12_Ltraktor.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G12_Ltraktor.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G12_Ltraktor.png"
+    },
+    "type": "lightTank",
+    "tank_id": 3089,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "M3 Lee",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A04_M3_Grant.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A04_M3_Grant.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A04_M3_Grant.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 3105,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "M5A1 Stuart",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch09_M5.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch09_M5.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch09_M5.png"
+    },
+    "type": "lightTank",
+    "tank_id": 3121,
+    "caliber": 47,
+    "alpha": 70
+  },
+  {
+    "name": "Type 97 Te-Ke",
+    "nation": "japan",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J02_Te_Ke.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J02_Te_Ke.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J02_Te_Ke.png"
+    },
+    "type": "lightTank",
+    "tank_id": 3169,
+    "caliber": 37,
+    "alpha": 45
+  },
+  {
+    "name": "Sav m/43",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S19_Sav_M43.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S19_Sav_M43.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S19_Sav_M43.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 3201,
+    "caliber": 105,
+    "alpha": 350
+  },
+  {
+    "name": "MS-1",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R11_MS-1.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R11_MS-1.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R11_MS-1.png"
+    },
+    "type": "lightTank",
+    "tank_id": 3329,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "Pz.Kpfw. 38 (t)",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G08_Pz38t.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G08_Pz38t.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G08_Pz38t.png"
+    },
+    "type": "lightTank",
+    "tank_id": 3345,
+    "caliber": 47,
+    "alpha": 60
+  },
+  {
+    "name": "T1 Heavy Tank",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A09_T1_hvy.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A09_T1_hvy.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A09_T1_hvy.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 3361,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "Lorraine 39L AM",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F21_Lorraine39_L_AM.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F21_Lorraine39_L_AM.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F21_Lorraine39_L_AM.png"
+    },
+    "type": "SPG",
+    "tank_id": 3393,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "Sexton II",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB27_Sexton.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB27_Sexton.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB27_Sexton.png"
+    },
+    "type": "SPG",
+    "tank_id": 3409,
+    "caliber": 88,
+    "alpha": 280
+  },
+  {
+    "name": "Ikv 103",
+    "nation": "sweden",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S14_Ikv_103.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S14_Ikv_103.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S14_Ikv_103.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 3457,
+    "caliber": 105,
+    "alpha": 300
+  },
+  {
+    "name": "Panzerjäger I",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G21_PanzerJager_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G21_PanzerJager_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G21_PanzerJager_I.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 3601,
+    "caliber": 47,
+    "alpha": 60
+  },
+  {
+    "name": "M7 Priest",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A16_M7_Priest.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A16_M7_Priest.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A16_M7_Priest.png"
+    },
+    "type": "SPG",
+    "tank_id": 3617,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "DS PZInż",
+    "nation": "poland",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl17_DS_PZlnz.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl17_DS_PZlnz.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl17_DS_PZlnz.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 3729,
+    "caliber": 75,
+    "alpha": 135
+  },
+  {
+    "name": "SU-18",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R16_SU-18.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R16_SU-18.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R16_SU-18.png"
+    },
+    "type": "SPG",
+    "tank_id": 3841,
+    "caliber": 76,
+    "alpha": 180
+  },
+  {
+    "name": "M41 HMC",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A18_M41.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A18_M41.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A18_M41.png"
+    },
+    "type": "SPG",
+    "tank_id": 4129,
+    "caliber": 155,
+    "alpha": 500
+  },
+  {
+    "name": "AMX 13 105 AM mle. 50",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F22_AMX_105AM.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F22_AMX_105AM.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F22_AMX_105AM.png"
+    },
+    "type": "SPG",
+    "tank_id": 4161,
+    "caliber": 105,
+    "alpha": 445
+  },
+  {
+    "name": "Pz.Kpfw. III Ausf. J",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G10_PzIII_AusfJ.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G10_PzIII_AusfJ.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G10_PzIII_AusfJ.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 4369,
+    "caliber": 50,
+    "alpha": 70
+  },
+  {
+    "name": "Type 2597 Chi-Ha",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch08_Type97_Chi_Ha.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch08_Type97_Chi_Ha.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch08_Type97_Chi_Ha.png"
+    },
+    "type": "lightTank",
+    "tank_id": 4401,
+    "caliber": 47,
+    "alpha": 70
+  },
+  {
+    "name": "Renault G1",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F11_Renault_G1R.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F11_Renault_G1R.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F11_Renault_G1R.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 4417,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "Type 95 Heavy",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J22_Type_95.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J22_Type_95.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J22_Type_95.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 4449,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "T-26",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R09_T-26.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R09_T-26.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R09_T-26.png"
+    },
+    "type": "lightTank",
+    "tank_id": 4609,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Sturmpanzer II",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G22_Sturmpanzer_II.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G22_Sturmpanzer_II.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G22_Sturmpanzer_II.png"
+    },
+    "type": "SPG",
+    "tank_id": 4625,
+    "caliber": 150,
+    "alpha": 350
+  },
+  {
+    "name": "M37",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A17_M37.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A17_M37.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A17_M37.png"
+    },
+    "type": "SPG",
+    "tank_id": 4641,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "Type T-34",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch21_T34.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch21_T34.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch21_T34.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 4657,
+    "caliber": 57,
+    "alpha": 85
+  },
+  {
+    "name": "Type 91 Heavy",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J21_Type_91.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J21_Type_91.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J21_Type_91.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 4705,
+    "caliber": 47,
+    "alpha": 70
+  },
+  {
+    "name": "SU-5",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R14_SU-5.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R14_SU-5.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R14_SU-5.png"
+    },
+    "type": "SPG",
+    "tank_id": 4865,
+    "caliber": 152,
+    "alpha": 350
+  },
+  {
+    "name": "Pz.Kpfw. III Ausf. E",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G102_Pz_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G102_Pz_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G102_Pz_III.png"
+    },
+    "type": "lightTank",
+    "tank_id": 4881,
+    "caliber": 50,
+    "alpha": 70
+  },
+  {
+    "name": "M2 Medium Tank",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A25_M2_med.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A25_M2_med.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A25_M2_med.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 4897,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Valentine",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB04_Valentine.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB04_Valentine.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB04_Valentine.png"
+    },
+    "type": "lightTank",
+    "tank_id": 4945,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "AT-1",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R10_AT-1.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R10_AT-1.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R10_AT-1.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 5121,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "M5 Stuart",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A22_M5_Stuart.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A22_M5_Stuart.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A22_M5_Stuart.png"
+    },
+    "type": "lightTank",
+    "tank_id": 5153,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Cruiser Mk. I",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 1,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB03_Cruiser_Mk_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB03_Cruiser_Mk_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB03_Cruiser_Mk_I.png"
+    },
+    "type": "lightTank",
+    "tank_id": 5201,
+    "caliber": 40,
+    "alpha": 45
+  },
+  {
+    "name": "VK 16.02 Leopard",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G26_VK1602.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G26_VK1602.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G26_VK1602.png"
+    },
+    "type": "lightTank",
+    "tank_id": 5393,
+    "caliber": 50,
+    "alpha": 70
+  },
+  {
+    "name": "M7",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A23_M7_med.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A23_M7_med.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A23_M7_med.png"
+    },
+    "type": "lightTank",
+    "tank_id": 5409,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "Grille",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G23_Grille.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G23_Grille.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G23_Grille.png"
+    },
+    "type": "SPG",
+    "tank_id": 5649,
+    "caliber": 150,
+    "alpha": 480
+  },
+  {
+    "name": "T2 Medium Tank",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A24_T2_med.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A24_T2_med.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A24_T2_med.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 5665,
+    "caliber": 20,
+    "alpha": 12
+  },
+  {
+    "name": "O-I Experimental",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J23_Mi_To.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J23_Mi_To.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J23_Mi_To.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 5729,
+    "caliber": 120,
+    "alpha": 360
+  },
+  {
+    "name": "Panzerwagen 39",
+    "nation": "czech",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/czech-Cz29_Pzw_39.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/czech-Cz29_Pzw_39.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/czech-Cz29_Pzw_39.png"
+    },
+    "type": "lightTank",
+    "tank_id": 5745,
+    "caliber": 24,
+    "alpha": 30
+  },
+  {
+    "name": "Semovente M41",
+    "nation": "italy",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It28_Semovente_M41_Da_75_18.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It28_Semovente_M41_Da_75_18.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It28_Semovente_M41_Da_75_18.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 5793,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Wespe",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G19_Wespe.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G19_Wespe.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G19_Wespe.png"
+    },
+    "type": "SPG",
+    "tank_id": 5905,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "AMX 38",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F13_AMX38.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F13_AMX38.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F13_AMX38.png"
+    },
+    "type": "lightTank",
+    "tank_id": 5953,
+    "caliber": 47,
+    "alpha": 55
+  },
+  {
+    "name": "Type 89 I-Go/Chi-Ro",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J26_Type_89.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J26_Type_89.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J26_Type_89.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 5985,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "Pz.Kpfw. II Luchs",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G25_PzII_Luchs.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G25_PzII_Luchs.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G25_PzII_Luchs.png"
+    },
+    "type": "lightTank",
+    "tank_id": 6161,
+    "caliber": 30,
+    "alpha": 30
+  },
+  {
+    "name": "T3 HMC",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A46_T3.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A46_T3.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A46_T3.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6177,
+    "caliber": 75,
+    "alpha": 175
+  },
+  {
+    "name": "SU-76M",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R24_SU-76.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R24_SU-76.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R24_SU-76.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6401,
+    "caliber": 57,
+    "alpha": 85
+  },
+  {
+    "name": "Pz.Kpfw. III/IV",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G28_PzIII_IV.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G28_PzIII_IV.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G28_PzIII_IV.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 6417,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "T56 GMC",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A109_T56_GMC.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A109_T56_GMC.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A109_T56_GMC.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6433,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "T-26G FT",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch30_T-26G_FT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch30_T-26G_FT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch30_T-26G_FT.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6449,
+    "caliber": 47,
+    "alpha": 70
+  },
+  {
+    "name": "Covenanter",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB60_Covenanter.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB60_Covenanter.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB60_Covenanter.png"
+    },
+    "type": "lightTank",
+    "tank_id": 6481,
+    "caliber": 76,
+    "alpha": 175
+  },
+  {
+    "name": "Marder II",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G20_Marder_II.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G20_Marder_II.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G20_Marder_II.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6673,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "M3G FT",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch31_M3G_FT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch31_M3G_FT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch31_M3G_FT.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6705,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "BDR G1 B",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F05_BDR_G1B.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F05_BDR_G1B.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F05_BDR_G1B.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 6721,
+    "caliber": 90,
+    "alpha": 240
+  },
+  {
+    "name": "SDP 40 Zadymka",
+    "nation": "poland",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl33_SDP_Wz_40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl33_SDP_Wz_40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl33_SDP_Wz_40.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6801,
+    "caliber": 90,
+    "alpha": 240
+  },
+  {
+    "name": "SU-85B",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R25_GAZ-74b.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R25_GAZ-74b.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R25_GAZ-74b.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6913,
+    "caliber": 85,
+    "alpha": 160
+  },
+  {
+    "name": "M10 Wolverine",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A30_M10_Wolverine.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A30_M10_Wolverine.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A30_M10_Wolverine.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6945,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "SU-76G FT",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch32_SU-76G_FT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch32_SU-76G_FT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch32_SU-76G_FT.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 6961,
+    "caliber": 85,
+    "alpha": 160
+  },
+  {
+    "name": "Cruiser Mk. II",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB69_Cruiser_Mk_II.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB69_Cruiser_Mk_II.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB69_Cruiser_Mk_II.png"
+    },
+    "type": "lightTank",
+    "tank_id": 6993,
+    "caliber": 40,
+    "alpha": 45
+  },
+  {
+    "name": "Type 3 Ho-Ni III",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J37_Type_3_Ho_Ni_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J37_Type_3_Ho_Ni_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J37_Type_3_Ho_Ni_III.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 7009,
+    "caliber": 75,
+    "alpha": 130
+  },
+  {
+    "name": "60G FT",
+    "nation": "china",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch33_60G_FT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch33_60G_FT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch33_60G_FT.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 7217,
+    "caliber": 85,
+    "alpha": 180
+  },
+  {
+    "name": "Cruiser Mk. IV",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB59_Cruiser_Mk_IV.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB59_Cruiser_Mk_IV.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB59_Cruiser_Mk_IV.png"
+    },
+    "type": "lightTank",
+    "tank_id": 7505,
+    "caliber": 40,
+    "alpha": 60
+  },
+  {
+    "name": "SU-26",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R66_SU-26.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R66_SU-26.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R66_SU-26.png"
+    },
+    "type": "SPG",
+    "tank_id": 7681,
+    "caliber": 76,
+    "alpha": 180
+  },
+  {
+    "name": "T40",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A29_T40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A29_T40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A29_T40.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 7713,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "Renault FT AC",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F30_RenaultFT_AC.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F30_RenaultFT_AC.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F30_RenaultFT_AC.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 7745,
+    "caliber": 47,
+    "alpha": 55
+  },
+  {
+    "name": "Cruiser Mk. III",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB58_Cruiser_Mk_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB58_Cruiser_Mk_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB58_Cruiser_Mk_III.png"
+    },
+    "type": "lightTank",
+    "tank_id": 7761,
+    "caliber": 40,
+    "alpha": 45
+  },
+  {
+    "name": "Valentine AT",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB42_Valentine_AT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB42_Valentine_AT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB42_Valentine_AT.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 8017,
+    "caliber": 94,
+    "alpha": 370
+  },
+  {
+    "name": "Mitsu 108",
+    "nation": "japan",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J45_Mitsu_108.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J45_Mitsu_108.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J45_Mitsu_108.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 8033,
+    "caliber": 105,
+    "alpha": 300
+  },
+  {
+    "name": "Pz.Kpfw. 38 (t) n.A.",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G52_Pz38_NA.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G52_Pz38_NA.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G52_Pz38_NA.png"
+    },
+    "type": "lightTank",
+    "tank_id": 8209,
+    "caliber": 50,
+    "alpha": 70
+  },
+  {
+    "name": "Renault UE 57",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F52_RenaultUE57.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F52_RenaultUE57.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F52_RenaultUE57.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 8257,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "Universal Carrier 2-pdr",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB39_Universal_CarrierQF2.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB39_Universal_CarrierQF2.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB39_Universal_CarrierQF2.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 8273,
+    "caliber": 57,
+    "alpha": 70
+  },
+  {
+    "name": "AT 2",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB73_AT2.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB73_AT2.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB73_AT2.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 8785,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "Alecto",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB57_Alecto.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB57_Alecto.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB57_Alecto.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 9041,
+    "caliber": 88,
+    "alpha": 180
+  },
+  {
+    "name": "T-50",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R41_T-50.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R41_T-50.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R41_T-50.png"
+    },
+    "type": "lightTank",
+    "tank_id": 9473,
+    "caliber": 45,
+    "alpha": 70
+  },
+  {
+    "name": "M24 Chaffee",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A34_M24_Chaffee.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A34_M24_Chaffee.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A34_M24_Chaffee.png"
+    },
+    "type": "lightTank",
+    "tank_id": 9761,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Somua SAu 40",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F32_Somua_Sau_40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F32_Somua_Sau_40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F32_Somua_Sau_40.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 9793,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "S35 CA",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F33_S_35CA.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F33_S_35CA.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F33_S_35CA.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 10049,
+    "caliber": 90,
+    "alpha": 240
+  },
+  {
+    "name": "M8A1",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A57_M8A1.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A57_M8A1.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A57_M8A1.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 10273,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "T67",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A58_T67.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A58_T67.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A58_T67.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 10529,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "Loyd Gun Carriage",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB25_Loyd_Gun_Carriage.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB25_Loyd_Gun_Carriage.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB25_Loyd_Gun_Carriage.png"
+    },
+    "type": "SPG",
+    "tank_id": 10577,
+    "caliber": 76,
+    "alpha": 165
+  },
+  {
+    "name": "Birch Gun",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB26_Birch_Gun.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB26_Birch_Gun.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB26_Birch_Gun.png"
+    },
+    "type": "SPG",
+    "tank_id": 10833,
+    "caliber": 88,
+    "alpha": 280
+  },
+  {
+    "name": "Bishop",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB28_Bishop.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB28_Bishop.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB28_Bishop.png"
+    },
+    "type": "SPG",
+    "tank_id": 11089,
+    "caliber": 114,
+    "alpha": 450
+  },
+  {
+    "name": "Marder 38T",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G39_Marder_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G39_Marder_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G39_Marder_III.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 11281,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "KV-1",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R80_KV1.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R80_KV1.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R80_KV1.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 11777,
+    "caliber": 85,
+    "alpha": 160
+  },
+  {
+    "name": "Pz.Kpfw. I Ausf. C",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G63_PzI_ausf_C.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G63_PzI_ausf_C.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G63_PzI_ausf_C.png"
+    },
+    "type": "lightTank",
+    "tank_id": 12561,
+    "caliber": 8,
+    "alpha": 8
+  },
+  {
+    "name": "M4 Improved",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A78_M4_Improved.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A78_M4_Improved.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A78_M4_Improved.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 12577,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Kpfw. I",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G53_PzI.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G53_PzI.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G53_PzI.png"
+    },
+    "type": "lightTank",
+    "tank_id": 12817,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "Sherman III",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB50_Sherman_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB50_Sherman_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB50_Sherman_III.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 12881,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "Pz.Kpfw. II Ausf. G",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G82_Pz_II_AusfG.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G82_Pz_II_AusfG.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G82_Pz_II_AusfG.png"
+    },
+    "type": "lightTank",
+    "tank_id": 13073,
+    "caliber": 30,
+    "alpha": 30
+  },
+  {
+    "name": "Somua S35",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F44_Somua_S35.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F44_Somua_S35.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F44_Somua_S35.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 13121,
+    "caliber": 47,
+    "alpha": 55
+  },
+  {
+    "name": "Durchbruchswagen 2",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G90_DW_II.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G90_DW_II.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G90_DW_II.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 13329,
+    "caliber": 50,
+    "alpha": 70
+  },
+  {
+    "name": "Archer",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB44_Archer.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB44_Archer.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB44_Archer.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 13393,
+    "caliber": 76,
+    "alpha": 150
+  },
+  {
+    "name": "VK 20.01 (D)",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G86_VK2001DB.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G86_VK2001DB.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G86_VK2001DB.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 13585,
+    "caliber": 50,
+    "alpha": 70
+  },
+  {
+    "name": "AMX ELC bis",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F62_ELC_AMX.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F62_ELC_AMX.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F62_ELC_AMX.png"
+    },
+    "type": "lightTank",
+    "tank_id": 14145,
+    "caliber": 90,
+    "alpha": 240
+  },
+  {
+    "name": "AMX 105 AM mle. 47",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F66_AMX_Ob_Am105.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F66_AMX_Ob_Am105.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F66_AMX_Ob_Am105.png"
+    },
+    "type": "SPG",
+    "tank_id": 14657,
+    "caliber": 105,
+    "alpha": 445
+  },
+  {
+    "name": "SARL 42",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F70_SARL42.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F70_SARL42.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F70_SARL42.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 14913,
+    "caliber": 47,
+    "alpha": 55
+  },
+  {
+    "name": "T-70",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R43_T-70.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R43_T-70.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R43_T-70.png"
+    },
+    "type": "lightTank",
+    "tank_id": 15105,
+    "caliber": 45,
+    "alpha": 55
+  },
+  {
+    "name": "G.Pz. Mk. VI (e)",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G93_GW_Mk_VIe.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G93_GW_Mk_VIe.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G93_GW_Mk_VIe.png"
+    },
+    "type": "SPG",
+    "tank_id": 15121,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "FCM 36",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F50_FCM36_20t.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F50_FCM36_20t.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F50_FCM36_20t.png"
+    },
+    "type": "lightTank",
+    "tank_id": 15169,
+    "caliber": 25,
+    "alpha": 27
+  },
+  {
+    "name": "T-60",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R42_T-60.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R42_T-60.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R42_T-60.png"
+    },
+    "type": "lightTank",
+    "tank_id": 15361,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Pz.Sfl. IVb",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G95_Pz_Sfl_IVb.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G95_Pz_Sfl_IVb.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G95_Pz_Sfl_IVb.png"
+    },
+    "type": "SPG",
+    "tank_id": 15633,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "T-80",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R44_T80.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R44_T80.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R44_T80.png"
+    },
+    "type": "lightTank",
+    "tank_id": 15873,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Renault R35",
+    "nation": "france",
+    "is_premium": false,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F49_RenaultR35.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F49_RenaultR35.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F49_RenaultR35.png"
+    },
+    "type": "lightTank",
+    "tank_id": 15937,
+    "caliber": 25,
+    "alpha": 27
+  },
+  {
+    "name": "Pz.Sfl. IVc",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G76_Pz_Sfl_IVc.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G76_Pz_Sfl_IVc.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G76_Pz_Sfl_IVc.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 16145,
+    "caliber": 88,
+    "alpha": 240
+  },
+  {
+    "name": "Cavalier",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB107_Cavalier.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB107_Cavalier.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB107_Cavalier.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 16209,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "SU-122A",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R100_SU122A.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R100_SU122A.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R100_SU122A.png"
+    },
+    "type": "SPG",
+    "tank_id": 16385,
+    "caliber": 152,
+    "alpha": 550
+  },
+  {
+    "name": "Pz.Kpfw. IV Ausf. A",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G83_Pz_IV_AusfA.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G83_Pz_IV_AusfA.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G83_Pz_IV_AusfA.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 17169,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Kpfw. IV Ausf. D",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G80_Pz_IV_AusfD.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G80_Pz_IV_AusfD.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G80_Pz_IV_AusfD.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 17425,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "StuG III Ausf. B",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G101_StuG_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G101_StuG_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G101_StuG_III.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 17937,
+    "caliber": 105,
+    "alpha": 350
+  },
+  {
+    "name": "Pz.Kpfw. IV Ausf. H",
+    "nation": "germany",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G81_Pz_IV_AusfH.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G81_Pz_IV_AusfH.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G81_Pz_IV_AusfH.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 18193,
+    "caliber": 105,
+    "alpha": 350
+  },
+  {
+    "name": "T18 HMC",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A108_T18_HMC.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A108_T18_HMC.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A108_T18_HMC.png"
+    },
+    "type": "SPG",
+    "tank_id": 18465,
+    "caliber": 75,
+    "alpha": 175
+  },
+  {
+    "name": "T82 HMC",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A27_T82.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A27_T82.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A27_T82.png"
+    },
+    "type": "SPG",
+    "tank_id": 18721,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "AEC Armoured Car",
+    "nation": "uk",
+    "is_premium": false,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB124_AEC_Armoured_Car.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB124_AEC_Armoured_Car.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB124_AEC_Armoured_Car.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 20049,
+    "caliber": 57,
+    "alpha": 90
+  },
+  {
+    "name": "T6 Medium",
+    "nation": "usa",
+    "is_premium": false,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A129_T6_medium.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A129_T6_medium.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A129_T6_medium.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 20257,
+    "caliber": 105,
+    "alpha": 410
+  },
+  {
+    "name": "BT-5",
+    "nation": "ussr",
+    "is_premium": false,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R174_BT-5.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R174_BT-5.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R174_BT-5.png"
+    },
+    "type": "lightTank",
+    "tank_id": 23041,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "BT-42 Jatkosota HS",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G173_BT42_DIT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G173_BT42_DIT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G173_BT42_DIT.png"
+    },
+    "type": "lightTank",
+    "tank_id": 27665,
+    "caliber": 114,
+    "alpha": 370
+  },
+  {
+    "name": "Pz.Kpfw. IV Ausf. F2",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G170_PzKpfwIV_Ausf_F2.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G170_PzKpfwIV_Ausf_F2.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G170_PzKpfwIV_Ausf_F2.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 27921,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "SU-2-122",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R202_SU_2_122.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R202_SU_2_122.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R202_SU_2_122.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 29441,
+    "caliber": 122,
+    "alpha": 450
+  },
+  {
+    "name": "KV-1 shielded",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R186_KV_1_Screened.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R186_KV_1_Screened.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R186_KV_1_Screened.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 33025,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "T-34 with L-11",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R185_T_34_L_11_1941.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R185_T_34_L_11_1941.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R185_T_34_L_11_1941.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 33281,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "M4-85",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R193_M4A2_T_34.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R193_M4A2_T_34.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R193_M4A2_T_34.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 34305,
+    "caliber": 85,
+    "alpha": 160
+  },
+  {
+    "name": "Convert. Medium Tank T3",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A148_Convertible_Medium_Tank_T3.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A148_Convertible_Medium_Tank_T3.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A148_Convertible_Medium_Tank_T3.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 34593,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "ARMT",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A161_ARMT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A161_ARMT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A161_ARMT.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 35617,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "KV-1SA",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R197_KV_1S_MZ.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R197_KV_1S_MZ.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R197_KV_1S_MZ.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 37889,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "IT-3",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R201_IT_3.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R201_IT_3.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R201_IT_3.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 40961,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Kpfw. 35 R",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G160_Pz_Kpfw_35_R_mit_T_26_Turm.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G160_Pz_Kpfw_35_R_mit_T_26_Turm.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G160_Pz_Kpfw_35_R_mit_T_26_Turm.png"
+    },
+    "type": "lightTank",
+    "tank_id": 43281,
+    "caliber": 45,
+    "alpha": 55
+  },
+  {
+    "name": "AM 39 Gendron-Somua",
+    "nation": "france",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F111_AM39_Gendron_Somua.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F111_AM39_Gendron_Somua.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F111_AM39_Gendron_Somua.png"
+    },
+    "type": "lightTank",
+    "tank_id": 43329,
+    "caliber": 25,
+    "alpha": 27
+  },
+  {
+    "name": "Pz.Kpfw. M 15",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G161_Pz_Kpfw_M15_38_t.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G161_Pz_Kpfw_M15_38_t.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G161_Pz_Kpfw_M15_38_t.png"
+    },
+    "type": "lightTank",
+    "tank_id": 43537,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "AMR 35",
+    "nation": "france",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F42_AMR_35.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F42_AMR_35.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F42_AMR_35.png"
+    },
+    "type": "lightTank",
+    "tank_id": 43841,
+    "caliber": 25,
+    "alpha": 27
+  },
+  {
+    "name": "T-116",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R161_T_116.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R161_T_116.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R161_T_116.png"
+    },
+    "type": "lightTank",
+    "tank_id": 44801,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "Pz.Kpfw. IV Ausf. H Ankou",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G81_Pz_IV_AusfH_GuP.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G81_Pz_IV_AusfH_GuP.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G81_Pz_IV_AusfH_GuP.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 45585,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Sfl. IC",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G151_Pz_Sfl_IC.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G151_Pz_Sfl_IC.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G151_Pz_Sfl_IC.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 46097,
+    "caliber": 50,
+    "alpha": 70
+  },
+  {
+    "name": "T-34 shielded",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R154_T_34E_1943.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R154_T_34E_1943.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R154_T_34E_1943.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 47105,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "MKA",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G139_MKA.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G139_MKA.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G139_MKA.png"
+    },
+    "type": "lightTank",
+    "tank_id": 47633,
+    "caliber": 45,
+    "alpha": 55
+  },
+  {
+    "name": "T-29",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R143_T_29.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R143_T_29.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R143_T_29.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 47873,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "M24 Chaffee No. 594",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A160_M24_594.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A160_M24_594.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A160_M24_594.png"
+    },
+    "type": "lightTank",
+    "tank_id": 50209,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Lago M38",
+    "nation": "sweden",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S34_Lago_M38.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S34_Lago_M38.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S34_Lago_M38.png"
+    },
+    "type": "lightTank",
+    "tank_id": 50817,
+    "caliber": 47,
+    "alpha": 60
+  },
+  {
+    "name": "T-45",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R125_T_45.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R125_T_45.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R125_T_45.png"
+    },
+    "type": "lightTank",
+    "tank_id": 50945,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "KV-220-2 Beta Test",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R38_KV-220_beta.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R38_KV-220_beta.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R38_KV-220_beta.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 51201,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "Matilda LVT",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB113_Matilda_LVT.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB113_Matilda_LVT.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB113_Matilda_LVT.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 51281,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Matilda IV",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R32_Matilda_II_LL.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R32_Matilda_II_LL.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R32_Matilda_II_LL.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 51457,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Kpfw. V/IV",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G32_PzV_PzIV.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G32_PzV_PzIV.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G32_PzV_PzIV.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 51473,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "T2 Light Tank",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A19_T2_lt.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A19_T2_lt.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A19_T2_lt.png"
+    },
+    "type": "lightTank",
+    "tank_id": 51489,
+    "caliber": 20,
+    "alpha": 12
+  },
+  {
+    "name": "Type 3 Chi-Nu Kai",
+    "nation": "japan",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J12_Chi_Nu_Kai.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J12_Chi_Nu_Kai.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J12_Chi_Nu_Kai.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 51553,
+    "caliber": 75,
+    "alpha": 125
+  },
+  {
+    "name": "Churchill III",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R33_Churchill_LL.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R33_Churchill_LL.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R33_Churchill_LL.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 51713,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "Pz.Kpfw. II Ausf. J",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G36_PzII_J.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G36_PzII_J.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G36_PzII_J.png"
+    },
+    "type": "lightTank",
+    "tank_id": 51729,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "Ram II",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A62_Ram-II.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A62_Ram-II.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A62_Ram-II.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 51745,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "L-60",
+    "nation": "sweden",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S15_L_60.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S15_L_60.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S15_L_60.png"
+    },
+    "type": "lightTank",
+    "tank_id": 51841,
+    "caliber": 20,
+    "alpha": 12
+  },
+  {
+    "name": "Pz.Kpfw. S35 739 (f)",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G34_S35_captured.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G34_S35_captured.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G34_S35_captured.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 51985,
+    "caliber": 47,
+    "alpha": 52
+  },
+  {
+    "name": "MTLS-1G14",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A33_MTLS-1G14.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A33_MTLS-1G14.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A33_MTLS-1G14.png"
+    },
+    "type": "lightTank",
+    "tank_id": 52001,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "BT-SV",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R34_BT-SV.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R34_BT-SV.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R34_BT-SV.png"
+    },
+    "type": "lightTank",
+    "tank_id": 52225,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "Pz.Kpfw. B2 740 (f)",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G35_B-1bis_captured.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G35_B-1bis_captured.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G35_B-1bis_captured.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 52241,
+    "caliber": 47,
+    "alpha": 52
+  },
+  {
+    "name": "M4A2E4 Sherman",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A44_M4A2E4.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A44_M4A2E4.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A44_M4A2E4.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 52257,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "M16/43 Sahariano",
+    "nation": "italy",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It29_Carro_Celere_Sahariano.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It29_Carro_Celere_Sahariano.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It29_Carro_Celere_Sahariano.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 52385,
+    "caliber": 47,
+    "alpha": 50
+  },
+  {
+    "name": "Valentine II",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R31_Valentine_LL.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R31_Valentine_LL.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R31_Valentine_LL.png"
+    },
+    "type": "lightTank",
+    "tank_id": 52481,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "Pz.Kpfw. 38H 735 (f)",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G33_H39_captured.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G33_H39_captured.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G33_H39_captured.png"
+    },
+    "type": "lightTank",
+    "tank_id": 52497,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "M3 Light",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R67_M3_LL.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R67_M3_LL.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R67_M3_LL.png"
+    },
+    "type": "lightTank",
+    "tank_id": 52737,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "M22 Locust",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A43_M22_Locust.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A43_M22_Locust.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A43_M22_Locust.png"
+    },
+    "type": "lightTank",
+    "tank_id": 52769,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "AC 1 Sentinel",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB33_Sentinel_AC_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB33_Sentinel_AC_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB33_Sentinel_AC_I.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 52817,
+    "caliber": 40,
+    "alpha": 45
+  },
+  {
+    "name": "A-32",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R68_A-32.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R68_A-32.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R68_A-32.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 52993,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "T-127",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R56_T-127.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R56_T-127.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R56_T-127.png"
+    },
+    "type": "lightTank",
+    "tank_id": 53505,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "T1E6",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A74_T1_E6.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A74_T1_E6.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A74_T1_E6.png"
+    },
+    "type": "lightTank",
+    "tank_id": 53537,
+    "caliber": 37,
+    "alpha": 30
+  },
+  {
+    "name": "Matilda Black Prince",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB68_Matilda_Black_Prince.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB68_Matilda_Black_Prince.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB68_Matilda_Black_Prince.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 53585,
+    "caliber": 57,
+    "alpha": 75
+  },
+  {
+    "name": "SU-85I",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R78_SU_85I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R78_SU_85I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R78_SU_85I.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 53761,
+    "caliber": 85,
+    "alpha": 160
+  },
+  {
+    "name": "KV-220-2",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R38_KV-220.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R38_KV-220.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R38_KV-220.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 54017,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Kpfw. V/IV Alpha",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G32_PzV_PzIV_ausf_Alfa.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G32_PzV_PzIV_ausf_Alfa.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G32_PzV_PzIV_ausf_Alfa.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 54033,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "SU-76I",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R50_SU76I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R50_SU76I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R50_SU76I.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 54273,
+    "caliber": 76,
+    "alpha": 110
+  },
+  {
+    "name": "Excelsior",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB51_Excelsior.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB51_Excelsior.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB51_Excelsior.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 54353,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Tetrarch",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R84_Tetrarch_LL.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R84_Tetrarch_LL.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R84_Tetrarch_LL.png"
+    },
+    "type": "lightTank",
+    "tank_id": 54529,
+    "caliber": 40,
+    "alpha": 45
+  },
+  {
+    "name": "Pz.Kpfw. T 25",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G46_T-25.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G46_T-25.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G46_T-25.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 54545,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Sexton I",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB78_Sexton_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB78_Sexton_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB78_Sexton_I.png"
+    },
+    "type": "SPG",
+    "tank_id": 54609,
+    "caliber": 88,
+    "alpha": 280
+  },
+  {
+    "name": "Pz.Kpfw. T 15",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G50_T-15.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G50_T-15.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G50_T-15.png"
+    },
+    "type": "lightTank",
+    "tank_id": 54801,
+    "caliber": 37,
+    "alpha": 40
+  },
+  {
+    "name": "Light Mk. VIC",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB76_Mk_VIC.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB76_Mk_VIC.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB76_Mk_VIC.png"
+    },
+    "type": "lightTank",
+    "tank_id": 54865,
+    "caliber": 15,
+    "alpha": 9
+  },
+  {
+    "name": "Pz.Kpfw. IV hydrostat.",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G70_PzIV_Hydro.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G70_PzIV_Hydro.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G70_PzIV_Hydro.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 55057,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "T7 Combat Car",
+    "nation": "usa",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A93_T7_Combat_Car.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A93_T7_Combat_Car.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A93_T7_Combat_Car.png"
+    },
+    "type": "lightTank",
+    "tank_id": 55073,
+    "caliber": 13,
+    "alpha": 8
+  },
+  {
+    "name": "LTP",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R86_LTP.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R86_LTP.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R86_LTP.png"
+    },
+    "type": "lightTank",
+    "tank_id": 56577,
+    "caliber": 45,
+    "alpha": 47
+  },
+  {
+    "name": "Vickers 6 ton",
+    "nation": "china",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch60_Vickers_TypeB.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch60_Vickers_TypeB.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch60_Vickers_TypeB.png"
+    },
+    "type": "lightTank",
+    "tank_id": 57905,
+    "caliber": 47,
+    "alpha": 50
+  },
+  {
+    "name": "AMX 13 (FL 11)",
+    "nation": "france",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F124_AMX_13FL11.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F124_AMX_13FL11.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F124_AMX_13FL11.png"
+    },
+    "type": "lightTank",
+    "tank_id": 58945,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Kpfw. KW I (r)",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G163_Pz_Kpfw_KW_Ir_mit_75mm_kwk40.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G163_Pz_Kpfw_KW_Ir_mit_75mm_kwk40.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G163_Pz_Kpfw_KW_Ir_mit_75mm_kwk40.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 59153,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "VK 65.01 (H)",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G122_VK6501H.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G122_VK6501H.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G122_VK6501H.png"
+    },
+    "type": "heavyTank",
+    "tank_id": 59409,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Großtraktor - Krupp",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G100_Gtraktor_Krupp.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G100_Gtraktor_Krupp.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G100_Gtraktor_Krupp.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 59665,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Valiant",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB37_Valliant.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB37_Valliant.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB37_Valliant.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 60241,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "Pz.Kpfw. II Ausf. D",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 2,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G108_PzKpfwII_AusfD.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G108_PzKpfwII_AusfD.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G108_PzKpfwII_AusfD.png"
+    },
+    "type": "lightTank",
+    "tank_id": 60433,
+    "caliber": 20,
+    "alpha": 11
+  },
+  {
+    "name": "StuG IV",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G104_Stug_IV.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G104_Stug_IV.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G104_Stug_IV.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 60689,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "BT-7 artillery",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R105_BT_7A.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R105_BT_7A.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R105_BT_7A.png"
+    },
+    "type": "lightTank",
+    "tank_id": 60929,
+    "caliber": 76,
+    "alpha": 164
+  },
+  {
+    "name": "A25 Harry Hopkins I",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB116_Harry_Hopkins_I.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB116_Harry_Hopkins_I.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB116_Harry_Hopkins_I.png"
+    },
+    "type": "lightTank",
+    "tank_id": 61009,
+    "caliber": 40,
+    "alpha": 55
+  },
+  {
+    "name": "M10 RBFM",
+    "nation": "france",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F112_M10_RBFM.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F112_M10_RBFM.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F112_M10_RBFM.png"
+    },
+    "type": "AT-SPG",
+    "tank_id": 61249,
+    "caliber": 76,
+    "alpha": 115
+  },
+  {
+    "name": "T-28E with F-30",
+    "nation": "ussr",
+    "is_premium": true,
+    "tier": 4,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R118_T28_F30.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R118_T28_F30.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R118_T28_F30.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 61441,
+    "caliber": 85,
+    "alpha": 160
+  },
+  {
+    "name": "Pz.Kpfw. III Ausf. K",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G107_PzKpfwIII_AusfK.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G107_PzKpfwIII_AusfK.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G107_PzKpfwIII_AusfK.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 61457,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "A7E3",
+    "nation": "uk",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB127_A7E3.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB127_A7E3.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB127_A7E3.png"
+    },
+    "type": "lightTank",
+    "tank_id": 61777,
+    "caliber": 40,
+    "alpha": 50
+  },
+  {
+    "name": "Turán III prototípus",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 5,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G116_Turan_III_prot.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G116_Turan_III_prot.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G116_Turan_III_prot.png"
+    },
+    "type": "mediumTank",
+    "tank_id": 63249,
+    "caliber": 75,
+    "alpha": 110
+  },
+  {
+    "name": "43 M. Toldi III",
+    "nation": "germany",
+    "is_premium": true,
+    "tier": 3,
+    "images": {
+      "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G117_Toldi_III.png",
+      "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G117_Toldi_III.png",
+      "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G117_Toldi_III.png"
+    },
+    "type": "lightTank",
+    "tank_id": 63505,
+    "caliber": 40,
+    "alpha": 45
+  }
+]

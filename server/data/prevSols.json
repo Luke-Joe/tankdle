@@ -2446,5 +2446,57 @@
       "tank_id": 46097
     },
     "dayId": 655
+  },
+  {
+    "solutionTank": {
+      "name": "WZ-120G FT",
+      "nation": "china",
+      "is_premium": true,
+      "default_profile": {
+        "gun": {
+          "caliber": 130
+        }
+      },
+      "tier": 9,
+      "type": "AT-SPG",
+      "tank_id": 63025
+    },
+    "dayId": 656
+  },
+  {
+    "solutionTank": {
+      "name": "VK 20.01 (D)",
+      "nation": "germany",
+      "is_premium": false,
+      "tier": 4,
+      "images": {
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G86_VK2001DB.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G86_VK2001DB.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G86_VK2001DB.png"
+      },
+      "type": "mediumTank",
+      "tank_id": 13585,
+      "caliber": 50,
+      "alpha": 70
+    },
+    "dayId": 657
+  },
+  {
+    "solutionTank": {
+      "name": "Progetto M35 mod. 46",
+      "nation": "italy",
+      "is_premium": true,
+      "tier": 8,
+      "images": {
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It13_Progetto_M35_mod_46.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It13_Progetto_M35_mod_46.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It13_Progetto_M35_mod_46.png"
+      },
+      "type": "mediumTank",
+      "tank_id": 51361,
+      "caliber": 90,
+      "alpha": 240
+    },
+    "dayId": 658
   }
 ]

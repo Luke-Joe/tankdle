@@ -1,16 +1,35 @@
 {
   "solutionTank": {
-    "name": "WZ-120G FT",
-    "nation": "china",
-    "is_premium": true,
-    "default_profile": {
-      "gun": {
-        "caliber": 130
-      }
+    "low": {
+      "name": "T40",
+      "nation": "usa",
+      "is_premium": false,
+      "tier": 4,
+      "images": {
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A29_T40.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A29_T40.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A29_T40.png"
+      },
+      "type": "AT-SPG",
+      "tank_id": 7713,
+      "caliber": 76,
+      "alpha": 115
     },
-    "tier": 9,
-    "type": "AT-SPG",
-    "tank_id": 63025
+    "high": {
+      "name": "T71 CMCD P",
+      "nation": "usa",
+      "is_premium": true,
+      "tier": 7,
+      "images": {
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A112_T71E2.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A112_T71E2.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A112_T71E2.png"
+      },
+      "type": "lightTank",
+      "tank_id": 57633,
+      "caliber": 76,
+      "alpha": 150
+    }
   },
-  "dayId": 656
+  "dayId": 659
 }

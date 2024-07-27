@@ -1,33 +1,65 @@
 import axios from 'axios';
 import { readData, storeData, appendData } from '../utils/fileUtils.js';
 import { updateData } from '../utils/dataProcessing.js';
-import {VEHICLE_API_URL, APP_ID, TANK_DATA_FILE, TANK_SOL_FILE, PREV_SOL_FILE} from '../config/constants.js';
+import {
+    VEHICLE_API_URL, 
+    APP_ID, 
+    LOW_TANK_DATA_FILE, 
+    HIGH_TANK_DATA_FILE, 
+    TANK_SOL_FILE, 
+    PREV_SOL_FILE} from '../config/constants.js';
 
-export async function fetchTankData() {
-    try { 
+async function fetchLowTierTankData() {
+    try {
         const response = await axios.get(VEHICLE_API_URL, {
             params: {
                 application_id: APP_ID,
-                fields: "name,tank_id,tier,nation,type,is_premium,images"
+                fields: "name,tank_id,tier,nation,type,is_premium,images",
+                tier: "1,2,3,4,5"
             },
         });
         let tankData = Object.values(response.data.data);
         tankData = await updateData(tankData);
-        console.log(tankData);
-        storeData(TANK_DATA_FILE, tankData);
+        storeData(LOW_TANK_DATA_FILE, tankData);
         return tankData;
     } catch (error) {
-        console.error('Error fetching tank data:', error);
+        console.error('Error fetching low tier tank data:', error);
         return [];
     }
 }
 
-export async function getTankList() {
-    if (!readData(TANK_DATA_FILE)) {
-        await fetchTankData();
+async function fetchHighTierTankData() {
+    try {
+        const response = await axios.get(VEHICLE_API_URL, {
+            params: {
+                application_id: APP_ID,
+                fields: "name,tank_id,tier,nation,type,is_premium,images",
+                tier: "6,7,8,9,10"
+            },
+        });
+        let tankData = Object.values(response.data.data);
+        tankData = await updateData(tankData);
+        storeData(HIGH_TANK_DATA_FILE, tankData);
+        return tankData;
+    } catch (error) {
+        console.error('Error fetching high tier tank data:', error);
+        return [];
+    }
+}
+
+export async function getTankList(data_file) {
+    if (!readData(data_file)) {
+        if (data_file === LOW_TANK_DATA_FILE) {
+            await fetchLowTierTankData();
+        } else if (data_file === HIGH_TANK_DATA_FILE) {
+            await fetchHighTierTankData();
+        } else {
+            console.error("Invalid data file:", data_file);
+            return [];
+        }
     }
 
-    return readData(TANK_DATA_FILE);
+    return readData(data_file);
 }
 
 
@@ -40,17 +72,34 @@ function getRandomTank(tankData, excludeTank) {
     return randomTank;
 }
 
+// TODO: Update solution tank for both low and high tier datasets
+
 export async function updateSolutionTank() {
-    let tankData = await getTankList();
+    try {    
+        let tankDataLow = await getTankList(LOW_TANK_DATA_FILE);
+        let tankDataHigh = await getTankList(HIGH_TANK_DATA_FILE);
 
-    const prevData = readData(TANK_SOL_FILE);
-    const prevSolTank = prevData?.solutionTank
-    savePrevSol();
-    const newSolTank = getRandomTank(tankData, prevSolTank);
-    const newDayId = (prevData.dayId || 0) + 1;
+        if (!Array.isArray(tankDataLow) || !Array.isArray(tankDataHigh)) {
+            throw new Error('Tank data is not an array');
+        }
 
-    storeData(TANK_SOL_FILE, {solutionTank : newSolTank, dayId : newDayId});
-    return { solutionTank : newSolTank, dayId : newDayId };
+        const prevSol = readData(TANK_SOL_FILE);
+        const prevSolTank = prevSol?.solutionTank
+        savePrevSol();
+
+        const newSolTankLow = getRandomTank(tankDataLow, prevSolTank.low);
+        const newSolTankHigh = getRandomTank(tankDataHigh, prevSolTank.high);
+        const newDayId = (prevSol.dayId || 0) + 1;
+
+        const newSol = {solutionTank : { low : newSolTankLow, high : newSolTankHigh}, dayId : newDayId}
+
+        storeData(TANK_SOL_FILE, newSol);
+
+        return newSol;
+    } catch (error) {
+        console.error('Error updating solution tank:', error);
+        return null;
+    }
 }
 
 export async function getSolutionTank() {
@@ -59,7 +108,7 @@ export async function getSolutionTank() {
     }
 
     const data = readData(TANK_SOL_FILE);
-    return { solutionTank: data.solutionTank, dayId: data.dayId};
+    return data;
 }
 
 async function savePrevSol() {
@@ -68,7 +117,7 @@ async function savePrevSol() {
         appendData(PREV_SOL_FILE, prevData);
     }
 
-    console.log("Saved previous solution tank:", prevData.solutionTank.name);
+    console.log("Saved previous solution tank");
 }
 
 export async function popPrevSolution() {

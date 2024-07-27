@@ -1,7 +1,7 @@
 import axios from "axios";
 import { VEHICLE_STAT_API_URL, VEHICLE_CONFIG_API_URL, APP_ID } from "../config/constants.js";
 
-let delay = 1000;
+let delay = 500;
 
 export async function updateData(tankData) {
     tankData = filterData(tankData);
@@ -23,6 +23,7 @@ async function processData(tankData) {
 }
 
 async function updateGunData(tank) {
+    console.log("Processing:",tank.name);
     let topConfig = await getTopConfig(tank);
     let gunStats = await getGunStats(tank, topConfig);
     tank.caliber = gunStats.caliber;
@@ -58,8 +59,6 @@ async function getGunStats(tank, topConfig) {
                 profile_id: topConfig,
             },
         });
-
-        console.log('response.data:', response.data);
 
         let caliber = response.data.data[tank.tank_id].gun.caliber;
         let alpha = response.data.data[tank.tank_id].ammo[0].damage[1];
