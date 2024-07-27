@@ -62,7 +62,6 @@ export async function getTankList(data_file) {
     return readData(data_file);
 }
 
-
 function getRandomTank(tankData, excludeTank) {
     let randomTank;
     do {
@@ -71,8 +70,6 @@ function getRandomTank(tankData, excludeTank) {
 
     return randomTank;
 }
-
-// TODO: Update solution tank for both low and high tier datasets
 
 export async function updateSolutionTank() {
     try {    

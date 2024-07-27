@@ -1,35 +1,35 @@
 {
   "solutionTank": {
     "low": {
-      "name": "T40",
-      "nation": "usa",
-      "is_premium": false,
-      "tier": 4,
+      "name": "M10 RBFM",
+      "nation": "france",
+      "is_premium": true,
+      "tier": 5,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A29_T40.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A29_T40.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A29_T40.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F112_M10_RBFM.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F112_M10_RBFM.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F112_M10_RBFM.png"
       },
       "type": "AT-SPG",
-      "tank_id": 7713,
+      "tank_id": 61249,
       "caliber": 76,
       "alpha": 115
     },
     "high": {
-      "name": "T71 CMCD P",
-      "nation": "usa",
-      "is_premium": true,
-      "tier": 7,
+      "name": "ARL V39",
+      "nation": "france",
+      "is_premium": false,
+      "tier": 6,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A112_T71E2.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A112_T71E2.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A112_T71E2.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F34_ARL_V39.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F34_ARL_V39.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F34_ARL_V39.png"
       },
-      "type": "lightTank",
-      "tank_id": 57633,
-      "caliber": 76,
-      "alpha": 150
+      "type": "AT-SPG",
+      "tank_id": 11585,
+      "caliber": 90,
+      "alpha": 240
     }
   },
-  "dayId": 659
+  "dayId": 2
 }
