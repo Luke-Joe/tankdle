@@ -1,35 +1,35 @@
 {
   "solutionTank": {
     "low": {
-      "name": "M10 RBFM",
-      "nation": "france",
+      "name": "T-28E with F-30",
+      "nation": "ussr",
       "is_premium": true,
-      "tier": 5,
+      "tier": 4,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F112_M10_RBFM.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F112_M10_RBFM.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F112_M10_RBFM.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R118_T28_F30.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R118_T28_F30.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R118_T28_F30.png"
       },
-      "type": "AT-SPG",
-      "tank_id": 61249,
-      "caliber": 76,
-      "alpha": 115
+      "type": "mediumTank",
+      "tank_id": 61441,
+      "caliber": 85,
+      "alpha": 160
     },
     "high": {
-      "name": "ARL V39",
-      "nation": "france",
-      "is_premium": false,
-      "tier": 6,
+      "name": "BZ-72-1",
+      "nation": "china",
+      "is_premium": true,
+      "tier": 10,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F34_ARL_V39.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F34_ARL_V39.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F34_ARL_V39.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch54_BZ_72_1.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch54_BZ_72_1.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch54_BZ_72_1.png"
       },
-      "type": "AT-SPG",
-      "tank_id": 11585,
-      "caliber": 90,
-      "alpha": 240
+      "type": "heavyTank",
+      "tank_id": 58417,
+      "caliber": 130,
+      "alpha": 560
     }
   },
-  "dayId": 2
+  "dayId": 3
 }

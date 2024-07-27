@@ -41,12 +41,13 @@ const app = express();
 const PORT = process.env.port || 3000;
 
 app.use(cors());
+app.use(express.json());
 
 app.get('/api/get-solution-tank', getSolutionTankHandler);
 
-app.get('/api/get-tank-list', getTankListHandler);
+app.post('/api/get-tank-list', getTankListHandler);
 
-app.get('/api/get-prev-solution', getSolutionByDayIdHandler);
+app.post('/api/get-prev-solution', getSolutionByDayIdHandler);
 
 app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
