@@ -32,7 +32,7 @@ root.render(
   X. Link to API
   X. Create components for wordle style game
 
-  - SEARCH ARROW KEY NAVIGATION A LITTLE BUGGED EDGE CASES
+  X SEARCH ARROW KEY NAVIGATION A LITTLE BUGGED EDGE CASES
   X SEARCH REMOVE SPACES FROM ORIGINAL (E100)
   X SEARCH SHOULD PRIORITIZE TANKS THAT START WITH THE SEARCH TERM
   X WHY ARE SOME TANKS JUST MISSING? (IS-7) -> deal with it
@@ -92,20 +92,26 @@ root.render(
 
 
     TODO (Yassify):
-     - Game select page
-     - Clicking logo should link to game select page
+     X Game select page
+     X Clicking logo should link to game select page
      X Hide dropdown search is user clicks out of input
      - Update stats page
      - Update what is displayed in the grid
      - Hint system button displays
      - Grid should be square
        - how does grid behave in mobile
-     - animation should only play when thing is added
+     X animation should only play when thing is added
+
+    TOMORROW:
+     - Update final screen page to look good
+     - Create stats modal
+     - Update values within grid
+
      
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
     2. round average attempts to 2 decimal places
-    3. Dropdown search should hide if user clicks out of input
+    X. Dropdown search should hide if user clicks out of input
     4. Localstorage should auto refresh if soluionTank has changed
 
     IDEA

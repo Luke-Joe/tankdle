@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import './App.css';
+import Home from './components/home.js';
 import GameSelect from './components/gameSelect.js';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
@@ -22,11 +24,19 @@ function App() {
     scheduleMidnightRefresh();
   })
   return (
-    <div className="min-h-screen p-4 App">
-      <div className="app-background"></div>
-      <h1 className='text-5xl text-white mb-5'>TANKDLE</h1>
-      <GameSelect />
-    </div>
+    <Router>
+      <div className="min-h-screen p-4 App">
+        <div className="app-background"></div>
+        <Link to="/">
+          <h1 className='text-5xl text-white mb-5'></h1>
+        </Link>
+        <Routes>
+          <Route exact path='/' Component={Home}/>
+          <Route exact path='/low' Component={() => <GameSelect gameMode="low"/>}/>
+          <Route exact path='/high' Component={() => <GameSelect gameMode="high"/>}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

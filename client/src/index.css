@@ -9,7 +9,7 @@
     text-center text-white rounded-sm
     bg-wblack
     bg-opacity-50;
-    animation: spin 1s ease backwards;
+    animation: spin 0.5s ease backwards;
   }
 
   .app-background {
@@ -40,6 +40,10 @@
   .green {
     @apply bg-wgreen bg-opacity-50;
   }
+
+  .guessed {
+    animation: spin 0.5s ease backwards;
+  }
 }
 
 
@@ -68,14 +72,18 @@
 @keyframes spin {
   0% {
     transform: rotateX(0deg);
+    opacity: 0;
   }
   45% {
     transform: rotateX(90deg);
+    opacity: 0;
   }
   55% {
     transform: rotateX(90deg);
+    opacity: 50;
   }
   100% {
     transform: rotateX(0);
+    opacity: 100
   }
 }

@@ -11,7 +11,7 @@ export function EndDisplay({ isSolved, solutionTank, guessResults, lsStats }) {
 
     if (isSolved) {
         return (
-            <div>
+            <div className="text-white">
                 <h1 className='text-3xl text-green-600'>You found the solution!</h1>
                 <h1 className='text-blue-600'>{solutionTank.name}</h1>
                 <h2 className='text-2xl'>Tries: {guessResults.length}</h2>
