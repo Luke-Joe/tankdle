@@ -5,6 +5,7 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredTanks, setFilteredTanks] = useState(tanks);
     const [selectedIndex, setSelectedIndex] = useState(0);
+    const [isDropdownVisible, setIsDropdownVisible] = useState(false);
     const tankRefs = useRef([]);
 
     useEffect(() => {
@@ -37,6 +38,12 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
         setSelectedIndex(0);
     }, [searchTerm, tanks, guessResults])
 
+    useEffect(() => {
+        if (selectedIndex !== null && tankRefs.current[selectedIndex]) {
+            tankRefs.current[selectedIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    }, [selectedIndex]);
+
     function handleInputChange(e) {
         setSearchTerm(e.target.value);
     }
@@ -56,12 +63,12 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
         const actions = {
             ArrowDown: function() {
                 setSelectedIndex(function(prevIndex) {
-                    return (prevIndex === null ? 0 : Math.min(filteredTanks.length - 1, prevIndex + 1));
+                    return (prevIndex === null ? 0 : (prevIndex + 1) % filteredTanks.length );
                 });
             },
             ArrowUp: function() {
                 setSelectedIndex(function(prevIndex) {
-                    return (prevIndex === null ? 0 : Math.min(0, prevIndex - 1));
+                    return (prevIndex === null ? 0 : (prevIndex - 1 + filteredTanks.length) % filteredTanks.length);
                 });
             },
             Enter: function() {
@@ -87,6 +94,8 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                         placeholder="Type tank name..."
                         value={searchTerm}
                         onChange={handleInputChange}
+                        onFocus={() => setIsDropdownVisible(true)}
+                        onBlur={() => setIsDropdownVisible(false)}
                         className="block w-full p-4 s-10 text-sm bg-wblack bg-opacity-50 placeholder-gray-100
                         text-white rounded focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     />
@@ -99,8 +108,9 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
 
                 </div>
                 
-                <div 
+                {isDropdownVisible && <div 
                 id="dropdown-search" 
+                onMouseDown={e => e.preventDefault()}
                 className="absolute w-full overflow-y-scroll 
                 z-10 mt-2 rounded bg-wgray bg-opacity-80 max-h-60"
                 >
@@ -115,7 +125,7 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                             />
                         ))}
                     </ul>
-                </div>
+                </div>}
             </div>
         )
     }

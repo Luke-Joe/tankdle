@@ -94,7 +94,7 @@ root.render(
     TODO (Yassify):
      - Game select page
      - Clicking logo should link to game select page
-     - Hide dropdown search is user clicks out of input
+     X Hide dropdown search is user clicks out of input
      - Update stats page
      - Update what is displayed in the grid
      - Hint system button displays
