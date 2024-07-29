@@ -90,10 +90,27 @@ root.render(
     X. Create a stats page
     6. Use cryptography to hide solution tank in api response
 
+
+    TODO (Yassify):
+     - Game select page
+     - Clicking logo should link to game select page
+     - Hide dropdown search is user clicks out of input
+     - Update stats page
+     - Update what is displayed in the grid
+     - Hint system button displays
+     - Grid should be square
+       - how does grid behave in mobile
+     - animation should only play when thing is added
+     
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
     2. round average attempts to 2 decimal places
     3. Dropdown search should hide if user clicks out of input
+    4. Localstorage should auto refresh if soluionTank has changed
+
+    IDEA
+    1. Instead of Arrows indictaing direction, use XVM values to indicate how close the guess is to the solution
+
     SCHEDULER COMPONENTS
      - App.js -> schedules page + guess storage refresh
      - timer.js -> provides visual timer until next refresh

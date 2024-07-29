@@ -79,7 +79,7 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
             <div
             tabIndex="0"
             onKeyDown={handleKeyDown}
-            className="relative max-w-sm mx-auto"
+            className="relative max-w-sm mx-auto mt-4"
             >
                 <div className="flex items-center max-w-sm mx-auto">
                     <input
@@ -87,7 +87,8 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                         placeholder="Type tank name..."
                         value={searchTerm}
                         onChange={handleInputChange}
-                        className="block w-full p-4 s-10 text-sm text-gray-900 border border-gray-300 rounded bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        className="block w-full p-4 s-10 text-sm bg-wblack bg-opacity-50 placeholder-gray-100
+                        text-white rounded focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     />
                     <button type="submit" class="p-2.5 ms-2 text-sm font-medium text-white bg-blue-700 rounded border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -101,7 +102,7 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                 <div 
                 id="dropdown-search" 
                 className="absolute w-full overflow-y-scroll 
-                z-10 mt-2 rounded dark:bg-gray-700 max-h-60"
+                z-10 mt-2 rounded bg-wgray bg-opacity-80 max-h-60"
                 >
                     <ul>
                         {filteredTanks.map((tank, index) => (

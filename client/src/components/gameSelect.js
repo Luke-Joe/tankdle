@@ -42,20 +42,20 @@ function GameSelect() {
 
     return (
         <div>
-            {/* <Game 
+            <Game 
                 tanks={tankDataLow}
                 solutionTank={solutionTankLow}
                 dayId={dayId}
                 lsResults={resultsLow}
                 lsStats={statsLow}
-            /> */}
-            <Game 
+            />
+            {/* <Game 
                 tanks={tankDataHigh}
                 solutionTank={solutionTankHigh}
                 dayId={dayId}
                 lsResults={resultsHigh}
                 lsStats={statsHigh}
-            />
+            /> */}
         </div>
     )
 }

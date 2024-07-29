@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Prompt from './prompt.js';
 import Search from './search.js';
 import { compareTanks } from '../utils/comparisons.js';
 import { Grid } from './grid.js';
@@ -64,6 +65,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
     // <h1 className='text-blue-600'>{solutionTank.name}</h1>
     return (
         <div>
+            <Prompt solutionTank={solutionTank} guessResults={guessResults}/>
             <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect}/>
             <Grid guessResults={guessResults}/>
             <EndDisplay 

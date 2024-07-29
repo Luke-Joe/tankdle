@@ -22,8 +22,9 @@ function App() {
     scheduleMidnightRefresh();
   })
   return (
-    <div className="min-h-screen bg-gray-100 p-4 App">
-      <h1 className='text-5xl'>TANKDLE</h1>
+    <div className="min-h-screen p-4 App">
+      <div className="app-background"></div>
+      <h1 className='text-5xl text-white mb-5'>TANKDLE</h1>
       <GameSelect />
     </div>
   );

@@ -3,19 +3,79 @@
 @tailwind utilities;
 
 @layer components {
+  .compareCell {
+    @apply
+    flex items-center justify-center
+    text-center text-white rounded-sm
+    bg-wblack
+    bg-opacity-50;
+    animation: spin 1s ease backwards;
+  }
+
+  .app-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/public/temp2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%) grayscale(50%);
+    z-index: -1;
+  }
+
   .blue {
-    @apply text-blue-500;
+    @apply bg-wred bg-opacity-50;
   }
 
   .red {
-    @apply text-red-500;
+    @apply bg-wred bg-opacity-50;
   }
 
   .yellow {
-    @apply text-yellow-500;
+    @apply bg-wred bg-opacity-50;
   }
 
   .green {
-    @apply text-green-500;
+    @apply bg-wgreen bg-opacity-50;
+  }
+}
+
+
+
+
+#row > div:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+#row > div:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+#row > div:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+#row > div:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+#row > div:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(0deg);
+  }
+  45% {
+    transform: rotateX(90deg);
+  }
+  55% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0);
   }
 }

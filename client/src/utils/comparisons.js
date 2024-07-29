@@ -3,6 +3,7 @@ export function compareTanks(guess, solution) {
     const result = {
         name: guess.name,
         tank_id: guess.tank_id,
+        images: guess.images,
         tier: {
             value: guess.tier,
             comparison: compareTier(guess, solution)
@@ -15,13 +16,14 @@ export function compareTanks(guess, solution) {
             value: guess.type,
             comparison: compareClass(guess, solution)
         },
+        type: {
+            value: setPremiumType(guess.is_premium),
+            comparison: compareType(guess, solution)
+        },
         caliber: {
             value: guess.caliber,
             comparison: compareGunCaliber(guess, solution)
         },
-        type: {
-            value: setPremiumType(guess.is_premium),
-            comparison: compareType(guess, solution)},
     };
 
     return result;
