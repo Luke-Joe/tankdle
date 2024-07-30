@@ -16,7 +16,7 @@ export function Grid({ guessResults, solutionTank }) {
                 <div className='border-b-2 border-white'>Nation</div>
                 <div className='border-b-2 border-white'>Class</div>
                 <div className='border-b-2 border-white'>Type</div>
-                <div className='border-b-2 border-white'>Caliber (mm)</div>
+                <div className='border-b-2 border-white'>Alpha</div>
             </div>
             {rows}
         </div>

@@ -116,7 +116,6 @@ root.render(
      - Grid should be square
        - fix grid mobile behaviour
      - Main menu 
-    
      - Nav buttons in end display
      
     BUGS

@@ -55,7 +55,7 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
                 </button>
             </div>
             <div className="flex items-center justify-center mt-2">
-                {visibleHint === 1 && <span className="text-white text-center font-semibold text-2xl p-5">{solutionTank.alpha}</span>}
+                {visibleHint === 1 && <span className="text-white text-center font-semibold text-2xl p-5">{solutionTank.caliber}</span>}
                 {visibleHint === 2 && <img className="flex items-center p-5"src={solutionTank.images.contour_icon} alt="contour hint"></img>}
                 {visibleHint === 3 && <img className="flex items-center "src={solutionTank.images.big_icon} alt="big icon hint"></img>}
             </div>

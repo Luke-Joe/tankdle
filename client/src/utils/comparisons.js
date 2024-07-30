@@ -24,10 +24,10 @@ export function compareTanks(guess, solution) {
             comparison: compareType(guess, solution),
             attribute: 'type'
         },
-        caliber: {
-            value: guess.caliber,
-            comparison: compareGunCaliber(guess, solution),
-            attribute: 'caliber'
+        alpha: {
+            value: guess.alpha,
+            comparison: compareGunAlpha(guess, solution),
+            attribute: 'alpha'
         },
     };
 
@@ -55,9 +55,9 @@ function compareTier(guess, solution) {
     }
 }
 
-function compareGunCaliber(guess, solution) {
-    const guessCal = guess.caliber;
-    const solCal = solution.caliber;
+function compareGunAlpha(guess, solution) {
+    const guessCal = guess.alpha;
+    const solCal = solution.alpha;
 
     console.log(guessCal);
     console.log(solCal);

@@ -68,7 +68,7 @@ export default function substituteValues(guessAttribute) {
     switch(guessAttribute.attribute) {
         case 'tier':
             return tierToRoman(guessAttribute.value);
-        case 'caliber':
+        case 'alpha':
             return `${guessAttribute.value}`;
         case 'nation':
             return mapNation(guessAttribute);
