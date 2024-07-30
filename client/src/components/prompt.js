@@ -19,7 +19,7 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
         }
     }, [guessResults]);
 
-        const showHint = (hintNumber) => {
+    const showHint = (hintNumber) => {
         setVisibleHint(visibleHint === hintNumber ? null : hintNumber);
     };
 
@@ -28,7 +28,7 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
                         bg-wblack border-t border-wyellow
         ">
             <h2 className="text-white text-center text-xl">Guess today's tank!</h2>
-            <hr className="mt-3 mx-auto w-2/5 border-wyellow"/>
+            <hr className="mt-3 mx-auto w-2/5 border-wyellow" />
             <div className="flex space-x-4">
                 <button
                     className={`mt-4 p-2 bg-wyellow text-wblack rounded ${button1Disabled ? 'opacity-50' : ''}`}
@@ -55,9 +55,9 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
                 </button>
             </div>
             <div className="flex items-center justify-center mt-2">
-                {visibleHint === 1 && <span className="text-white text-center font-semibold text-2xl p-5">{solutionTank.caliber}</span>}
-                {visibleHint === 2 && <img className="flex items-center p-5"src={solutionTank.images.contour_icon} alt="contour hint"></img>}
-                {visibleHint === 3 && <img className="flex items-center "src={solutionTank.images.big_icon} alt="big icon hint"></img>}
+                {visibleHint === 1 && <span className="text-white text-center font-semibold text-2xl p-5">{solutionTank.caliber}mm</span>}
+                {visibleHint === 2 && <img className="flex items-center p-5" src={solutionTank.images.contour_icon} alt="contour hint"></img>}
+                {visibleHint === 3 && <img className="flex items-center " src={solutionTank.images.big_icon} alt="big icon hint"></img>}
             </div>
         </div>
     )
