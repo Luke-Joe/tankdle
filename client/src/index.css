@@ -18,7 +18,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url('/public/temp.jpg');
+    background-image: url('/public/temp2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(40%) grayscale(50%) blur(2px);
@@ -45,9 +45,6 @@
     animation: spin 0.5s ease backwards;
   }
 }
-
-
-
 
 #row > div:nth-child(2) {
   animation-delay: 0.3s;
