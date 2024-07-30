@@ -67,7 +67,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
         <div>
             <Prompt solutionTank={solutionTank} guessResults={guessResults}/>
             <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect}/>
-            <Grid guessResults={guessResults}/>
+            <Grid guessResults={guessResults} isSolved={isSolved}/>
             <EndDisplay 
                 dayId={dayId} 
                 isSolved={isSolved} 

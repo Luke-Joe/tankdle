@@ -8,10 +8,10 @@ TEMPORARY COLOUR CODE:
 - blue: guess is lower than solution
 - green: guess is correct
 */
-export default function Row({ guess }) {
+export default function Row({ guess, isSolved }) {
     return (
         <div id="row" className="grid grid-rows-1 grid-cols-6 gap-1">
-            <div className="compareCell">
+            <div className={`compareCell ${isSolved ? 'green' : ''}`}>
                 <img src={guess.images.big_icon} alt={guess.name} />
             </div>
 
@@ -19,7 +19,7 @@ export default function Row({ guess }) {
             Object.entries(guess)
                 .filter(([key, attribute]) => attribute.comparison && attribute.value)
                 .map(([key, attribute]) => {
-                    return <CompareCell key={key} guessAttribute={attribute} />
+                    return <CompareCell key={key} guessAttribute={attribute} isSolved={isSolved}/>
                 })
             }
         </div>

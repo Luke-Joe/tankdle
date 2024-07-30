@@ -6,23 +6,28 @@ export function compareTanks(guess, solution) {
         images: guess.images,
         tier: {
             value: guess.tier,
-            comparison: compareTier(guess, solution)
+            comparison: compareTier(guess, solution),
+            attribute: 'tier'
         },
         nation: {
             value: guess.nation,
-            comparison: compareNation(guess, solution)
+            comparison: compareNation(guess, solution),
+            attribute: 'nation'
         },
         class: {
             value: guess.type,
-            comparison: compareClass(guess, solution)
+            comparison: compareClass(guess, solution),
+            attribute: 'class'
         },
         type: {
             value: setPremiumType(guess.is_premium),
-            comparison: compareType(guess, solution)
+            comparison: compareType(guess, solution),
+            attribute: 'type'
         },
         caliber: {
             value: guess.caliber,
-            comparison: compareGunCaliber(guess, solution)
+            comparison: compareGunCaliber(guess, solution),
+            attribute: 'caliber'
         },
     };
 
@@ -30,7 +35,7 @@ export function compareTanks(guess, solution) {
 }
 
 function setPremiumType(is_premium) {
-    return is_premium ? 'Premium/Reward' : 'Standard';
+    return is_premium ? 'Premium' : 'Tech Tree';
 }
 
 /*

@@ -95,8 +95,8 @@ root.render(
      X Game select page
      X Clicking logo should link to game select page
      X Hide dropdown search is user clicks out of input
-     - Update stats page
-     - Update what is displayed in the grid
+     X Update stats page
+     X Update what is displayed in the grid
      - Hint system button displays
      - Grid should be square
        - how does grid behave in mobile
@@ -104,14 +104,14 @@ root.render(
 
     TOMORROW:
      X Update final screen page to look good
-     - Create stats modal
+     X Create stats modal
      - Update values within grid
-     - flip background colour of image in grid if guess is correct
+     - flip background colour of tank image in grid if guess is correct
 
      
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
-    2. round average attempts to 2 decimal places
+    X. round average attempts to 2 decimal places
     X. Dropdown search should hide if user clicks out of input
     4. Localstorage should auto refresh if soluionTank has changed
 
