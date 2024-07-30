@@ -7,7 +7,7 @@
     @apply
     flex items-center justify-center
     text-center text-white rounded-sm
-    bg-wblack
+    bg-wgray
     bg-opacity-50;
     animation: spin 0.5s ease backwards;
   }
@@ -18,7 +18,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url('/public/temp2.jpg');
+    background-image: url('/public/temp.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(50%) grayscale(50%);

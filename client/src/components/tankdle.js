@@ -75,6 +75,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
                 solutionTank={solutionTank} 
                 lsStats={lsStats}
             />
+
         </div>
     );
 }

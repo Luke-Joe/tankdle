@@ -103,9 +103,10 @@ root.render(
      X animation should only play when thing is added
 
     TOMORROW:
-     - Update final screen page to look good
+     X Update final screen page to look good
      - Create stats modal
      - Update values within grid
+     - flip background colour of image in grid if guess is correct
 
      
     BUGS

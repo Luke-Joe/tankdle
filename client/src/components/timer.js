@@ -25,8 +25,8 @@ function Timer() {
 
     return (
         <div>
-            <h2>Time until next reset:</h2>
-            <p>
+            <h2>Tank reloads in:</h2>
+            <p className="font-semibold text-xl text-wyellow">
                 {timeLeft.hours.toString().padStart(2, '0')}:
                 {timeLeft.minutes.toString().padStart(2, '0')}:
                 {timeLeft.seconds.toString().padStart(2, '0')}
