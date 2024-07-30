@@ -1,8 +1,16 @@
 import React from 'react';
 import Timer from './timer.js';
 import Stats from './stats.js';
+import NavButton from './navButton.js';
 
 export function EndDisplay({ isSolved, solutionTank, guessResults, lsStats }) {
+    function renderNavButton() {
+        if (solutionTank.tier < 6) {
+            return <NavButton to="/" text1="HOMEPAGE" highlightColour="wgreen" />
+        } else {
+            return <NavButton to="/low" text1="HARD MODE" text2="Tier I - V Vehicles" highlightColour="wgreen" />
+        }
+    }
 
     if (isSolved) {
         return (
@@ -10,7 +18,7 @@ export function EndDisplay({ isSolved, solutionTank, guessResults, lsStats }) {
             text-white bg-wgray bg-opacity-50">
                 <h1 className='text-3xl text-wgreen font-medium'>You found the solution!</h1>
                 <div className="inline-flex items-center mt-4">
-                    <img src={solutionTank.images.big_icon} alt={solutionTank.name}/>
+                    <img src={solutionTank.images.big_icon} alt={solutionTank.name} />
                     <div className="text-center ml-4">
                         <h1 className='bg-wgreen rounded px-2 py-1
                                         text-gray-200 font-bold text-2xl
@@ -18,9 +26,10 @@ export function EndDisplay({ isSolved, solutionTank, guessResults, lsStats }) {
                         <h2 className='text-l font-semibold text-gray-200'>TRIES: <span className="text-red-400">{guessResults.length}</span></h2>
                     </div>
                 </div>
-                
+
                 <Stats lsStats={lsStats} />
                 <Timer />
+                {renderNavButton()}
             </div>
         )
     }

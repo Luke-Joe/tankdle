@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { calculateStreaks, calculateTotal, countOneShots, calculateAverageAttempts } from '../utils/stats.js';
 
-function Stats({ lsStats}) {
+function Stats({ lsStats }) {
     const [modalVisible, setModalVisible] = useState(false);
 
     const results = JSON.parse(localStorage.getItem(lsStats)) || [];
@@ -12,7 +12,7 @@ function Stats({ lsStats}) {
 
     return (
         <div className="my-4">
-            <button className="bg-wgreen text-white font-bold py-2 px-4 rounded transform hover:scale-105 transition-transform" onClick={() => setModalVisible(!modalVisible)}>SHOW STATS</button>
+            <button className="bg-wyellow text-white font-bold py-2 px-4 rounded transform hover:scale-105 transition-transform opacity-85" onClick={() => setModalVisible(!modalVisible)}>SHOW STATS</button>
 
             {modalVisible && (
                 <div className="mt-4 bg-wblack bg-opacity-50 rounded px-4 py-3 shadow-lg border border-gray-500">
@@ -29,7 +29,7 @@ function Stats({ lsStats}) {
                         <p>{streaks.current}</p>
                     </div>
                 </div>
-                )}
+            )}
         </div>
     )
 }

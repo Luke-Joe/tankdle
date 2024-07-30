@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         'wgray': '#393E46',
-        'wyellow': '#FFD369',
+        'wyellow': '#F7B51A',
         'wblack': '#222831',
         'wgreen': '#78B159',
         'wred': '#393E46'

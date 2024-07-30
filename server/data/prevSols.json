@@ -103,5 +103,285 @@
       }
     },
     "dayId": 2
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "T-28E with F-30",
+        "nation": "ussr",
+        "is_premium": true,
+        "tier": 4,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R118_T28_F30.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R118_T28_F30.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R118_T28_F30.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 61441,
+        "caliber": 85,
+        "alpha": 160
+      },
+      "high": {
+        "name": "BZ-72-1",
+        "nation": "china",
+        "is_premium": true,
+        "tier": 10,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch54_BZ_72_1.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch54_BZ_72_1.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch54_BZ_72_1.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 58417,
+        "caliber": 130,
+        "alpha": 560
+      }
+    },
+    "dayId": 3
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Loyd Gun Carriage",
+        "nation": "uk",
+        "is_premium": false,
+        "tier": 2,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB25_Loyd_Gun_Carriage.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB25_Loyd_Gun_Carriage.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB25_Loyd_Gun_Carriage.png"
+        },
+        "type": "SPG",
+        "tank_id": 10577,
+        "caliber": 76,
+        "alpha": 165
+      },
+      "high": {
+        "name": "NC 70 Błyskawica",
+        "nation": "poland",
+        "is_premium": false,
+        "tier": 10,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl29_NC_Wz_70T.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl29_NC_Wz_70T.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl29_NC_Wz_70T.png"
+        },
+        "type": "AT-SPG",
+        "tank_id": 7057,
+        "caliber": 85,
+        "alpha": 800
+      }
+    },
+    "dayId": 4
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "AC 1 Sentinel",
+        "nation": "uk",
+        "is_premium": true,
+        "tier": 4,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB33_Sentinel_AC_I.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB33_Sentinel_AC_I.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB33_Sentinel_AC_I.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 52817,
+        "caliber": 40,
+        "alpha": 45
+      },
+      "high": {
+        "name": "ELC EVEN 90",
+        "nation": "france",
+        "is_premium": true,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F97_ELC_EVEN_90.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F97_ELC_EVEN_90.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F97_ELC_EVEN_90.png"
+        },
+        "type": "lightTank",
+        "tank_id": 61505,
+        "caliber": 90,
+        "alpha": 220
+      }
+    },
+    "dayId": 5
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Churchill I",
+        "nation": "uk",
+        "is_premium": false,
+        "tier": 5,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB08_Churchill_I.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB08_Churchill_I.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB08_Churchill_I.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 2897,
+        "caliber": 75,
+        "alpha": 135
+      },
+      "high": {
+        "name": "Progetto M40 mod. 65",
+        "nation": "italy",
+        "is_premium": false,
+        "tier": 10,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It08_Progetto_M40_mod_65.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It08_Progetto_M40_mod_65.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It08_Progetto_M40_mod_65.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 2721,
+        "caliber": 105,
+        "alpha": 360
+      }
+    },
+    "dayId": 6
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "M4 Improved",
+        "nation": "usa",
+        "is_premium": true,
+        "tier": 5,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A78_M4_Improved.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A78_M4_Improved.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A78_M4_Improved.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 12577,
+        "caliber": 75,
+        "alpha": 110
+      },
+      "high": {
+        "name": "Hotchkiss EBR",
+        "nation": "france",
+        "is_premium": false,
+        "tier": 7,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F107_Hotchkiss_EBR.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F107_Hotchkiss_EBR.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F107_Hotchkiss_EBR.png"
+        },
+        "type": "lightTank",
+        "tank_id": 18241,
+        "caliber": 75,
+        "alpha": 170
+      }
+    },
+    "dayId": 7
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "M15/42",
+        "nation": "italy",
+        "is_premium": false,
+        "tier": 3,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/italy-It03_M15_42.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/italy-It03_M15_42.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/italy-It03_M15_42.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 929,
+        "caliber": 47,
+        "alpha": 50
+      },
+      "high": {
+        "name": "Object 252U",
+        "nation": "ussr",
+        "is_premium": true,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R134_Object_252U.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R134_Object_252U.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R134_Object_252U.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 49665,
+        "caliber": 122,
+        "alpha": 440
+      }
+    },
+    "dayId": 8
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Type 91 Heavy",
+        "nation": "japan",
+        "is_premium": false,
+        "tier": 3,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J21_Type_91.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J21_Type_91.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J21_Type_91.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 4705,
+        "caliber": 47,
+        "alpha": 70
+      },
+      "high": {
+        "name": "Caliban",
+        "nation": "uk",
+        "is_premium": true,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB112_Caliban.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB112_Caliban.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB112_Caliban.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 51537,
+        "caliber": 152,
+        "alpha": 850
+      }
+    },
+    "dayId": 9
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "T82 HMC",
+        "nation": "usa",
+        "is_premium": false,
+        "tier": 4,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A27_T82.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A27_T82.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A27_T82.png"
+        },
+        "type": "SPG",
+        "tank_id": 18721,
+        "caliber": 105,
+        "alpha": 410
+      },
+      "high": {
+        "name": "59-16",
+        "nation": "china",
+        "is_premium": false,
+        "tier": 6,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch15_59_16.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch15_59_16.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch15_59_16.png"
+        },
+        "type": "lightTank",
+        "tank_id": 4913,
+        "caliber": 76,
+        "alpha": 115
+      }
+    },
+    "dayId": 10
   }
 ]

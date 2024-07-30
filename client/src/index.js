@@ -116,7 +116,7 @@ root.render(
      - Grid should be square
        - fix grid mobile behaviour
      X Main menu 
-     - Nav buttons in end display
+     X Nav buttons in end display
      
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh

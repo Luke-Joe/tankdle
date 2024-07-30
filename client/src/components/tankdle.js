@@ -13,7 +13,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
         async function fetchData() {
             try {
                 const storedGuesses = JSON.parse(localStorage.getItem(lsResults));
-                if (storedGuesses && guessResults.length === 0) {     
+                if (storedGuesses && guessResults.length === 0) {
                     setGuessResults(storedGuesses);
                 }
             } catch (error) {
@@ -22,15 +22,15 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
         };
 
         fetchData();
-    }, [guessResults]); 
+    }, [guessResults]);
 
     useEffect(() => {
         checkIfSolutionFound();
     });
 
     function checkIfSolutionFound() {
-        if (guessResults.length > 0 
-        && guessResults[guessResults.length - 1].tank_id === solutionTank.tank_id) {
+        if (guessResults.length > 0
+            && guessResults[guessResults.length - 1].tank_id === solutionTank.tank_id) {
             setIsSolved(true);
         }
     };
@@ -51,7 +51,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
     function saveResults(category) {
         const savedResults = JSON.parse(localStorage.getItem(category)) || [];
         const attempts = guessResults.length;
-        const result = {dayId, attempts};
+        const result = { dayId, attempts };
 
         savedResults.push(result);
 
@@ -61,14 +61,14 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
 
     return (
         <div>
-            <Prompt solutionTank={solutionTank} guessResults={guessResults}/>
-            <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect}/>
-            <Grid guessResults={guessResults} solutionTank={solutionTank}/>
-            <EndDisplay 
-                dayId={dayId} 
-                isSolved={isSolved} 
-                guessResults={guessResults} 
-                solutionTank={solutionTank} 
+            <Prompt solutionTank={solutionTank} guessResults={guessResults} />
+            <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect} />
+            <Grid guessResults={guessResults} solutionTank={solutionTank} />
+            <EndDisplay
+                dayId={dayId}
+                isSolved={isSolved}
+                guessResults={guessResults}
+                solutionTank={solutionTank}
                 lsStats={lsStats}
             />
 

@@ -13,7 +13,7 @@ export function calculateStreaks(results) {
     if (results.length === 0) return { max: 0, current: 0 };
 
     let maxStreak = 0;
-    let currStreak = 1; // IDK IF THIS WORKS
+    let currStreak = 1;
     let prevDay = results[0].dayId;
 
     for (let i = 1; i < results.length; i++) {
