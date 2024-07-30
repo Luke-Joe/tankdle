@@ -23,7 +23,7 @@ export function EndDisplay({ isSolved, solutionTank, guessResults, lsStats }) {
                         <h1 className='bg-wgreen rounded px-2 py-1
                                         text-gray-200 font-bold text-2xl
                         '>{solutionTank.name}</h1>
-                        <h2 className='text-l font-semibold text-gray-200'>TRIES: <span className="text-red-400">{guessResults.length}</span></h2>
+                        <h2 className='text-xl font-semibold text-gray-200 mt-1'>TRIES: <span className="text-red-400 font-bold">{guessResults.length}</span></h2>
                     </div>
                 </div>
 

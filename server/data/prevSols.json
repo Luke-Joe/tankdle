@@ -383,5 +383,285 @@
       }
     },
     "dayId": 10
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Lago M38",
+        "nation": "sweden",
+        "is_premium": true,
+        "tier": 3,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S34_Lago_M38.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S34_Lago_M38.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S34_Lago_M38.png"
+        },
+        "type": "lightTank",
+        "tank_id": 50817,
+        "caliber": 47,
+        "alpha": 60
+      },
+      "high": {
+        "name": "King Tiger (Captured)",
+        "nation": "usa",
+        "is_premium": true,
+        "tier": 7,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A126_PzVI_Tiger_II_capt.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A126_PzVI_Tiger_II_capt.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A126_PzVI_Tiger_II_capt.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 61473,
+        "caliber": 88,
+        "alpha": 240
+      }
+    },
+    "dayId": 11
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Renault FT 75 BS",
+        "nation": "france",
+        "is_premium": false,
+        "tier": 2,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F20_RenaultBS.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F20_RenaultBS.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F20_RenaultBS.png"
+        },
+        "type": "SPG",
+        "tank_id": 833,
+        "caliber": 75,
+        "alpha": 165
+      },
+      "high": {
+        "name": "Emil I",
+        "nation": "sweden",
+        "is_premium": false,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S18_EMIL_1951_E1.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S18_EMIL_1951_E1.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S18_EMIL_1951_E1.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 1921,
+        "caliber": 105,
+        "alpha": 360
+      }
+    },
+    "dayId": 12
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "60G FT",
+        "nation": "china",
+        "is_premium": false,
+        "tier": 5,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/china-Ch33_60G_FT.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/china-Ch33_60G_FT.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/china-Ch33_60G_FT.png"
+        },
+        "type": "AT-SPG",
+        "tank_id": 7217,
+        "caliber": 85,
+        "alpha": 180
+      },
+      "high": {
+        "name": "FCM 50 t",
+        "nation": "france",
+        "is_premium": true,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F65_FCM_50t.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F65_FCM_50t.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F65_FCM_50t.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 64065,
+        "caliber": 90,
+        "alpha": 240
+      }
+    },
+    "dayId": 13
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "BT-SV",
+        "nation": "ussr",
+        "is_premium": true,
+        "tier": 3,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R34_BT-SV.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R34_BT-SV.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R34_BT-SV.png"
+        },
+        "type": "lightTank",
+        "tank_id": 52225,
+        "caliber": 45,
+        "alpha": 47
+      },
+      "high": {
+        "name": "E 75 TS",
+        "nation": "germany",
+        "is_premium": true,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G143_E75_TS.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G143_E75_TS.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G143_E75_TS.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 46865,
+        "caliber": 105,
+        "alpha": 360
+      }
+    },
+    "dayId": 14
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Pz.Kpfw. IV Ausf. D",
+        "nation": "germany",
+        "is_premium": false,
+        "tier": 4,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G80_Pz_IV_AusfD.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G80_Pz_IV_AusfD.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G80_Pz_IV_AusfD.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 17425,
+        "caliber": 75,
+        "alpha": 110
+      },
+      "high": {
+        "name": "Lorraine 155 mle. 51",
+        "nation": "france",
+        "is_premium": false,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F25_Lorraine155_51.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F25_Lorraine155_51.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F25_Lorraine155_51.png"
+        },
+        "type": "SPG",
+        "tank_id": 7489,
+        "caliber": 155,
+        "alpha": 680
+      }
+    },
+    "dayId": 15
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Sherman III",
+        "nation": "uk",
+        "is_premium": false,
+        "tier": 5,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB50_Sherman_III.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB50_Sherman_III.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB50_Sherman_III.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 12881,
+        "caliber": 76,
+        "alpha": 115
+      },
+      "high": {
+        "name": "KV-2 (R)",
+        "nation": "ussr",
+        "is_premium": true,
+        "tier": 6,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R152_KV2_W.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R152_KV2_W.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R152_KV2_W.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 64769,
+        "caliber": 152,
+        "alpha": 700
+      }
+    },
+    "dayId": 16
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "AT 2",
+        "nation": "uk",
+        "is_premium": false,
+        "tier": 5,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB73_AT2.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB73_AT2.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB73_AT2.png"
+        },
+        "type": "AT-SPG",
+        "tank_id": 8785,
+        "caliber": 57,
+        "alpha": 75
+      },
+      "high": {
+        "name": "Strv m/42-57 Alt A.2",
+        "nation": "sweden",
+        "is_premium": true,
+        "tier": 6,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S01_Strv_74_A2.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S01_Strv_74_A2.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S01_Strv_74_A2.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 51585,
+        "caliber": 75,
+        "alpha": 150
+      }
+    },
+    "dayId": 17
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "SU-76M",
+        "nation": "ussr",
+        "is_premium": false,
+        "tier": 4,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R24_SU-76.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R24_SU-76.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R24_SU-76.png"
+        },
+        "type": "AT-SPG",
+        "tank_id": 6401,
+        "caliber": 57,
+        "alpha": 85
+      },
+      "high": {
+        "name": "40TP Habicha",
+        "nation": "poland",
+        "is_premium": false,
+        "tier": 6,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/poland-Pl10_40TP_Habicha.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/poland-Pl10_40TP_Habicha.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/poland-Pl10_40TP_Habicha.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 2449,
+        "caliber": 90,
+        "alpha": 240
+      }
+    },
+    "dayId": 18
   }
 ]

@@ -17,8 +17,8 @@ function GameSelect({ gameMode }) {
                 setTankData(tankData);
 
                 const solutionTank = await getSolutionTank();
-                setSolutionTank(gameMode === 'low' ? 
-                    solutionTank.solutionTank.low : 
+                setSolutionTank(gameMode === 'low' ?
+                    solutionTank.solutionTank.low :
                     solutionTank.solutionTank.high);
                 setDayId(solutionTank.dayId);
 
@@ -42,7 +42,7 @@ function GameSelect({ gameMode }) {
     }
 
     return (
-        <Game 
+        <Game
             tanks={tankData}
             solutionTank={solutionTank}
             dayId={dayId}

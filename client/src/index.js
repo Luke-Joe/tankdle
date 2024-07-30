@@ -112,11 +112,16 @@ root.render(
      X Filter out?/in special characters when typing regular variant
     
     240730:
-     
-     - Grid should be square
-       - fix grid mobile behaviour
      X Main menu 
      X Nav buttons in end display
+     X font
+     - auto scroll to solution if found
+     X indicate which mode is selected
+     X Hint system button displays
+     - footer
+     - privacy policy
+     - check/revise grid?
+
      
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh

@@ -1,35 +1,35 @@
 {
   "solutionTank": {
     "low": {
-      "name": "Lago M38",
-      "nation": "sweden",
-      "is_premium": true,
-      "tier": 3,
+      "name": "Cruiser Mk. I",
+      "nation": "uk",
+      "is_premium": false,
+      "tier": 1,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S34_Lago_M38.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S34_Lago_M38.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S34_Lago_M38.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB03_Cruiser_Mk_I.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB03_Cruiser_Mk_I.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB03_Cruiser_Mk_I.png"
       },
       "type": "lightTank",
-      "tank_id": 50817,
-      "caliber": 47,
-      "alpha": 60
+      "tank_id": 5201,
+      "caliber": 40,
+      "alpha": 45
     },
     "high": {
-      "name": "King Tiger (Captured)",
-      "nation": "usa",
+      "name": "Bat.-Châtillon Bourrasque",
+      "nation": "france",
       "is_premium": true,
-      "tier": 7,
+      "tier": 8,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A126_PzVI_Tiger_II_capt.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A126_PzVI_Tiger_II_capt.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A126_PzVI_Tiger_II_capt.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F116_Bat_Chatillon_Bourrasque.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F116_Bat_Chatillon_Bourrasque.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F116_Bat_Chatillon_Bourrasque.png"
       },
-      "type": "heavyTank",
-      "tank_id": 61473,
-      "caliber": 88,
-      "alpha": 240
+      "type": "mediumTank",
+      "tank_id": 60225,
+      "caliber": 105,
+      "alpha": 360
     }
   },
-  "dayId": 11
+  "dayId": 19
 }

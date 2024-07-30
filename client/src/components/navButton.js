@@ -8,8 +8,8 @@ export default function NavButton({ to, text1, text2, imgSrc, highlightColour })
             <div className="flex items-center justify-between h-full p-4">
                 {imgSrc && <img src={imgSrc} alt="" className="w-32 h-28 object-cover z-10" />}
                 <div className="flex flex-col justify-start text-left z-10 ">
-                    <span className={`font-bold text-2xl text-wyellow mb-2 z-10 group-hover:text-white`}>{text1}</span>
-                    <span className="font-medium text-large text-white opacity-50 z-10">{text2}</span>
+                    <span className={`font-bold text-2xl text-wyellow z-10 group-hover:text-white`}>{text1}</span>
+                    <span className="font-medium text-large text-white opacity-50 z-10 mt-1">{text2}</span>
                 </div>
             </div>
         </Link >

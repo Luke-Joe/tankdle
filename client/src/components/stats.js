@@ -12,7 +12,7 @@ function Stats({ lsStats }) {
 
     return (
         <div className="my-4">
-            <button className="bg-wyellow text-white font-bold py-2 px-4 rounded transform hover:scale-105 transition-transform opacity-85" onClick={() => setModalVisible(!modalVisible)}>SHOW STATS</button>
+            <button className={`bg-wyellow text-white font-bold py-2 px-4 rounded transform hover:scale-105 transition-transform opacity-85 ${modalVisible ? 'bg-yellow-600' : ''}`} onClick={() => setModalVisible(!modalVisible)}>SHOW STATS</button>
 
             {modalVisible && (
                 <div className="mt-4 bg-wblack bg-opacity-50 rounded px-4 py-3 shadow-lg border border-gray-500">
