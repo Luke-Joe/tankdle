@@ -102,18 +102,28 @@ root.render(
        - how does grid behave in mobile
      X animation should only play when thing is added
 
-    TOMORROW:
+    240729:
      X Update final screen page to look good
      X Create stats modal
      X Update values within grid
-     - flip background colour of tank image in grid if guess is correct
-
+     X flip background colour of tank image in grid if guess is correct
+     X Hint system button displays
+     X Refresh localStorage on solution change
+     X Filter out?/in special characters when typing regular variant
+    
+    240730:
+     
+     - Grid should be square
+       - fix grid mobile behaviour
+     - Main menu 
+    
+     - Nav buttons in end display
      
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
     X. round average attempts to 2 decimal places
     X. Dropdown search should hide if user clicks out of input
-    4. Localstorage should auto refresh if soluionTank has changed
+    X. Localstorage should auto refresh if soluionTank has changed
 
     SCHEDULER COMPONENTS
      - App.js -> schedules page + guess storage refresh

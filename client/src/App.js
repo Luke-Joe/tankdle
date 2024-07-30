@@ -10,13 +10,8 @@ function App() {
       const now = new Date();
       const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1);
       const timeToMidnight = nextMidnight - now;
-
-      // const nextMinute = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes() + 1, 1);
-      // const timeToMinute = nextMinute - now;
-
+      
       setTimeout(() => {
-        localStorage.removeItem('resultsHigh');
-        localStorage.removeItem('resultsLow');
         window.location.reload();
       }, timeToMidnight);
     }
@@ -28,7 +23,7 @@ function App() {
       <div className="min-h-screen p-4 App">
         <div className="app-background"></div>
         <Link to="/">
-          <h1 className='text-5xl text-white mb-5'></h1>
+          <h1 className='text-5xl text-white mb-5 font-medium'>TANKDLE</h1>
         </Link>
         <Routes>
           <Route exact path='/' Component={Home}/>

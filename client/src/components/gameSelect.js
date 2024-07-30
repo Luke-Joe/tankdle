@@ -21,6 +21,14 @@ function GameSelect({ gameMode }) {
                     solutionTank.solutionTank.low : 
                     solutionTank.solutionTank.high);
                 setDayId(solutionTank.dayId);
+
+                if (localStorage.getItem("dayId") != null && Number(localStorage.getItem("dayId")) !== solutionTank.dayId) {
+                    console.log("Stored", localStorage.getItem("dayId"), "does not match", solutionTank.dayId);
+                    localStorage.removeItem("resultsLow");
+                    localStorage.removeItem("resultsHigh");
+                }
+
+                localStorage.setItem("dayId", solutionTank.dayId);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
