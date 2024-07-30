@@ -14,7 +14,12 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
             return;
         }
 
-        const normalize = str => str.toLowerCase().replace(/[\s-.()/]/g, '');
+        const normalize = str => str
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\s-.()/]/g, '')
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/ł/g, "l");
         const isMatch = (tank, term) => normalize(tank.name).includes(normalize(term));
         const guessedTankIds = guessResults.map(guess => guess.tank_id);
         const filteredTanks = tanks
@@ -97,7 +102,7 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                         onFocus={() => setIsDropdownVisible(true)}
                         onBlur={() => setIsDropdownVisible(false)}
                         className="block w-full p-4 s-10 text-sm bg-wblack bg-opacity-50 placeholder-gray-100
-                        text-white rounded focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        text-white rounded focus:ring-wyellow focus:border-wyellow dark:border-gray-600"
                     />
                     <button type="submit" class="p-2.5 ms-2 text-sm font-medium text-white bg-blue-700 rounded border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
