@@ -1,11 +1,11 @@
 import React from 'react';
 import Row from './row.js';
 
-export function Grid({ guessResults, isSolved }) {
+export function Grid({ guessResults, solutionTank }) {
     const rows = [];
 
     for (let i = guessResults.length - 1; i >= 0; i--) {
-        rows.push(<Row key={i} guess={guessResults[i]} isSolved={isSolved} />);
+        rows.push(<Row key={i} guess={guessResults[i]} solutionTank={solutionTank} />);
     }
     
     return ( 

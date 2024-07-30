@@ -59,15 +59,11 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
     };
 
 
-    // if (!solutionTank) {
-    //     return <div>Loading...</div>;
-    // }
-    // <h1 className='text-blue-600'>{solutionTank.name}</h1>
     return (
         <div>
             <Prompt solutionTank={solutionTank} guessResults={guessResults}/>
             <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect}/>
-            <Grid guessResults={guessResults} isSolved={isSolved}/>
+            <Grid guessResults={guessResults} solutionTank={solutionTank}/>
             <EndDisplay 
                 dayId={dayId} 
                 isSolved={isSolved} 

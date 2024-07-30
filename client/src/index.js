@@ -105,7 +105,7 @@ root.render(
     TOMORROW:
      X Update final screen page to look good
      X Create stats modal
-     - Update values within grid
+     X Update values within grid
      - flip background colour of tank image in grid if guess is correct
 
      
@@ -114,9 +114,6 @@ root.render(
     X. round average attempts to 2 decimal places
     X. Dropdown search should hide if user clicks out of input
     4. Localstorage should auto refresh if soluionTank has changed
-
-    IDEA
-    1. Instead of Arrows indictaing direction, use XVM values to indicate how close the guess is to the solution
 
     SCHEDULER COMPONENTS
      - App.js -> schedules page + guess storage refresh
