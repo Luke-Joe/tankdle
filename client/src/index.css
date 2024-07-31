@@ -71,6 +71,15 @@
   @apply text-wyellow text-lg;
 }
 
+#privacy>p>a {
+  @apply text-blue-500 hover:underline;
+}
+
+#about>p>a {
+  @apply text-blue-500 hover:underline;
+}
+
+
 #howTo>h3 {
   @apply text-wyellow text-lg underline;
 }

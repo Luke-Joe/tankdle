@@ -13,7 +13,7 @@ export default function About() {
         <div>
             <a className="text-white hover:underline hover:text-white cursor-pointer" onClick={toggleModal}>About</a>
             <Modal show={showModal} onClose={toggleModal}>
-                <div className="justify-left text-left text-white text-base p-4">
+                <div id="about" className="justify-left text-left text-white text-base p-4">
                     <h2 className="text-wyellow font-bold text-2xl">ABOUT</h2>
                     <hr className="mb-2" />
                     <p>Tankdle is a wordle-inspired game to test your knowledge of World of Tanks. Every day at 00:00 Pacific Standard Time (PST), a new high tier (VI-X) and low tier (I-V) vehicle will be selected. You will have to figure out which tanks they are. </p>
