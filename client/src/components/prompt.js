@@ -7,9 +7,9 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
     const [button2Disabled, setButton2Disabled] = useState(true);
     const [button3Disabled, setButton3Disabled] = useState(true);
 
-    const hint1Count = 3;
-    const hint2Count = 5;
-    const hint3Count = 8;
+    const hint1Count = 4;
+    const hint2Count = 6;
+    const hint3Count = 9;
 
     useEffect(() => {
         if (guessResults.length >= hint1Count) {
@@ -42,7 +42,7 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
                     >
                         <span>Caliber hint</span>
                     </button>
-                    {button1Disabled && <span className="text-xs mt-1"> Available in {hint1Count - guessResults.length} tries</span>}
+                    {button1Disabled && <span className="text-xs mt-1 text-gray-500"> Available in {hint1Count - guessResults.length} tries</span>}
                 </div>
 
                 <div className="flex flex-col items-center">
@@ -53,7 +53,7 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
                     >
                         <span>Icon hint</span>
                     </button>
-                    {button2Disabled && <span className="text-xs mt-1"> Available in {hint2Count - guessResults.length} tries</span>}
+                    {button2Disabled && <span className="text-xs mt-1 text-gray-500"> Available in {hint2Count - guessResults.length} tries</span>}
                 </div>
 
                 <div className="flex flex-col items-center">
@@ -64,7 +64,7 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
                     >
                         <span>Visual hint</span>
                     </button>
-                    {button3Disabled && <span className="text-xs mt-1"> Available in {hint3Count - guessResults.length} tries</span>}
+                    {button3Disabled && <span className="text-xs mt-1 text-gray-500"> Available in {hint3Count - guessResults.length} tries</span>}
                 </div>
             </div>
             <div className="flex items-center justify-center mt-2">

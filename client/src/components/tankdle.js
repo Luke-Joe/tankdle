@@ -1,13 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Prompt from './prompt.js';
 import Search from './search.js';
 import { compareTanks } from '../utils/comparisons.js';
 import { Grid } from './grid.js';
 import { EndDisplay } from './endDisplay.js';
+import ReactConfetti, { ConfettiExplosion } from 'react-confetti';
 
 function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
     const [guessResults, setGuessResults] = useState([]);
     const [isSolved, setIsSolved] = useState(false);
+    const [useConfetti, setUseConfetti] = useState(false);
+    const endDisplayRef = useRef(null);
 
     useEffect(() => {
         async function fetchData() {
@@ -28,6 +31,12 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
         checkIfSolutionFound();
     });
 
+    useEffect(() => {
+        if (isSolved && endDisplayRef.current) {
+            endDisplayRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, [isSolved])
+
     function checkIfSolutionFound() {
         if (guessResults.length > 0
             && guessResults[guessResults.length - 1].tank_id === solutionTank.tank_id) {
@@ -44,6 +53,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
         if (tank.tank_id === solutionTank.tank_id) {
             setIsSolved(true);
             saveResults(lsStats);
+            setUseConfetti(true);
             console.log("Solved!");
         }
     };
@@ -63,14 +73,17 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
         <div>
             <Prompt solutionTank={solutionTank} guessResults={guessResults} />
             <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect} />
+            {useConfetti && <ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} />}
             <Grid guessResults={guessResults} solutionTank={solutionTank} />
-            <EndDisplay
-                dayId={dayId}
-                isSolved={isSolved}
-                guessResults={guessResults}
-                solutionTank={solutionTank}
-                lsStats={lsStats}
-            />
+            <div ref={endDisplayRef}>
+                <EndDisplay
+                    dayId={dayId}
+                    isSolved={isSolved}
+                    guessResults={guessResults}
+                    solutionTank={solutionTank}
+                    lsStats={lsStats}
+                />
+            </div>
 
         </div>
     );

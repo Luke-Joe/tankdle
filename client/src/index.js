@@ -77,16 +77,16 @@ root.render(
      X Grab the vehicle characteristics with that profile_id
      X Retrieve the gun caliber and alpha damage, storing it in the tank object
 
-    2. Create additional modes (WOT 1-5, WOT 6-10, GUESS LARGE ICON)\
+    X. Create additional modes (WOT 1-5, WOT 6-10, GUESS LARGE ICON)\
      x Create datasets for each mode (1-5, 6-10)
      x Create solution tank for each mode
      X Update client side to use datasets as parameter in call to game component
-     - buttons / nav bar to switch between modes
+     X buttons / nav bar to switch between modes
      3. yassify
-    4. Create a hint system
-     - hint 1: alpha damage
-     - hint 2: small tank icon
-     - hint 3: large tank icon
+    X. Create a hint system
+     X hint 1: alpha damage
+     X hint 2: small tank icon
+     X hint 3: large tank icon
     X. Create a stats page
     6. Use cryptography to hide solution tank in api response
 
@@ -97,7 +97,7 @@ root.render(
      X Hide dropdown search is user clicks out of input
      X Update stats page
      X Update what is displayed in the grid
-     - Hint system button displays
+     X Hint system button displays
      - Grid should be square
        - how does grid behave in mobile
      X animation should only play when thing is added
@@ -115,12 +115,16 @@ root.render(
      X Main menu 
      X Nav buttons in end display
      X font
-     - auto scroll to solution if found
      X indicate which mode is selected
      X Hint system button displays
-     - footer
+     X auto scroll to solution if found
+     X footer
      - privacy policy
+     X confetti
+     X about
+     X modal
      - check/revise grid?
+     - yesterdays solution
 
      
     BUGS
