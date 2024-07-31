@@ -768,5 +768,110 @@
       }
     },
     "dayId": 21
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Matilda LVT",
+        "nation": "uk",
+        "is_premium": true,
+        "tier": 4,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB113_Matilda_LVT.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB113_Matilda_LVT.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB113_Matilda_LVT.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 51281,
+        "caliber": 75,
+        "alpha": 110
+      },
+      "high": {
+        "name": "Chimera",
+        "nation": "uk",
+        "is_premium": true,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB97_Chimera.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB97_Chimera.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB97_Chimera.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 57425,
+        "caliber": 127,
+        "alpha": 440
+      }
+    },
+    "dayId": 22
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Matilda IV",
+        "nation": "ussr",
+        "is_premium": true,
+        "tier": 5,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R32_Matilda_II_LL.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R32_Matilda_II_LL.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R32_Matilda_II_LL.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 51457,
+        "caliber": 76,
+        "alpha": 110
+      },
+      "high": {
+        "name": "Object 452K",
+        "nation": "ussr",
+        "is_premium": true,
+        "tier": 10,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/ussr-R196_Object_452K.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/ussr-R196_Object_452K.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/ussr-R196_Object_452K.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 55809,
+        "caliber": 130,
+        "alpha": 560
+      }
+    },
+    "dayId": 23
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Pz.Kpfw. IV Ausf. F2",
+        "nation": "germany",
+        "is_premium": true,
+        "tier": 5,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G170_PzKpfwIV_Ausf_F2.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G170_PzKpfwIV_Ausf_F2.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G170_PzKpfwIV_Ausf_F2.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 27921,
+        "caliber": 75,
+        "alpha": 110
+      },
+      "high": {
+        "name": "Emil I",
+        "nation": "sweden",
+        "is_premium": false,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S18_EMIL_1951_E1.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S18_EMIL_1951_E1.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S18_EMIL_1951_E1.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 1921,
+        "caliber": 105,
+        "alpha": 360
+      }
+    },
+    "dayId": 24
   }
 ]

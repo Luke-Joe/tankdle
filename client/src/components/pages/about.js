@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Modal from './modal.js';
-import Timer from './timer.js';
+import Modal from '../shared/modal.js';
+import Timer from '../shared/timer.js';
 
 export default function About() {
     const [showModal, setShowModal] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NavButton from './navButton.js';
+import NavButton from '../shared/navButton.js';
 
 function Home() {
   return (

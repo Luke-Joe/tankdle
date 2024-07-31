@@ -1,5 +1,5 @@
 import React from 'react';
-import NavButton from './navButton.js';
+import NavButton from '../shared/navButton.js';
 
 export default function Privacy() {
     return (

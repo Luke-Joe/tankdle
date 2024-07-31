@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Home from './components/home.js';
-import GameSelect from './components/gameSelect.js';
+import Home from './components/pages/home.js';
+import GameSelect from './components/game/gameSelect.js';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Footer from './components/footer.js';
-import Privacy from './components/privacy.js';
+import Footer from './components/shared/footer.js';
+import Privacy from './components/pages/privacy.js';
 
 function App() {
   useEffect(() => {

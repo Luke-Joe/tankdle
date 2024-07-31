@@ -135,6 +135,7 @@ root.render(
     X. round average attempts to 2 decimal places
     X. Dropdown search should hide if user clicks out of input
     X. Localstorage should auto refresh if soluionTank has changed
+    - UUNCAUGHT NETWORK EERROR RELATED TO FETC H N SOLVED API CALL
 
     SCHEDULER COMPONENTS
      - App.js -> schedules page + guess storage refresh

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Modal from './modal.js';
-import Grid from './grid.js';
-import { compareTanks } from '../utils/comparisons.js';
+import Modal from '../shared/modal.js';
+import Grid from '../shared/grid.js';
+import { compareTanks } from '../../utils/comparisons.js';
 
 export default function HowToPlay() {
     const [showModal, setShowModal] = useState(false);

@@ -1,7 +1,7 @@
 import React from 'react';
-import About from './about.js';
+import About from '../pages/about.js';
 import { Link } from 'react-router-dom';
-import HowToPlay from './howToPlay.js';
+import HowToPlay from '../pages/howToPlay.js';
 
 export default function Footer() {
     return (

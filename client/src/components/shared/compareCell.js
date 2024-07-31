@@ -1,5 +1,5 @@
 import React from 'react';
-import substituteValues from '../utils/mapValues.js';
+import substituteValues from '../../utils/mapValues.js';
 
 export default function CompareCell({ guessAttribute }) {
     return (

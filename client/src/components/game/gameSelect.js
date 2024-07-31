@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Game from './tankdle.js';
-import { getSolutionTank, getTankList, getPrevSolution } from '../services/api.js';
+import { getSolutionTank, getTankList, getPrevSolution } from '../../services/api.js';
 
 function GameSelect({ gameMode }) {
     const [tankData, setTankData] = useState([]);

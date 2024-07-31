@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { calculateStreaks, calculateTotal, countOneShots, calculateAverageAttempts } from '../utils/stats.js';
+import { calculateStreaks, calculateTotal, countOneShots, calculateAverageAttempts } from '../../utils/stats.js';
 
 function Stats({ lsStats }) {
-    const [modalVisible, setModalVisible] = useState(false);
+    const [modalVisible, setModalVisible] = useState(true);
 
     const results = JSON.parse(localStorage.getItem(lsStats)) || [];
     const streaks = calculateStreaks(results);

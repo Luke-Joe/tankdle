@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Prompt from './prompt.js';
-import Search from './search.js';
-import { compareTanks } from '../utils/comparisons.js';
-import Grid from './grid.js';
+import Search from '../search/search.js';
+import { compareTanks } from '../../utils/comparisons.js';
+import Grid from '../shared/grid.js';
 import { EndDisplay } from './endDisplay.js';
-import { incrementSolvedCount } from '../services/api.js';
+import { incrementSolvedCount } from '../../services/api.js';
 import ReactConfetti from 'react-confetti';
 
 function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) {
