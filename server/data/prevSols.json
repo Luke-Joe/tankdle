@@ -873,5 +873,40 @@
       }
     },
     "dayId": 24
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "T2 Light Tank",
+        "nation": "usa",
+        "is_premium": true,
+        "tier": 2,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A19_T2_lt.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A19_T2_lt.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A19_T2_lt.png"
+        },
+        "type": "lightTank",
+        "tank_id": 51489,
+        "caliber": 20,
+        "alpha": 12
+      },
+      "high": {
+        "name": "Ho-Ri 2",
+        "nation": "japan",
+        "is_premium": false,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J33_Ho_Ri_2.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J33_Ho_Ri_2.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J33_Ho_Ri_2.png"
+        },
+        "type": "AT-SPG",
+        "tank_id": 6497,
+        "caliber": 120,
+        "alpha": 400
+      }
+    },
+    "dayId": 25
   }
 ]

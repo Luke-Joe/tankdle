@@ -1,35 +1,35 @@
 {
   "solutionTank": {
     "low": {
-      "name": "T2 Light Tank",
-      "nation": "usa",
-      "is_premium": true,
-      "tier": 2,
+      "name": "Pz.Kpfw. III Ausf. E",
+      "nation": "germany",
+      "is_premium": false,
+      "tier": 3,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/usa-A19_T2_lt.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/usa-A19_T2_lt.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/usa-A19_T2_lt.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G102_Pz_III.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G102_Pz_III.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G102_Pz_III.png"
       },
       "type": "lightTank",
-      "tank_id": 51489,
-      "caliber": 20,
-      "alpha": 12
+      "tank_id": 4881,
+      "caliber": 50,
+      "alpha": 70
     },
     "high": {
-      "name": "Ho-Ri 2",
-      "nation": "japan",
+      "name": "Waffenträger auf Pz. IV",
+      "nation": "germany",
       "is_premium": false,
-      "tier": 8,
+      "tier": 9,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/japan-J33_Ho_Ri_2.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/japan-J33_Ho_Ri_2.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/japan-J33_Ho_Ri_2.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G97_Waffentrager_IV.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G97_Waffentrager_IV.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G97_Waffentrager_IV.png"
       },
       "type": "AT-SPG",
-      "tank_id": 6497,
-      "caliber": 120,
-      "alpha": 400
+      "tank_id": 16401,
+      "caliber": 150,
+      "alpha": 750
     }
   },
-  "dayId": 25
+  "dayId": 26
 }
