@@ -59,9 +59,6 @@ function compareGunAlpha(guess, solution) {
     const guessCal = guess.alpha;
     const solCal = solution.alpha;
 
-    console.log(guessCal);
-    console.log(solCal);
-    
     if (guessCal === solCal) {
         return 'green';
     } else if (guessCal < solCal) {

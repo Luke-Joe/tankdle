@@ -39,7 +39,7 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }) {
                 }
             });
 
-        setFilteredTanks(filteredTanks.slice(0, 10));
+        setFilteredTanks(filteredTanks.slice(0, 20));
         setSelectedIndex(0);
     }, [searchTerm, tanks, guessResults])
 
