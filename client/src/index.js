@@ -124,7 +124,7 @@ root.render(
      X about
      X modal
      - check/revise grid?
-     - yesterdays solution
+     X yesterdays solution
 
      
     BUGS

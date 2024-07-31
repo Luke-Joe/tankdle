@@ -4,9 +4,9 @@ import Search from './search.js';
 import { compareTanks } from '../utils/comparisons.js';
 import { Grid } from './grid.js';
 import { EndDisplay } from './endDisplay.js';
-import ReactConfetti, { ConfettiExplosion } from 'react-confetti';
+import ReactConfetti from 'react-confetti';
 
-function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
+function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) {
     const [guessResults, setGuessResults] = useState([]);
     const [isSolved, setIsSolved] = useState(false);
     const [useConfetti, setUseConfetti] = useState(false);
@@ -73,7 +73,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
         <div>
             <Prompt solutionTank={solutionTank} guessResults={guessResults} />
             <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect} />
-            {useConfetti && <ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} />}
+            <p className="text-white mt-4">Yesterday's solution was <span className="text-wyellow">#{dayId - 1}</span> <span className="text-orange-500 font-semibold">{prevSolution.name}</span></p>
             <Grid guessResults={guessResults} solutionTank={solutionTank} />
             <div ref={endDisplayRef}>
                 <EndDisplay
@@ -84,7 +84,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats }) {
                     lsStats={lsStats}
                 />
             </div>
-
+            {useConfetti && <ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} />}
         </div>
     );
 }

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Game from './tankdle.js';
-import { getSolutionTank, getTankList } from '../services/api.js';
+import { getSolutionTank, getTankList, getPrevSolution } from '../services/api.js';
 
 function GameSelect({ gameMode }) {
     const [tankData, setTankData] = useState([]);
     const [solutionTank, setSolutionTank] = useState(null);
+    const [prevSolution, setPrevSolution] = useState(null);
     const resultsKey = gameMode === "low" ? "resultsLow" : "resultsHigh";
     const statsKey = gameMode === "low" ? "statsLow" : "statsHigh";
 
@@ -22,6 +23,13 @@ function GameSelect({ gameMode }) {
                     solutionTank.solutionTank.high);
                 setDayId(solutionTank.dayId);
 
+                const prevSolution = await getPrevSolution(solutionTank.dayId - 1);
+                if (prevSolution) {
+                    setPrevSolution(gameMode === 'low' ?
+                        prevSolution.solutionTank.low :
+                        prevSolution.solutionTank.high);
+                }
+
                 if (localStorage.getItem("dayId") != null && Number(localStorage.getItem("dayId")) !== solutionTank.dayId) {
                     console.log("Stored", localStorage.getItem("dayId"), "does not match", solutionTank.dayId);
                     localStorage.removeItem("resultsLow");
@@ -37,7 +45,7 @@ function GameSelect({ gameMode }) {
         fetchData();
     }, [gameMode]);
 
-    if (!solutionTank) {
+    if (!solutionTank || !prevSolution) {
         return <div>Loading...</div>;
     }
 
@@ -48,6 +56,7 @@ function GameSelect({ gameMode }) {
             dayId={dayId}
             lsResults={resultsKey}
             lsStats={statsKey}
+            prevSolution={prevSolution}
         />
     )
 }
