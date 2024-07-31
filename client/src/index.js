@@ -119,12 +119,13 @@ root.render(
      X Hint system button displays
      X auto scroll to solution if found
      X footer
-     - privacy policy
+     X yesterdays solution
      X confetti
      X about
      X modal
      - check/revise grid?
-     X yesterdays solution
+     - privacy policy
+     
 
      
     BUGS

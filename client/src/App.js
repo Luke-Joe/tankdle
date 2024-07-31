@@ -4,6 +4,7 @@ import Home from './components/home.js';
 import GameSelect from './components/gameSelect.js';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Footer from './components/footer.js';
+import Privacy from './components/privacy.js';
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
           <Route exact path='/' Component={Home} />
           <Route exact path='/low' Component={() => <GameSelect gameMode="low" />} />
           <Route exact path='/high' Component={() => <GameSelect gameMode="high" />} />
+          <Route exact path='/privacy' Component={Privacy} />
         </Routes>
         <Footer />
       </div>

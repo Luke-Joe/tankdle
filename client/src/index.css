@@ -63,9 +63,15 @@
   animation-delay: 1.5s;
 }
 
-a {
-  @apply text-blue-500 hover:text-blue-400
+#privacy>h1 {
+  @apply text-wyellow;
 }
+
+#privacy>h2 {
+  @apply text-wyellow text-lg;
+}
+
+
 
 @keyframes fadeIn {
   from {
