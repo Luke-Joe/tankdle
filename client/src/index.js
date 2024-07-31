@@ -98,8 +98,6 @@ root.render(
      X Update stats page
      X Update what is displayed in the grid
      X Hint system button displays
-     - Grid should be square
-       - how does grid behave in mobile
      X animation should only play when thing is added
 
     240729:
@@ -123,13 +121,13 @@ root.render(
      X confetti
      X about
      X modal
-     - check/revise grid?
+     X check/revise grid?
      X privacy policy
      
     240731:
      - # of solves api
      X How to play modal
-     - enter button
+     X enter button
      - Stats modal
      
     BUGS

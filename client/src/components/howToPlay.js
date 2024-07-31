@@ -104,7 +104,7 @@ export default function HowToPlay() {
                     <Grid guessResults={exampleResult1} solutionTank={exampleSolutionTank} />
                     <p>From this guess, we can see that the solution tank is going to be a tech tree tank from the USSR that is lower than tier 8, has 390 alpha, and is not a medium. </p>
                     <Grid guessResults={exampleResult2} solutionTank={exampleSolutionTank} />
-                    <p>Hmm. Not quite, but now we also know that it's a heavy tank and it has to be at tier 7. If you enter the IS at this point, here's what would come up:</p>
+                    <p>Hmm. Not quite, but now we also know that it's a heavy tank and it has to be at tier 7. If you were to enter the IS at this point, here's what would come up:</p>
                     <Grid guessResults={exampleResult3} solutionTank={exampleSolutionTank} />
                     <p>Congratulations, you've found the solution to the tutorial!</p>
                 </div>

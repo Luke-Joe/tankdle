@@ -8,11 +8,11 @@ export default function Footer() {
         <footer className="mt-4">
             <div className="flex flex-col text-white text-xs space-y-1">
                 <span>© {new Date().getFullYear()} Tankdle.com</span>
+                <HowToPlay />
                 <About />
                 <Link to="/privacy" className="text-white hover:text-white hover:underline">
                     <span>Privacy Policy</span>
                 </Link>
-                <HowToPlay />
             </div>
         </footer>
     )
