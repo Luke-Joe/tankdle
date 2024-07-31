@@ -71,6 +71,14 @@
   @apply text-wyellow text-lg;
 }
 
+#howTo>h3 {
+  @apply text-wyellow text-lg underline;
+}
+
+
+#howTo>h4 {
+  @apply text-wyellow text-base font-medium;
+}
 
 
 @keyframes fadeIn {

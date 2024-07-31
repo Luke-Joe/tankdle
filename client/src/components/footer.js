@@ -1,7 +1,7 @@
 import React from 'react';
 import About from './about.js';
 import { Link } from 'react-router-dom';
-import { Privacy } from './privacy.js';
+import HowToPlay from './howToPlay.js';
 
 export default function Footer() {
     return (
@@ -12,6 +12,7 @@ export default function Footer() {
                 <Link to="/privacy" className="text-white hover:text-white hover:underline">
                     <span>Privacy Policy</span>
                 </Link>
+                <HowToPlay />
             </div>
         </footer>
     )

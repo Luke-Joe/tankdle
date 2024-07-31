@@ -124,9 +124,13 @@ root.render(
      X about
      X modal
      - check/revise grid?
-     - privacy policy
+     X privacy policy
      
-
+    240731:
+     - # of solves api
+     X How to play modal
+     - enter button
+     - Stats modal
      
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh

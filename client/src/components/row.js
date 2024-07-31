@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 import CompareCell from "./compareCell.js";
 
 /*
@@ -17,11 +17,11 @@ export default function Row({ guess, solutionTank }) {
             </div>
 
             {
-            Object.entries(guess)
-                .filter(([key, attribute]) => attribute.comparison && attribute.value)
-                .map(([key, attribute]) => {
-                    return <CompareCell key={key} guessAttribute={attribute}/>
-                })
+                Object.entries(guess)
+                    .filter(([key, attribute]) => attribute.comparison && attribute.value)
+                    .map(([key, attribute]) => {
+                        return <CompareCell key={key} guessAttribute={attribute} />
+                    })
             }
         </div>
     )

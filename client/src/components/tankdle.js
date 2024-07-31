@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Prompt from './prompt.js';
 import Search from './search.js';
 import { compareTanks } from '../utils/comparisons.js';
-import { Grid } from './grid.js';
+import Grid from './grid.js';
 import { EndDisplay } from './endDisplay.js';
 import ReactConfetti from 'react-confetti';
 
