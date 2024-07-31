@@ -1,35 +1,35 @@
 {
   "solutionTank": {
     "low": {
-      "name": "Cruiser Mk. I",
-      "nation": "uk",
-      "is_premium": false,
-      "tier": 1,
-      "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB03_Cruiser_Mk_I.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB03_Cruiser_Mk_I.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB03_Cruiser_Mk_I.png"
-      },
-      "type": "lightTank",
-      "tank_id": 5201,
-      "caliber": 40,
-      "alpha": 45
-    },
-    "high": {
-      "name": "Bat.-Châtillon Bourrasque",
+      "name": "D2",
       "nation": "france",
-      "is_premium": true,
-      "tier": 8,
+      "is_premium": false,
+      "tier": 3,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F116_Bat_Chatillon_Bourrasque.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F116_Bat_Chatillon_Bourrasque.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F116_Bat_Chatillon_Bourrasque.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F03_D2.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F03_D2.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F03_D2.png"
       },
       "type": "mediumTank",
-      "tank_id": 60225,
-      "caliber": 105,
-      "alpha": 360
+      "tank_id": 321,
+      "caliber": 47,
+      "alpha": 55
+    },
+    "high": {
+      "name": "Sherman VC Firefly",
+      "nation": "uk",
+      "is_premium": true,
+      "tier": 6,
+      "images": {
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB95_Ekins_Firefly_M4A4.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB95_Ekins_Firefly_M4A4.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB95_Ekins_Firefly_M4A4.png"
+      },
+      "type": "mediumTank",
+      "tank_id": 57169,
+      "caliber": 76,
+      "alpha": 150
     }
   },
-  "dayId": 19
+  "dayId": 21
 }

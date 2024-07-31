@@ -663,5 +663,75 @@
       }
     },
     "dayId": 18
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Cruiser Mk. I",
+        "nation": "uk",
+        "is_premium": false,
+        "tier": 1,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB03_Cruiser_Mk_I.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB03_Cruiser_Mk_I.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB03_Cruiser_Mk_I.png"
+        },
+        "type": "lightTank",
+        "tank_id": 5201,
+        "caliber": 40,
+        "alpha": 45
+      },
+      "high": {
+        "name": "Bat.-Châtillon Bourrasque",
+        "nation": "france",
+        "is_premium": true,
+        "tier": 8,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F116_Bat_Chatillon_Bourrasque.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F116_Bat_Chatillon_Bourrasque.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F116_Bat_Chatillon_Bourrasque.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 60225,
+        "caliber": 105,
+        "alpha": 360
+      }
+    },
+    "dayId": 19
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "Cruiser Mk. IV",
+        "nation": "uk",
+        "is_premium": false,
+        "tier": 4,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB59_Cruiser_Mk_IV.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB59_Cruiser_Mk_IV.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB59_Cruiser_Mk_IV.png"
+        },
+        "type": "lightTank",
+        "tank_id": 7505,
+        "caliber": 40,
+        "alpha": 60
+      },
+      "high": {
+        "name": "Strv K",
+        "nation": "sweden",
+        "is_premium": true,
+        "tier": 9,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/sweden-S31_Strv_K.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/sweden-S31_Strv_K.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/sweden-S31_Strv_K.png"
+        },
+        "type": "heavyTank",
+        "tank_id": 54145,
+        "caliber": 105,
+        "alpha": 390
+      }
+    },
+    "dayId": 20
   }
 ]

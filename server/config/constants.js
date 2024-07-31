@@ -12,3 +12,4 @@ export const LOW_TANK_DATA_FILE = path.resolve(__dirname, '../data/tankDataLow.j
 export const HIGH_TANK_DATA_FILE = path.resolve(__dirname, '../data/tankDataHigh.json');
 export const TANK_SOL_FILE = path.resolve(__dirname, '../data/tankSol.json');
 export const PREV_SOL_FILE = path.resolve(__dirname, '../data/prevSols.json');
+export const SOLVED_COUNT_FILE = path.resolve(__dirname, '../data/solvedCount.json');

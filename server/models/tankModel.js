@@ -2,12 +2,14 @@ import axios from 'axios';
 import { readData, storeData, appendData } from '../utils/fileUtils.js';
 import { updateData } from '../utils/dataProcessing.js';
 import {
-    VEHICLE_API_URL, 
-    APP_ID, 
-    LOW_TANK_DATA_FILE, 
-    HIGH_TANK_DATA_FILE, 
-    TANK_SOL_FILE, 
-    PREV_SOL_FILE} from '../config/constants.js';
+    VEHICLE_API_URL,
+    APP_ID,
+    LOW_TANK_DATA_FILE,
+    HIGH_TANK_DATA_FILE,
+    TANK_SOL_FILE,
+    PREV_SOL_FILE,
+    SOLVED_COUNT_FILE
+} from '../config/constants.js';
 
 async function fetchLowTierTankData() {
     try {
@@ -72,7 +74,7 @@ function getRandomTank(tankData, excludeTank) {
 }
 
 export async function updateSolutionTank() {
-    try {    
+    try {
         let tankDataLow = await getTankList(LOW_TANK_DATA_FILE);
         let tankDataHigh = await getTankList(HIGH_TANK_DATA_FILE);
 
@@ -88,7 +90,7 @@ export async function updateSolutionTank() {
         const newSolTankHigh = getRandomTank(tankDataHigh, prevSolTank.high);
         const newDayId = (prevSol.dayId || 0) + 1;
 
-        const newSol = {solutionTank : { low : newSolTankLow, high : newSolTankHigh}, dayId : newDayId}
+        const newSol = { solutionTank: { low: newSolTankLow, high: newSolTankHigh }, dayId: newDayId }
 
         storeData(TANK_SOL_FILE, newSol);
 
@@ -126,6 +128,27 @@ export async function getSolutionByDayId(dayId) {
     }
 
     return null;
+}
+
+export async function getSolvedCount(dayId) {
+    const solvedCount = readData(SOLVED_COUNT_FILE);
+
+    if (solvedCount === null) return 0;
+
+    return solvedCount[dayId] || 0;
+}
+
+export async function incrementSolvedCount(dayid) {
+    const solvedCount = readData(SOLVED_COUNT_FILE);
+
+    if (solvedCount === null) {
+        storeData(SOLVED_COUNT_FILE, { [dayid]: 1 });
+        return 1;
+    }
+
+    solvedCount[dayid] = (solvedCount[dayid] || 0) + 1;
+    storeData(SOLVED_COUNT_FILE, solvedCount);
+    return solvedCount[dayid];
 }
 
 

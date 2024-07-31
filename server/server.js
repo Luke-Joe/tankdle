@@ -33,9 +33,9 @@ Hints
 
 import express from 'express';
 import cors from 'cors';
-import { getSolutionTankHandler, getTankListHandler, getSolutionByDayIdHandler } from './controllers/tankController.js';
+import { getSolutionTankHandler, getTankListHandler, getSolutionByDayIdHandler, getSolvedCountHandler, incrementSolvedCountHandler } from './controllers/tankController.js';
 import { scheduleDailySolution } from './services/scheduleService.js';
-import { updateSolutionTank} from './models/tankModel.js';
+import { updateSolutionTank } from './models/tankModel.js';
 
 const app = express();
 const PORT = process.env.port || 3000;
@@ -48,6 +48,10 @@ app.get('/api/get-solution-tank', getSolutionTankHandler);
 app.post('/api/get-tank-list', getTankListHandler);
 
 app.post('/api/get-prev-solution', getSolutionByDayIdHandler);
+
+app.post('/api/get-solved-count', getSolvedCountHandler);
+
+app.post('/api/increment-solved-count', incrementSolvedCountHandler);
 
 app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
