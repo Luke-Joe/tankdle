@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import SearchListItem from './searchListItem.js';
 
-function Search({ isSolved, tanks, guessResults, onTankSelect }){
+function Search({ isSolved, tanks, guessResults, onTankSelect }) {
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredTanks, setFilteredTanks] = useState(tanks);
     const [selectedIndex, setSelectedIndex] = useState(0);
@@ -38,8 +38,8 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                     return nameA.localeCompare(nameB);
                 }
             });
-        
-        setFilteredTanks(filteredTanks);
+
+        setFilteredTanks(filteredTanks.slice(0, 10));
         setSelectedIndex(0);
     }, [searchTerm, tanks, guessResults])
 
@@ -66,17 +66,17 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
         if (filteredTanks.length === 0) return;
 
         const actions = {
-            ArrowDown: function() {
-                setSelectedIndex(function(prevIndex) {
-                    return (prevIndex === null ? 0 : (prevIndex + 1) % filteredTanks.length );
+            ArrowDown: function () {
+                setSelectedIndex(function (prevIndex) {
+                    return (prevIndex === null ? 0 : (prevIndex + 1) % filteredTanks.length);
                 });
             },
-            ArrowUp: function() {
-                setSelectedIndex(function(prevIndex) {
+            ArrowUp: function () {
+                setSelectedIndex(function (prevIndex) {
                     return (prevIndex === null ? 0 : (prevIndex - 1 + filteredTanks.length) % filteredTanks.length);
                 });
             },
-            Enter: function() {
+            Enter: function () {
                 handleTankSelect(filteredTanks[selectedIndex]);
             }
         };
@@ -86,12 +86,12 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
         }
     }
 
-    if (!isSolved) { 
+    if (!isSolved) {
         return (
             <div
-            tabIndex="0"
-            onKeyDown={handleKeyDown}
-            className="relative max-w-sm mx-auto mt-4"
+                tabIndex="0"
+                onKeyDown={handleKeyDown}
+                className="relative max-w-sm mx-auto mt-4"
             >
                 <div className="flex items-center max-w-sm mx-auto">
                     <input
@@ -104,29 +104,29 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }){
                         className="block w-full p-4 s-10 text-sm bg-wblack bg-opacity-50 placeholder-gray-100
                         text-white rounded focus:ring-wyellow focus:border-wyellow dark:border-gray-600"
                     />
-                    <button type="submit" class="p-2.5 ms-2 text-sm font-medium text-white bg-blue-700 rounded border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <button onClick={() => handleKeyDown({ key: 'Enter' })} type="submit" class="p-2.5 ms-2 text-sm font-medium text-white rounded border bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                         </svg>
                         <span class="sr-only">Search</span>
                     </button>
 
                 </div>
-                
-                {isDropdownVisible && <div 
-                id="dropdown-search" 
-                onMouseDown={e => e.preventDefault()}
-                className="absolute w-full overflow-y-scroll 
+
+                {isDropdownVisible && <div
+                    id="dropdown-search"
+                    onMouseDown={e => e.preventDefault()}
+                    className="absolute w-full overflow-y-scroll 
                 z-10 mt-2 rounded bg-wgray bg-opacity-80 max-h-60"
                 >
                     <ul>
                         {filteredTanks.map((tank, index) => (
-                            <SearchListItem 
-                            key={tank.id}
-                            tank={tank}
-                            ref={el => tankRefs.current[index] = el}
-                            isSelected={selectedIndex === index}
-                            onClick={() => handleTankClick(tank)}
+                            <SearchListItem
+                                key={tank.id}
+                                tank={tank}
+                                ref={el => tankRefs.current[index] = el}
+                                isSelected={selectedIndex === index}
+                                onClick={() => handleTankClick(tank)}
                             />
                         ))}
                     </ul>
