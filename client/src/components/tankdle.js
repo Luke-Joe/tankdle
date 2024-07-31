@@ -4,6 +4,7 @@ import Search from './search.js';
 import { compareTanks } from '../utils/comparisons.js';
 import Grid from './grid.js';
 import { EndDisplay } from './endDisplay.js';
+import { incrementSolvedCount } from '../services/api.js';
 import ReactConfetti from 'react-confetti';
 
 function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) {
@@ -53,6 +54,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         if (tank.tank_id === solutionTank.tank_id) {
             setIsSolved(true);
             saveResults(lsStats);
+            incrementSolvedCount(dayId);
             setUseConfetti(true);
             console.log("Solved!");
         }

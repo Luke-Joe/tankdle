@@ -733,5 +733,40 @@
       }
     },
     "dayId": 20
+  },
+  {
+    "solutionTank": {
+      "low": {
+        "name": "D2",
+        "nation": "france",
+        "is_premium": false,
+        "tier": 3,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F03_D2.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F03_D2.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F03_D2.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 321,
+        "caliber": 47,
+        "alpha": 55
+      },
+      "high": {
+        "name": "Sherman VC Firefly",
+        "nation": "uk",
+        "is_premium": true,
+        "tier": 6,
+        "images": {
+          "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB95_Ekins_Firefly_M4A4.png",
+          "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB95_Ekins_Firefly_M4A4.png",
+          "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB95_Ekins_Firefly_M4A4.png"
+        },
+        "type": "mediumTank",
+        "tank_id": 57169,
+        "caliber": 76,
+        "alpha": 150
+      }
+    },
+    "dayId": 21
   }
 ]

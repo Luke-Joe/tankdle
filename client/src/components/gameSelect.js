@@ -34,6 +34,7 @@ function GameSelect({ gameMode }) {
                     console.log("Stored", localStorage.getItem("dayId"), "does not match", solutionTank.dayId);
                     localStorage.removeItem("resultsLow");
                     localStorage.removeItem("resultsHigh");
+                    localStorage.removeItem("solvedCount")
                 }
 
                 localStorage.setItem("dayId", solutionTank.dayId);

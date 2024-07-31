@@ -20,3 +20,17 @@ export async function getPrevSolution(dayId) {
     });
     return response.data;
 }
+
+export async function getSolvedCount(dayId) {
+    const response = await axios.post(`${API_URL}/get-solved-count`, {
+        dayId: dayId
+    });
+    return response.data
+}
+
+export async function incrementSolvedCount(dayId) {
+    const response = await axios.post(`${API_URL}/increment-solved-count`, {
+        dayId: dayId
+    });
+    return response.data;
+}

@@ -1,35 +1,35 @@
 {
   "solutionTank": {
     "low": {
-      "name": "D2",
-      "nation": "france",
-      "is_premium": false,
-      "tier": 3,
-      "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/france-F03_D2.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/france-F03_D2.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/france-F03_D2.png"
-      },
-      "type": "mediumTank",
-      "tank_id": 321,
-      "caliber": 47,
-      "alpha": 55
-    },
-    "high": {
-      "name": "Sherman VC Firefly",
+      "name": "Matilda LVT",
       "nation": "uk",
       "is_premium": true,
-      "tier": 6,
+      "tier": 4,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB95_Ekins_Firefly_M4A4.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB95_Ekins_Firefly_M4A4.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB95_Ekins_Firefly_M4A4.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB113_Matilda_LVT.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB113_Matilda_LVT.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB113_Matilda_LVT.png"
       },
       "type": "mediumTank",
-      "tank_id": 57169,
-      "caliber": 76,
-      "alpha": 150
+      "tank_id": 51281,
+      "caliber": 75,
+      "alpha": 110
+    },
+    "high": {
+      "name": "Chimera",
+      "nation": "uk",
+      "is_premium": true,
+      "tier": 8,
+      "images": {
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB97_Chimera.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB97_Chimera.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB97_Chimera.png"
+      },
+      "type": "mediumTank",
+      "tank_id": 57425,
+      "caliber": 127,
+      "alpha": 440
     }
   },
-  "dayId": 21
+  "dayId": 22
 }
