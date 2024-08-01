@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://api.tankdle.ca/api";
 
 export async function getSolutionTank() {
     const response = await axios.get(`${API_URL}/get-solution-tank`);

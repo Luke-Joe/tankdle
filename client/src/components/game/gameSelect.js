@@ -47,7 +47,7 @@ function GameSelect({ gameMode }) {
     }, [gameMode]);
 
     if (!solutionTank || !prevSolution) {
-        return <div>Loading...</div>;
+        return <div className="text-white">Loading...</div>;
     }
 
     return (

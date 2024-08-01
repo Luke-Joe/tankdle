@@ -40,7 +40,12 @@ import { updateSolutionTank } from './models/tankModel.js';
 const app = express();
 const PORT = process.env.port || 3000;
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://tankdle.ca',
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
+}));
+
 app.use(express.json());
 
 app.get('/api/get-solution-tank', getSolutionTankHandler);
@@ -58,11 +63,11 @@ app.listen(PORT, () => {
     scheduleDailySolution();
 });
 
-app.get('/api/test', async (req, res) => {
-    let temp = await updateSolutionTank();
-    console.log(temp);
-    res.json(temp);
-})
+// app.get('/api/test', async (req, res) => {
+//     let temp = await updateSolutionTank();
+//     console.log(temp);
+//     res.json(temp);
+// })
 
 // app.get('/api/test2', async (req, res) => {
 //     let temp = await fetchTankData();
