@@ -5,7 +5,7 @@
 @layer components {
   .compareCell {
     @apply flex items-center justify-center text-center text-white rounded-sm border border-wgray bg-wgray bg-opacity-50;
-    animation: spin 0.5s ease backwards;
+    animation: spin-cell 0.5s ease backwards;
 
   }
 
@@ -40,7 +40,7 @@
   }
 
   .guessed {
-    animation: spin 0.5s ease backwards;
+    animation: spin-cell 0.5s ease backwards;
   }
 }
 
@@ -106,7 +106,7 @@
   animation-duration: 0.5s
 }
 
-@keyframes spin {
+@keyframes spin-cell {
   0% {
     transform: rotateX(0deg);
     opacity: 0;
