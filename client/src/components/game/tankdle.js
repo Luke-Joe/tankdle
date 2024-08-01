@@ -29,16 +29,16 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
     }, [guessResults]);
 
     useEffect(() => {
-        checkIfSolutionFound();
+        checkIfSolutionExists();
     });
 
     useEffect(() => {
         if (isSolved && endDisplayRef.current) {
-            endDisplayRef.current.scrollIntoView({ behavior: 'smooth' });
+            endDisplayRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
     }, [isSolved])
 
-    function checkIfSolutionFound() {
+    function checkIfSolutionExists() {
         if (guessResults.length > 0
             && guessResults[guessResults.length - 1].tank_id === solutionTank.tank_id) {
             setIsSolved(true);
@@ -46,11 +46,19 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
     };
 
     function onTankSelect(tank) {
-        const compResult = compareTanks(tank, solutionTank);
-        const newGuessResults = [...guessResults, compResult];
+        const guessResult = compareTanks(tank, solutionTank);
+        updateGuessResults(guessResult);
+        checkGuessCorrectness(tank);
+
+    };
+
+    function updateGuessResults(guessResult) {
+        const newGuessResults = [...guessResults, guessResult];
         setGuessResults(newGuessResults);
         localStorage.setItem(lsResults, JSON.stringify(newGuessResults));
+    }
 
+    function checkGuessCorrectness(tank) {
         if (tank.tank_id === solutionTank.tank_id) {
             setIsSolved(true);
             saveResults(lsStats);
@@ -58,7 +66,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
             setUseConfetti(true);
             console.log("Solved!");
         }
-    };
+    }
 
     function saveResults(category) {
         const savedResults = JSON.parse(localStorage.getItem(category)) || [];
@@ -86,7 +94,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
                     lsStats={lsStats}
                 />
             </div>
-            {useConfetti && <ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} />}
+            {useConfetti && <ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} height={window.innerHeight * 1.5} width={window.innerWidth} />}
         </div>
     );
 }

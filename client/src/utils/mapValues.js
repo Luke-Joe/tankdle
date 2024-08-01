@@ -11,7 +11,7 @@ function tierToRoman(num) {
         9: 'IX',
         10: 'X'
     };
-    
+
     return <span className='font-medium text-l'>{roman[num]}</span>
 }
 
@@ -47,7 +47,7 @@ function mapClasses(guessAttribute) {
         'mediumTank': 'Medium Tank',
         'heavyTank': 'Heavy Tank',
         'AT-SPG': 'Tank Destroyer',
-        'SPG': 'SPG'
+        'SPG': 'Clicker'
     };
 
     let classIcon = '/classes/' + guessAttribute.value + '.png';
@@ -65,11 +65,11 @@ function mapType(guessAttribute) {
 }
 
 export default function substituteValues(guessAttribute) {
-    switch(guessAttribute.attribute) {
+    switch (guessAttribute.attribute) {
         case 'tier':
             return tierToRoman(guessAttribute.value);
         case 'alpha':
-            return `${guessAttribute.value}`;
+            return <div className="text-sm font-medium">{guessAttribute.value}</div>;
         case 'nation':
             return mapNation(guessAttribute);
         case 'type':

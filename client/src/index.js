@@ -125,17 +125,34 @@ root.render(
      X privacy policy
      
     240731:
-     - # of solves api
+     X # of solves api
      X How to play modal
      X enter button
      - Stats modal
+     - Deployed -> Vercel frontend, Digital Ocean backend
+
+    240801:
+     - Stats modal?
+     - Stats button should say hide if its already open
+     X Copyright at bottom should be ca
+     X Font for Alpha damage/Tech tree should be consistent
+     X Grid should be bigger/maintain size in mobile
+     - Reset data in backend?
+     X confetti can go further
+     - Counter is a little bugged ...
+     X Check how the reset goes
+     - 404 page
+     - Cryptography on solution tank api call
+     - Add readme
+     - nth person to solve resets on solve .... need independent local storage keys
+     - didnt reset
      
     BUGS
     1. random "guess is undefined" - occurred after resetting tank solution without proper refresh
     X. round average attempts to 2 decimal places
     X. Dropdown search should hide if user clicks out of input
     X. Localstorage should auto refresh if soluionTank has changed
-    - UUNCAUGHT NETWORK EERROR RELATED TO FETC H N SOLVED API CALL
+    X UUNCAUGHT NETWORK EERROR RELATED TO FETC H N SOLVED API CALL
 
     SCHEDULER COMPONENTS
      - App.js -> schedules page + guess storage refresh

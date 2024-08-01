@@ -8,6 +8,7 @@ function GameSelect({ gameMode }) {
     const [prevSolution, setPrevSolution] = useState(null);
     const resultsKey = gameMode === "low" ? "resultsLow" : "resultsHigh";
     const statsKey = gameMode === "low" ? "statsLow" : "statsHigh";
+    const placeKey = gameMode === "low" ? "placeLow" : "placeHigh";
 
     const [dayId, setDayId] = useState(null);
 
