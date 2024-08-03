@@ -40,13 +40,13 @@ import { scheduleDailySolution } from './services/scheduleService.js';
 const app = express();
 const PORT = process.env.port || 3000;
 
-// app.use(cors({
-//     origin: 'https://tankdle.ca',
-//     methods: ['GET', 'POST'],
-//     allowedHeaders: ['Content-Type']
-// }));
+app.use(cors({
+    origin: 'https://tankdle.ca',
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
+}));
 
-app.use(cors());
+// app.use(cors());
 
 app.use(express.json());
 
