@@ -28,13 +28,25 @@ export async function getSolutionByDayIdHandler(req, res) {
 }
 
 export async function getSolvedCountHandler(req, res) {
+    const mode = req.body.mode;
+
+    if (mode != "HIGH" && mode != "LOW") {
+        return res.status(400).json({ error: "Invalid mode" });
+    }
+
     const dayId = req.body.dayId;
-    const solvedCount = await getSolvedCount(dayId);
+    const solvedCount = await getSolvedCount(dayId, mode);
     res.json(solvedCount);
 }
 
 export async function incrementSolvedCountHandler(req, res) {
+    const mode = req.body.mode;
+
+    if (mode != "HIGH" && mode != "LOW") {
+        return res.status(400).json({ error: "Invalid mode" });
+    }
+
     const dayId = req.body.dayId;
-    const solvedCount = await incrementSolvedCount(dayId);
+    const solvedCount = await incrementSolvedCount(dayId, mode);
     res.json(solvedCount);
 }

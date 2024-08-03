@@ -8,10 +8,13 @@ import { incrementSolvedCount } from '../../services/api.js';
 import ReactConfetti from 'react-confetti';
 
 function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) {
+    const initialSolvedCount = JSON.parse(localStorage.getItem(solutionTank.tier < 6 ? 'solvedCountLow' : 'solvedCountHigh'));
     const [guessResults, setGuessResults] = useState([]);
     const [isSolved, setIsSolved] = useState(false);
     const [useConfetti, setUseConfetti] = useState(false);
+    const [solvedCount, setSolvedCount] = useState(initialSolvedCount);
     const endDisplayRef = useRef(null);
+    const mode = solutionTank.tier < 6 ? "LOW" : "HIGH";
 
     useEffect(() => {
         async function fetchData() {
@@ -45,11 +48,10 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         }
     };
 
-    function onTankSelect(tank) {
+    async function onTankSelect(tank) {
         const guessResult = compareTanks(tank, solutionTank);
         updateGuessResults(guessResult);
-        checkGuessCorrectness(tank);
-
+        await checkGuessCorrectness(tank);
     };
 
     function updateGuessResults(guessResult) {
@@ -58,14 +60,20 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         localStorage.setItem(lsResults, JSON.stringify(newGuessResults));
     }
 
-    function checkGuessCorrectness(tank) {
+    async function checkGuessCorrectness(tank) {
         if (tank.tank_id === solutionTank.tank_id) {
             setIsSolved(true);
             saveResults(lsStats);
-            incrementSolvedCount(dayId);
+            await updateSolvedCount();
             setUseConfetti(true);
             console.log("Solved!");
         }
+    }
+
+    async function updateSolvedCount() {
+        const newSolvedCount = await incrementSolvedCount(dayId, mode)
+        setSolvedCount(newSolvedCount);
+        localStorage.setItem(mode === 'LOW' ? 'solvedCountLow' : 'solvedCountHigh', newSolvedCount);
     }
 
     function saveResults(category) {
@@ -92,6 +100,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
                     guessResults={guessResults}
                     solutionTank={solutionTank}
                     lsStats={lsStats}
+                    solvedCount={solvedCount}
                 />
             </div>
             {useConfetti && <ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} height={window.innerHeight * 1.5} width={window.innerWidth} />}

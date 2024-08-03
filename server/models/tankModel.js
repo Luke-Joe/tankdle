@@ -130,25 +130,32 @@ export async function getSolutionByDayId(dayId) {
     return null;
 }
 
-export async function getSolvedCount(dayId) {
-    const solvedCount = readData(SOLVED_COUNT_FILE);
-
-    if (solvedCount === null) return 0;
-
-    return solvedCount[dayId] || 0;
-}
-
-export async function incrementSolvedCount(dayid) {
-    const solvedCount = readData(SOLVED_COUNT_FILE);
+function getSolvedCountObject(dayId) {
+    let solvedCount = readData(SOLVED_COUNT_FILE);
 
     if (solvedCount === null) {
-        storeData(SOLVED_COUNT_FILE, { [dayid]: 1 });
-        return 1;
+        solvedCount = {};
     }
 
-    solvedCount[dayid] = (solvedCount[dayid] || 0) + 1;
+    if (!solvedCount[dayId]) {
+        solvedCount[dayId] = { low: 0, high: 0 };
+    }
+
+    return solvedCount;
+}
+
+export async function getSolvedCount(dayId, mode) {
+    mode = mode.toLowerCase();
+    const solvedCount = getSolvedCountObject(dayId);
+    return solvedCount[dayId][mode];
+}
+
+export async function incrementSolvedCount(dayId, mode) {
+    mode = mode.toLowerCase();
+    const solvedCount = getSolvedCountObject(dayId);
+    solvedCount[dayId][mode] = (solvedCount[dayId][mode] || 0) + 1;
     storeData(SOLVED_COUNT_FILE, solvedCount);
-    return solvedCount[dayid];
+    return solvedCount[dayId][mode];
 }
 
 

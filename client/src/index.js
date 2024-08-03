@@ -132,8 +132,8 @@ root.render(
      - Deployed -> Vercel frontend, Digital Ocean backend
 
     240801:
-     - Stats modal?
-     - Stats button should say hide if its already open
+     X Stats modal?
+     X Stats button should say hide if its already open
      X Copyright at bottom should be ca
      X Font for Alpha damage/Tech tree should be consistent
      X Grid should be bigger/maintain size in mobile

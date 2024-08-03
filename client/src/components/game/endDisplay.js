@@ -4,9 +4,7 @@ import Stats from './stats.js';
 import NavButton from '../shared/navButton.js';
 import { getSolvedCount } from '../../services/api.js';
 
-export function EndDisplay({ dayId, isSolved, solutionTank, guessResults, lsStats }) {
-    const initialSolvedCount = JSON.parse(localStorage.getItem('solvedCount'));
-    const [solvedCount, setSolvedCount] = useState(initialSolvedCount);
+export function EndDisplay({ dayId, isSolved, solutionTank, guessResults, lsStats, solvedCount }) {
 
     function renderNavButton() {
         if (solutionTank.tier < 6) {
@@ -16,21 +14,21 @@ export function EndDisplay({ dayId, isSolved, solutionTank, guessResults, lsStat
         }
     }
 
-    useEffect(() => {
-        if (isSolved && solvedCount === null) {
-            async function fetchSolvedCount() {
-                try {
-                    const count = await getSolvedCount(dayId);
-                    setSolvedCount(count);
-                    localStorage.setItem('solvedCount', count);
-                } catch (error) {
-                    console.error('Failed to fetch solved count:', error);
-                }
-            }
+    // useEffect(() => {
+    //     if (isSolved && solvedCount === null) {
+    //         async function fetchSolvedCount() {
+    //             try {
+    //                 const count = await getSolvedCount(dayId);
+    //                 setSolvedCount(count);
+    //                 localStorage.setItem(solutionTank.tier < 6 ? 'solvedCountLow' : 'solvedCountHigh', count);
+    //             } catch (error) {
+    //                 console.error('Failed to fetch solved count:', error);
+    //             }
+    //         }
 
-            fetchSolvedCount();
-        }
-    }, [dayId, isSolved, solvedCount]);
+    //         fetchSolvedCount();
+    //     }
+    // }, [dayId, isSolved, solvedCount]);
 
     if (isSolved) {
         return (

@@ -10,7 +10,7 @@ export default function Grid({ guessResults, solutionTank }) {
 
     return (
         <div>
-            {(guessResults.length > 0) && <div className='grid max-w-2xl mx-auto w-full bg-transparent gap-1 my-10 overflow-y-scroll'>
+            {(guessResults.length > 0) && <div className='grid max-w-2xl mx-auto w-full bg-transparent gap-1 my-10 overflow-y-auto'>
                 <div className='grid grid-rows-1 grid-cols-6 text-white'>
                     <div className='border-b-2 border-white'>Tank</div>
                     <div className='border-b-2 border-white'>Tier</div>
