@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     function scheduleMidnightRefresh() {
       const now = new Date();
-      const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1);
+      const nextMidnight = new Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1, 0, 0, 1);
       const timeToMidnight = nextMidnight - now;
 
       setTimeout(() => {
