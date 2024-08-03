@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const TEST_API_URL = "http://localhost:3000/api";
-const API_UFRL = "https://api.tankdle.ca/api";
-const API_URL = TEST_API_URL
+const API_URL = "https://api.tankdle.ca/api";
 
 export async function getSolutionTank() {
     const response = await axios.get(`${API_URL}/get-solution-tank`);

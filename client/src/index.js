@@ -139,12 +139,12 @@ root.render(
      X Grid should be bigger/maintain size in mobile
      - Reset data in backend?
      X confetti can go further
-     - Counter is a little bugged ...
+     X Counter is a little bugged ...
      X Check how the reset goes
      - 404 page
      - Cryptography on solution tank api call
      - Add readme
-     - nth person to solve resets on solve .... need independent local storage keys
+     X nth person to solve resets on solve .... need independent local storage keys
      - didnt reset
      
     BUGS
