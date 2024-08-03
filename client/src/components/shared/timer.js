@@ -13,7 +13,7 @@ function Timer() {
 
     function calculateTimeLeft() {
         const now = new Date();
-        const nextMidnight = new Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1, 0, 0, 1);
+        const nextMidnight = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1, 0, 0, 1));
         const timeToMidnight = nextMidnight - now;
 
         const hours = Math.floor((timeToMidnight % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
