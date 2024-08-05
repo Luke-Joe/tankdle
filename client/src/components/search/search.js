@@ -117,7 +117,7 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }) {
                     id="dropdown-search"
                     onMouseDown={e => e.preventDefault()}
                     className="absolute w-full overflow-y-scroll 
-                z-10 mt-2 rounded bg-wgray bg-opacity-80 max-h-60"
+                z-30 mt-2 rounded bg-wgray bg-opacity-80 max-h-60"
                 >
                     <ul>
                         {filteredTanks.map((tank, index) => (
