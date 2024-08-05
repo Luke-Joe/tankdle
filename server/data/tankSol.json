@@ -1,35 +1,35 @@
 {
   "solutionTank": {
     "low": {
-      "name": "Pz.Kpfw. III Ausf. E",
-      "nation": "germany",
+      "name": "Vickers Medium Mk. II",
+      "nation": "uk",
       "is_premium": false,
-      "tier": 3,
+      "tier": 2,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G102_Pz_III.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G102_Pz_III.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G102_Pz_III.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB05_Vickers_Medium_Mk_II.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB05_Vickers_Medium_Mk_II.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB05_Vickers_Medium_Mk_II.png"
       },
-      "type": "lightTank",
-      "tank_id": 4881,
-      "caliber": 50,
+      "type": "mediumTank",
+      "tank_id": 337,
+      "caliber": 57,
       "alpha": 70
     },
     "high": {
-      "name": "Waffenträger auf Pz. IV",
-      "nation": "germany",
+      "name": "FV217 Badger",
+      "nation": "uk",
       "is_premium": false,
-      "tier": 9,
+      "tier": 10,
       "images": {
-        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/germany-G97_Waffentrager_IV.png",
-        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/germany-G97_Waffentrager_IV.png",
-        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/germany-G97_Waffentrager_IV.png"
+        "small_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/small/uk-GB92_FV217.png",
+        "contour_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/contour/uk-GB92_FV217.png",
+        "big_icon": "http://api.worldoftanks.com/static/2.76.0/wot/encyclopedia/vehicle/uk-GB92_FV217.png"
       },
       "type": "AT-SPG",
-      "tank_id": 16401,
-      "caliber": 150,
-      "alpha": 750
+      "tank_id": 15953,
+      "caliber": 123,
+      "alpha": 480
     }
   },
-  "dayId": 26
+  "dayId": 1
 }

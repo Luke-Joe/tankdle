@@ -35,7 +35,7 @@ import express from 'express';
 import cors from 'cors';
 import { getSolutionTankHandler, getTankListHandler, getSolutionByDayIdHandler, getSolvedCountHandler, incrementSolvedCountHandler } from './controllers/tankController.js';
 import { scheduleDailySolution } from './services/scheduleService.js';
-// import { updateSolutionTank } from './models/tankModel.js';
+import { updateSolutionTank } from './models/tankModel.js';
 
 const app = express();
 const PORT = process.env.port || 3000;
@@ -65,11 +65,11 @@ app.listen(PORT, () => {
     scheduleDailySolution();
 });
 
-// app.get('/api/test', async (req, res) => {
-//     let temp = await updateSolutionTank();
-//     console.log(temp);
-//     res.json(temp);
-// })
+app.get('/api/test', async (req, res) => {
+    let temp = await updateSolutionTank();
+    console.log(temp);
+    res.json(temp);
+})
 
 // app.get('/api/test2', async (req, res) => {
 //     let temp = await fetchTankData();

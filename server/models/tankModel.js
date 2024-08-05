@@ -86,8 +86,8 @@ export async function updateSolutionTank() {
         const prevSolTank = prevSol?.solutionTank
         savePrevSol();
 
-        const newSolTankLow = getRandomTank(tankDataLow, prevSolTank.low);
-        const newSolTankHigh = getRandomTank(tankDataHigh, prevSolTank.high);
+        const newSolTankLow = prevSolTank ? getRandomTank(tankDataLow, prevSolTank.low) : getRandomTank(tankDataLow);
+        const newSolTankHigh = prevSolTank ? getRandomTank(tankDataHigh, prevSolTank.high) : getRandomTank(tankDataHigh);
         const newDayId = (prevSol.dayId || 0) + 1;
 
         const newSol = { solutionTank: { low: newSolTankLow, high: newSolTankHigh }, dayId: newDayId }
