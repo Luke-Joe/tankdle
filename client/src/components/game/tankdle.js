@@ -91,7 +91,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         <div>
             <Prompt solutionTank={solutionTank} guessResults={guessResults} />
             <Search isSolved={isSolved} tanks={tanks} guessResults={guessResults} onTankSelect={onTankSelect} />
-            <p className="text-white mt-4">Yesterday's solution was <span className="text-wyellow">#{dayId - 1}</span> <span className="text-orange-500 font-semibold">{prevSolution.name}</span></p>
+            {prevSolution && <p className="text-white mt-4">Yesterday's solution was <span className="text-wyellow">#{dayId - 1}</span> <span className="text-orange-500 font-semibold">{prevSolution.name}</span></p>}
             <Grid guessResults={guessResults} solutionTank={solutionTank} />
             <div ref={endDisplayRef}>
                 <EndDisplay

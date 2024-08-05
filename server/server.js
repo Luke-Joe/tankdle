@@ -65,11 +65,11 @@ app.listen(PORT, () => {
     scheduleDailySolution();
 });
 
-app.get('/api/test', async (req, res) => {
-    let temp = await updateSolutionTank();
-    console.log(temp);
-    res.json(temp);
-})
+// app.get('/api/test', async (req, res) => {
+//     let temp = await updateSolutionTank();
+//     console.log(temp);
+//     res.json(temp);
+// })
 
 // app.get('/api/test2', async (req, res) => {
 //     let temp = await fetchTankData();
