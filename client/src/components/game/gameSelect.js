@@ -6,9 +6,9 @@ function GameSelect({ gameMode }) {
     const [tankData, setTankData] = useState([]);
     const [solutionTank, setSolutionTank] = useState(null);
     const [prevSolution, setPrevSolution] = useState(null);
+    const [isLocalStorageChecked, setIsLocalStorageChecked] = useState(false);
     const resultsKey = gameMode === "low" ? "resultsLow" : "resultsHigh";
     const statsKey = gameMode === "low" ? "statsLow" : "statsHigh";
-    const placeKey = gameMode === "low" ? "placeLow" : "placeHigh";
 
     const [dayId, setDayId] = useState(null);
 
@@ -35,10 +35,11 @@ function GameSelect({ gameMode }) {
                     console.log("Stored", localStorage.getItem("dayId"), "does not match", solutionTank.dayId);
                     localStorage.removeItem("resultsLow");
                     localStorage.removeItem("resultsHigh");
-                    localStorage.removeItem("solvedCount")
+                    localStorage.removeItem("solvedCount");
                 }
 
                 localStorage.setItem("dayId", solutionTank.dayId);
+                setIsLocalStorageChecked(true);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -48,7 +49,7 @@ function GameSelect({ gameMode }) {
     }, [gameMode]);
 
     // Code for loading screen animation taken from https://flowbite.com/docs/components/spinner/
-    if (!solutionTank) {
+    if (!solutionTank && !isLocalStorageChecked) {
         return (
             <div className="inline-flex mx-auto">
                 <div role="status">
