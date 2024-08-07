@@ -19,12 +19,13 @@ export function calculateStreaks(results) {
     for (let i = 1; i < results.length; i++) {
         if (results[i].dayId === prevDay + 1) {
             currStreak++;
-            maxStreak = Math.max(maxStreak, currStreak);
         } else if (results[i].dayId === prevDay) {
             continue;
         } else {
             currStreak = 1;
         }
+
+        maxStreak = Math.max(maxStreak, currStreak);
         prevDay = results[i].dayId;
     }
 
