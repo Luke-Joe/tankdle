@@ -40,7 +40,7 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
         ">
             <h2 className="text-white text-center text-xl">{"Guess today's " + mode + " tier tank!"}</h2>
             <hr className="mt-3 mx-auto w-2/5 border-wyellow" />
-            <div className={`flex flex-grow justify-between px-10 ${guessResults.length < 2 ? 'hidden' : ''}`}>
+            <div className={`flex flex-grow justify-between px-5 ${guessResults.length < 2 ? 'hidden' : ''}`}>
                 <div className="flex flex-col items-center">
                     <button
                         className={`mt-4 p-2 bg-wyellow text-wblack rounded ${button1Disabled ? 'opacity-50' : 'transform hover:scale-105 transition-transform'} ${visibleHint === 1 ? 'bg-yellow-600' : 'bg-wyellow'}`}
