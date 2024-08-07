@@ -50,11 +50,11 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
 
     async function onTankSelect(tank) {
         const guessResult = compareTanks(tank, solutionTank);
-        updateGuessResults(guessResult);
+        await updateGuessResults(guessResult);
         await checkGuessCorrectness(tank);
     };
 
-    function updateGuessResults(guessResult) {
+    async function updateGuessResults(guessResult) {
         const newGuessResults = [...guessResults, guessResult];
         setGuessResults(newGuessResults);
         localStorage.setItem(lsResults, JSON.stringify(newGuessResults));
