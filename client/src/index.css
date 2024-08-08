@@ -9,6 +9,12 @@
 
   }
 
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+
   #app-background {
     position: fixed;
     top: 0;
