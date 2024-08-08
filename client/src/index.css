@@ -18,7 +18,7 @@
     background-image: url('/public/temp.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center center;
     filter: brightness(30%) grayscale(50%) blur(1px);
     transform: scale(1.05);
     z-index: -1;
