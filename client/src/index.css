@@ -45,6 +45,14 @@
     z-index: -1;
   }
 
+  #root {
+    position: absolute;
+    left: 50%;
+    margin-top: 1rem;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+
   .blue {
     @apply bg-wred bg-opacity-50;
   }
