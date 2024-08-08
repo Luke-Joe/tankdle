@@ -5,7 +5,7 @@ import { compareTanks } from '../../utils/comparisons.js';
 import Grid from '../shared/grid.js';
 import { EndDisplay } from './endDisplay.js';
 import { incrementSolvedCount } from '../../services/api.js';
-import ReactConfetti from 'react-confetti';
+import ConfettiExplosion from 'react-confetti-explosion';
 
 function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) {
     const initialSolvedCount = JSON.parse(localStorage.getItem(solutionTank.tier < 6 ? 'solvedCountLow' : 'solvedCountHigh'));
@@ -15,6 +15,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
     const [solvedCount, setSolvedCount] = useState(initialSolvedCount);
     const endDisplayRef = useRef(null);
     const mode = solutionTank.tier < 6 ? "LOW" : "HIGH";
+
 
     useEffect(() => {
         async function fetchData() {
@@ -113,7 +114,13 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
                     solvedCount={solvedCount}
                 />
             </div>
-            {useConfetti && <ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} height={window.innerHeight * 1.5} width={window.innerWidth} />}
+            {/* {<ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} height={window.innerHeight * 1.5} width={window.innerWidth} />} */}
+            {
+                useConfetti && <div className="confetti">
+                    <ConfettiExplosion force={0.7} />
+                </div>
+            }
+
         </div>
     );
 }
