@@ -104,11 +104,11 @@ function Search({ isSolved, tanks, guessResults, onTankSelect }) {
                         className="block w-full p-4 s-10 text-sm bg-wblack bg-opacity-50 placeholder-gray-100
                         text-white rounded focus:ring-wyellow focus:border-wyellow dark:border-gray-600"
                     />
-                    <button onClick={() => handleKeyDown({ key: 'Enter' })} type="submit" class="p-2.5 ms-2 text-sm font-medium text-white rounded border bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300">
-                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                    <button onClick={() => handleKeyDown({ key: 'Enter' })} type="submit" className="p-2.5 ms-2 text-sm font-medium text-white rounded border bg-orange-500 hover:bg-orange-600 focus:ring-1 focus:outline-none focus:ring-orange-300">
+                        <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                         </svg>
-                        <span class="sr-only">Search</span>
+                        <span className="sr-only">Search</span>
                     </button>
 
                 </div>
