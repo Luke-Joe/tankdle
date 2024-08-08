@@ -87,7 +87,8 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         const savedResults = JSON.parse(localStorage.getItem(category)) || [];
         const attempts = newGuessResults.length;
         const now = new Date();
-        const date = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+        let date = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+        date = date.toISOString().split('T')[0];
         const result = { dayId, attempts, ranking, date };
 
         savedResults.push(result);
