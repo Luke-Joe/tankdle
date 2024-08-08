@@ -114,7 +114,7 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
                     solvedCount={solvedCount}
                 />
             </div>
-            {/* {<ReactConfetti recycle={false} numberOfPieces={300} tweenDuration={20000} height={window.innerHeight * 1.5} width={window.innerWidth} />} */}
+
             {
                 useConfetti && <div className="confetti">
                     <ConfettiExplosion force={0.7} />

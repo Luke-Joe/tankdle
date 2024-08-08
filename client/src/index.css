@@ -4,7 +4,7 @@
 
 @layer components {
   .compareCell {
-    @apply flex items-center justify-center text-center text-white rounded-sm border border-wgray bg-wgray bg-opacity-60 hover:bg-opacity-85 hover:cursor-default;
+    @apply flex items-center justify-center text-center text-white rounded-sm border border-wgray bg-wgray bg-opacity-60 hover:bg-opacity-75 hover:cursor-default min-h-16;
     animation: spin-cell 0.5s ease backwards;
 
   }
