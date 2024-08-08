@@ -4,7 +4,7 @@
 
 @layer components {
   .compareCell {
-    @apply flex items-center justify-center text-center text-white rounded-sm border border-wgray bg-wgray bg-opacity-50;
+    @apply flex items-center justify-center text-center text-white rounded-sm border border-wgray bg-wgray bg-opacity-60 hover:bg-opacity-85 hover:cursor-default;
     animation: spin-cell 0.5s ease backwards;
 
   }
@@ -48,9 +48,8 @@
   @media screen and (max-width: 768px) {
     #app-background {
       background-size: cover;
-      filter: brightness(10%) grayscale(50%) blur(1px);
+      filter: brightness(15%) grayscale(50%) blur(1px);
     }
-
   }
 
   .blue {
