@@ -23,7 +23,6 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen p-4 App overflow-hidden">
-        <div id="app-background"></div>
         <Link to="/">
           <h1 className='text-7xl text-wyellow font-medium transform hover:scale-105 transition-transform mb-2'>TANKDLE</h1>
         </Link>
