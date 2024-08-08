@@ -68,8 +68,8 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
 
     async function checkGuessCorrectness(tank, newGuessResults) {
         if (tank.tank_id === solutionTank.tank_id) {
-            saveResults(lsStats, newGuessResults);
-            await updateSolvedCount();
+            const ranking = await updateSolvedCount();
+            saveResults(lsStats, newGuessResults, ranking);
             setIsSolved(true);
             setUseConfetti(true);
             console.log("Solved!");
@@ -80,12 +80,15 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         const newSolvedCount = await incrementSolvedCount(dayId, mode)
         setSolvedCount(newSolvedCount);
         localStorage.setItem(mode === 'LOW' ? 'solvedCountLow' : 'solvedCountHigh', newSolvedCount);
+        return newSolvedCount;
     }
 
-    function saveResults(category, newGuessResults) {
+    function saveResults(category, newGuessResults, ranking) {
         const savedResults = JSON.parse(localStorage.getItem(category)) || [];
         const attempts = newGuessResults.length;
-        const result = { dayId, attempts };
+        const now = new Date();
+        const date = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+        const result = { dayId, attempts, ranking, date };
 
         savedResults.push(result);
 

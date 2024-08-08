@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Timer from '../shared/timer.js';
 import Stats from './stats.js';
 import NavButton from '../shared/navButton.js';
+import GraphModal from './graphModal.js';
 import { getSolvedCount } from '../../services/api.js';
 
 export function EndDisplay({ dayId, isSolved, solutionTank, guessResults, lsStats, solvedCount }) {
@@ -48,6 +49,7 @@ export function EndDisplay({ dayId, isSolved, solutionTank, guessResults, lsStat
                 {solvedCount && <div className="mt-2">You're the <span className='text-orange-500'>{solvedCount}</span> person to find the solution!</div>}
 
                 <Stats lsStats={lsStats} />
+                <GraphModal lsStats={lsStats} />
                 <Timer />
                 {renderNavButton()}
             </div>
