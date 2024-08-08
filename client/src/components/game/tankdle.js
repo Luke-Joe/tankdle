@@ -41,6 +41,10 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         }
     }, [isSolved])
 
+    useEffect(() => {
+
+    }, [guessResults]);
+
     function checkIfSolutionExists() {
         if (guessResults.length > 0
             && guessResults[guessResults.length - 1].tank_id === solutionTank.tank_id) {
@@ -50,21 +54,23 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
 
     async function onTankSelect(tank) {
         const guessResult = compareTanks(tank, solutionTank);
-        await updateGuessResults(guessResult);
-        await checkGuessCorrectness(tank);
+        const newGuessResults = updateGuessResults(guessResult);
+        await checkGuessCorrectness(tank, newGuessResults);
     };
 
-    async function updateGuessResults(guessResult) {
+    function updateGuessResults(guessResult) {
         const newGuessResults = [...guessResults, guessResult];
         setGuessResults(newGuessResults);
         localStorage.setItem(lsResults, JSON.stringify(newGuessResults));
+
+        return newGuessResults;
     }
 
-    async function checkGuessCorrectness(tank) {
+    async function checkGuessCorrectness(tank, newGuessResults) {
         if (tank.tank_id === solutionTank.tank_id) {
-            setIsSolved(true);
-            saveResults(lsStats);
+            saveResults(lsStats, newGuessResults);
             await updateSolvedCount();
+            setIsSolved(true);
             setUseConfetti(true);
             console.log("Solved!");
         }
@@ -76,9 +82,9 @@ function Game({ tanks, solutionTank, dayId, lsResults, lsStats, prevSolution }) 
         localStorage.setItem(mode === 'LOW' ? 'solvedCountLow' : 'solvedCountHigh', newSolvedCount);
     }
 
-    function saveResults(category) {
+    function saveResults(category, newGuessResults) {
         const savedResults = JSON.parse(localStorage.getItem(category)) || [];
-        const attempts = guessResults.length;
+        const attempts = newGuessResults.length;
         const result = { dayId, attempts };
 
         savedResults.push(result);
