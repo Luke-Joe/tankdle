@@ -34,11 +34,13 @@ export default function Prompt({ solutionTank, guessResults, isSolved }) {
         setVisibleHint(visibleHint === hintNumber ? null : hintNumber);
     };
 
+    const promptText = mode === 'low' ? "I - V" : "VI - X";
+
     return (
         <div className="block items-center max-w-sm mx-auto w-full  p-4 bg-opacity-50 rounded-sm
                         bg-wblack border-t border-wyellow
         ">
-            <h2 className="text-white text-center text-xl">{"Guess today's " + mode + " tier tank!"}</h2>
+            <h2 className="text-white text-center text-xl">{"Guess today's tier " + promptText + " tank!"}</h2>
             <hr className="mt-3 mx-auto w-2/5 border-wyellow" />
             <div className={`flex flex-grow justify-between px-5 ${guessResults.length < 2 ? 'hidden' : ''}`}>
                 <div className="flex flex-col items-center">
