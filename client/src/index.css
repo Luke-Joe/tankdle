@@ -45,12 +45,7 @@
     z-index: -1;
   }
 
-  @media screen and (max-width: 768px) {
-    #app-background {
-      background-size: cover;
-      filter: brightness(15%) grayscale(50%) blur(1px);
-    }
-  }
+
 
   .blue {
     @apply bg-wred bg-opacity-50;
@@ -164,5 +159,32 @@
   100% {
     transform: rotateX(0);
     opacity: 100
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #app-background {
+    background-size: cover;
+    filter: brightness(15%) grayscale(50%) blur(1px);
+  }
+
+  .compareCell {
+    @apply bg-opacity-75;
+  }
+
+  .blue {
+    @apply bg-opacity-75;
+  }
+
+  .red {
+    @apply bg-opacity-75;
+  }
+
+  .yellow {
+    @apply bg-opacity-75;
+  }
+
+  .green {
+    @apply bg-opacity-75;
   }
 }
